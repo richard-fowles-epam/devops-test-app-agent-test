@@ -9,20 +9,20 @@ namespace CustomerManagement.AcceptanceTests.StepDefinitions;
 [Binding]
 public sealed class CreateCustomerSteps
 {
-    private readonly ScenarioWorld _world;
-    private readonly ScenarioState _state;
+    private readonly ScenarioWorld __world;
+    private readonly ScenarioState __state;
 
     public CreateCustomerSteps(ScenarioWorld world, ScenarioState state)
     {
-        _world = world;
-        _state = state;
+        __world = world;
+        __state = state;
     }
 
     [Given(@"a customer with the following details")]
     public void GivenACustomerWithTheFollowingDetails(Table table)
     {
         var row = table.Rows[0];
-        _world.Request = new AddCustomerRequest
+        __world.Request = new AddCustomerRequest
         {
             FirstName = row["FirstName"],
             LastName = row["LastName"],
@@ -33,17 +33,17 @@ public sealed class CreateCustomerSteps
     [When(@"the customer is submitted to POST /customers")]
     public async Task WhenTheCustomerIsSubmittedToPostCustomers()
     {
-        Assert.NotNull(_world.Request);
-        _state.Response = await _world.Client.PostAsJsonAsync("/customers", _world.Request);
+        Assert.NotNull(__world.Request);
+        __state.Response = await __world.Client.PostAsJsonAsync("/customers", __world.Request);
     }
 
     [Then(@"the created customer should match the submitted details")]
     public async Task ThenTheCreatedCustomerShouldMatchTheSubmittedDetails()
     {
         var created = await ReadCreatedCustomerAsync();
-        Assert.Equal(_world.Request!.FirstName, created.FirstName);
-        Assert.Equal(_world.Request.LastName, created.LastName);
-        Assert.Equal(_world.Request.Email, created.Email);
+        Assert.Equal(__world.Request!.FirstName, created.FirstName);
+        Assert.Equal(__world.Request.LastName, created.LastName);
+        Assert.Equal(__world.Request.Email, created.Email);
     }
 
     [Then(@"the created customer should have a generated id")]
@@ -55,17 +55,17 @@ public sealed class CreateCustomerSteps
 
     private async Task<Customer> ReadCreatedCustomerAsync()
     {
-        Assert.NotNull(_state.Response);
+        Assert.NotNull(__state.Response);
 
         // The response content stream can only be read once, so cache the
         // parsed customer for any subsequent steps in the same scenario.
-        if (_world.CreatedCustomer is null)
+        if (__world.CreatedCustomer is null)
         {
-            var created = await _state.Response!.Content.ReadFromJsonAsync<Customer>();
+            var created = await __state.Response!.Content.ReadFromJsonAsync<Customer>();
             Assert.NotNull(created);
-            _world.CreatedCustomer = created;
+            __world.CreatedCustomer = created;
         }
 
-        return _world.CreatedCustomer!;
+        return __world.CreatedCustomer!;
     }
 }
