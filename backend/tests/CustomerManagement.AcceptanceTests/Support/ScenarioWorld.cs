@@ -24,6 +24,8 @@ public sealed class ScenarioWorld : IDisposable
 
     public Customer? CreatedCustomer { get; set; }
 
+    public Customer? RetrievedCustomer { get; set; }
+
     public void Dispose()
     {
         Client.Dispose();
