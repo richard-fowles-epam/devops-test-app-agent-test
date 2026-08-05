@@ -1,0 +1,42 @@
+- generic [ref=f26e2]:
+  - generic [ref=f26e3]:
+    - link "Skip to content" [ref=f26e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f26e8]:
+      - generic [ref=f26e9]:
+        - generic [ref=f26e10]:
+          - button "Open menu" [ref=f26e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f26e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f26e18]:
+          - navigation "Breadcrumbs" [ref=f26e19]:
+            - list [ref=f26e20]:
+              - listitem [ref=f26e21]:
+                - generic [ref=f26e22]: Agents
+          - button "Open quick search dialog, type / to search" [ref=f26e26] [cursor=pointer]:
+            - generic [ref=f26e28]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f26e29]:
+          - generic [ref=f26e30]:
+            - generic [ref=f26e32]:
+              - generic [ref=f26e33]:
+                - link "Chat with Copilot" [ref=f26e35] [cursor=pointer]:
+                  - /url: /copilot
+                - button "Open Copilot…" [ref=f26e40] [cursor=pointer]
+              - button "Open agents panel" [ref=f26e41] [cursor=pointer]
+            - button "Create new..." [ref=f26e44] [cursor=pointer]
+            - generic [ref=f26e46]:
+              - link "All issues (g then i)" [ref=f26e47] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests (g then p)" [ref=f26e51] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f26e54] [cursor=pointer]:
+                - /url: /repos
+          - link "You have no unread notifications (g then n)" [ref=f26e57] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f26e61] [cursor=pointer]:
+            - img "User avatar" [ref=f26e62]
+  - main [ref=f26e65]

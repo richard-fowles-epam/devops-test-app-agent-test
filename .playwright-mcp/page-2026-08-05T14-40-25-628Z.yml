@@ -1,0 +1,536 @@
+- generic [ref=f22e2]:
+  - generic [ref=f22e3]:
+    - link "Skip to content" [ref=f22e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f22e8]:
+      - generic [ref=f22e9]:
+        - generic [ref=f22e10]:
+          - button "Open menu" [ref=f22e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f22e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f22e18]:
+          - navigation "Breadcrumbs" [ref=f22e19]:
+            - list [ref=f22e20]:
+              - listitem [ref=f22e21]:
+                - link "richard-fowles-epam" [ref=f22e22] [cursor=pointer]:
+                  - /url: /richard-fowles-epam
+              - listitem [ref=f22e24]:
+                - link "devops-test-app-agent-test" [ref=f22e25] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test
+                - button "Switch repository (alt shift r)" [ref=f22e26] [cursor=pointer]
+          - button "Open quick search dialog, type / to search" [ref=f22e31] [cursor=pointer]:
+            - generic [ref=f22e33]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f22e34]:
+          - generic [ref=f22e35]:
+            - generic [ref=f22e37]:
+              - generic [ref=f22e38]:
+                - link "Chat with Copilot" [ref=f22e40] [cursor=pointer]:
+                  - /url: /copilot
+                - button "Open Copilot…" [ref=f22e45] [cursor=pointer]
+              - button "Open agents panel" [ref=f22e46] [cursor=pointer]
+            - button "Create new..." [ref=f22e49] [cursor=pointer]
+            - generic [ref=f22e51]:
+              - link "All issues" [ref=f22e52] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests" [ref=f22e56] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f22e59] [cursor=pointer]:
+                - /url: /repos
+          - link "You have no unread notifications (g then n)" [ref=f22e62] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f22e66] [cursor=pointer]:
+            - img "User avatar" [ref=f22e67]
+      - heading "Repository navigation" [level=2] [ref=f22e68]
+      - navigation "Repository" [ref=f22e69]:
+        - list [ref=f22e70]:
+          - listitem [ref=f22e71]:
+            - link "Code" [ref=f22e72] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test
+          - listitem [ref=f22e74]:
+            - link "Issues (5)" [ref=f22e75] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/issues
+              - generic [ref=f22e76]: Issues
+              - generic [ref=f22e77]:
+                - generic [ref=f22e78]: "5"
+                - generic [ref=f22e79]: (5)
+          - listitem [ref=f22e80]:
+            - link "Pull requests (1)" [ref=f22e81] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulls
+              - generic [ref=f22e82]: Pull requests
+              - generic [ref=f22e83]:
+                - generic [ref=f22e84]: "1"
+                - generic [ref=f22e85]: (1)
+          - listitem [ref=f22e86]:
+            - link "Agents" [ref=f22e87] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/agents?author=richard-fowles-epam
+          - listitem [ref=f22e89]:
+            - link "Discussions" [ref=f22e90] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/discussions
+          - listitem [ref=f22e92]:
+            - link "Actions" [ref=f22e93] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/actions
+          - listitem [ref=f22e95]:
+            - link "Projects" [ref=f22e96] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/projects
+          - listitem [ref=f22e98]:
+            - link "Wiki" [ref=f22e99] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/wiki
+          - listitem [ref=f22e101]:
+            - link "Security and quality" [ref=f22e102] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/security
+          - listitem [ref=f22e104]:
+            - link "Insights" [ref=f22e105] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulse
+          - listitem [ref=f22e107]:
+            - link "Settings" [ref=f22e108] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/settings
+  - main [ref=f22e113]:
+    - generic [ref=f22e120]:
+      - generic [ref=f22e122]:
+        - region "Review request banner" [ref=f22e124]:
+          - generic [ref=f22e128]:
+            - generic [ref=f22e129]:
+              - heading "Review requested" [level=2] [ref=f22e131]
+              - generic [ref=f22e132]:
+                - link "Copilot" [ref=f22e133] [cursor=pointer]:
+                  - /url: /Copilot
+                - text: requested your review on this pull request.
+            - link "Add your review" [ref=f22e136] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pull/7/changes
+        - generic [ref=f22e140]:
+          - generic [ref=f22e142]:
+            - 'heading "Add PUT /customers/{id} — update customer endpoint - #7" [level=1] [ref=f22e143]':
+              - text: "Add PUT /customers/{id} — update customer endpoint"
+              - generic [ref=f22e144]: "- #7"
+            - generic [ref=f22e145]:
+              - generic [ref=f22e146]: "#7"
+              - button "Edit title" [ref=f22e147] [cursor=pointer]
+          - generic [ref=f22e151]:
+            - generic [ref=f22e152]:
+              - button "View status View status" [disabled] [ref=f22e153]:
+                - generic [ref=f22e154]: Loading
+              - generic [ref=f22e155]: Loading merge status
+            - button "Code" [ref=f22e157] [cursor=pointer]
+          - generic [ref=f22e161]:
+            - generic [ref=f22e163]:
+              - img "Pull request" [ref=f22e164]
+              - text: Draft
+            - generic [ref=f22e167]:
+              - generic [ref=f22e169]:
+                - link "richard-fowles-epam" [ref=f22e170] [cursor=pointer]:
+                  - /url: /richard-fowles-epam
+                - text: with
+                - link "Copilot" [ref=f22e171] [cursor=pointer]:
+                  - /url: /apps/copilot-swe-agent
+              - text: wants to merge 2 commits into
+              - generic [ref=f22e172]:
+                - link "main" [ref=f22e173] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test/tree/main
+                - generic [ref=f22e174]: from
+                - generic [ref=f22e175]:
+                  - link "copilot/update-customer-endpoint" [ref=f22e176] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-agent-test/tree/copilot/update-customer-endpoint
+                  - button "Copy head branch name to clipboard" [ref=f22e177] [cursor=pointer]
+          - navigation "Pull request navigation tabs" [ref=f22e185]:
+            - generic [ref=f22e186]:
+              - link "Conversation" [ref=f22e187] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/pull/7
+              - link "Commits (2)" [ref=f22e190] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/pull/7/commits
+                - text: Commits
+                - generic [ref=f22e193]: "2"
+                - generic [ref=f22e194]: (2)
+              - link "Checks" [ref=f22e195] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/pull/7/checks
+              - link "Files changed" [ref=f22e198] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/pull/7/changes
+      - generic [ref=f22e205]:
+        - generic [ref=f22e207]:
+          - heading "Conversation" [level=2] [ref=f22e208]
+          - generic [ref=f22e209]:
+            - generic [ref=f22e210]:
+              - generic [ref=f22e212]:
+                - link "Copilot" [ref=f22e213] [cursor=pointer]:
+                  - /url: /apps/copilot-swe-agent
+                - generic [ref=f22e219]:
+                  - generic [ref=f22e220]:
+                    - heading "Copilot AI commented Aug 5, 20268 minutes ago •" [level=3] [ref=f22e221]:
+                      - generic [ref=f22e222]:
+                        - strong [ref=f22e223]:
+                          - link "Copilot" [ref=f22e224] [cursor=pointer]:
+                            - /url: /apps/copilot-swe-agent
+                          - generic [ref=f22e225]: AI
+                        - text: commented
+                        - link "Aug 5, 20268 minutes ago" [ref=f22e226] [cursor=pointer]:
+                          - /url: "#issue-5071978285"
+                        - generic [ref=f22e227]:
+                          - generic [ref=f22e228]: •
+                          - group [ref=f22e229]:
+                            - button [ref=f22e230] [cursor=pointer]
+                    - generic [ref=f22e234]:
+                      - group [ref=f22e236]:
+                        - button [ref=f22e237] [cursor=pointer]:
+                          - img "Show options" [ref=f22e240]
+                      - generic "This user has previously committed to the devops-test-app-agent-test repository." [ref=f22e243]: Contributor
+                  - generic [ref=f22e248]:
+                    - paragraph [ref=f22e249]:
+                      - text: Implements the missing
+                      - code [ref=f22e250]: "PUT /customers/{id}"
+                      - text: endpoint, completing the create/read/update triad alongside the existing
+                      - code [ref=f22e251]: POST /customers
+                      - text: and
+                      - code [ref=f22e252]: "GET /customers/{id}"
+                      - text: .
+                    - heading "API" [level=2] [ref=f22e253]
+                    - list [ref=f22e254]:
+                      - listitem [ref=f22e255]:
+                        - code [ref=f22e256]: "PUT /customers/{id}"
+                        - text: — replaces
+                        - code [ref=f22e257]: firstName
+                        - text: ","
+                        - code [ref=f22e258]: lastName
+                        - text: ","
+                        - code [ref=f22e259]: email
+                        - text: on an existing customer
+                        - list [ref=f22e260]:
+                          - listitem [ref=f22e261]:
+                            - code [ref=f22e262]: 200 OK
+                            - text: + updated record on success
+                          - listitem [ref=f22e263]:
+                            - code [ref=f22e264]: 404 Not Found
+                            - text: if id doesn't exist
+                          - listitem [ref=f22e265]:
+                            - code [ref=f22e266]: 400 Bad Request
+                            - text: (validation problem) if any field is missing or email is invalid
+                    - generic [ref=f22e267]:
+                      - generic [ref=f22e268]:
+                        - text: "PUT /customers/1 { \"firstName\":"
+                        - generic [ref=f22e269]: "\"Ada\""
+                        - text: ", \"lastName\":"
+                        - generic [ref=f22e270]: "\"Lovelace\""
+                        - text: ", \"email\":"
+                        - generic [ref=f22e271]: "\"ada@example.com\""
+                        - text: "}"
+                      - button "Copy code to clipboard" [ref=f22e273] [cursor=pointer]
+                    - heading "Changes" [level=2] [ref=f22e277]
+                    - list [ref=f22e278]:
+                      - listitem [ref=f22e279]:
+                        - strong [ref=f22e280]:
+                          - code [ref=f22e281]: Models/UpdateCustomerRequest.cs
+                        - text: — new request model with
+                        - code [ref=f22e282]: "[Required]"
+                        - text: /
+                        - code [ref=f22e283]: "[EmailAddress]"
+                        - text: annotations, same pattern as
+                        - code [ref=f22e284]: AddCustomerRequest
+                      - listitem [ref=f22e285]:
+                        - strong [ref=f22e286]:
+                          - code [ref=f22e287]: Program.cs
+                        - text: —
+                        - code [ref=f22e288]: MapPut
+                        - text: endpoint using the same manual
+                        - code [ref=f22e289]: Validator.TryValidateObject
+                        - text: + EF Core
+                        - code [ref=f22e290]: FindAsync
+                        - text: /
+                        - code [ref=f22e291]: SaveChangesAsync
+                        - text: pattern; Swagger description updated
+                      - listitem [ref=f22e292]:
+                        - strong [ref=f22e293]:
+                          - code [ref=f22e294]: UpdateCustomerTests.cs
+                        - text: — xUnit tests covering success (200), not-found (404), missing field (400), invalid email (400)
+                      - listitem [ref=f22e295]:
+                        - strong [ref=f22e296]:
+                          - code [ref=f22e297]: UpdateCustomer.feature
+                          - text: +
+                          - code [ref=f22e298]: UpdateCustomerSteps.cs
+                        - text: — SpecFlow acceptance tests for update success, non-existent id, and validation rejection
+                      - listitem [ref=f22e299]:
+                        - strong [ref=f22e300]:
+                          - code [ref=f22e301]: ScenarioWorld.cs
+                        - text: — added
+                        - code [ref=f22e302]: UpdateRequest
+                        - text: and
+                        - code [ref=f22e303]: UpdatedCustomer
+                        - text: state properties
+                    - list [ref=f22e304]:
+                      - listitem [ref=f22e305]:
+                        - text: Fixes
+                        - 'link "[Agent Task]: Update customer #2" [ref=f22e310] [cursor=pointer]':
+                          - /url: https://github.com/richard-fowles-epam/devops-test-app-agent-test/issues/2
+                  - generic [ref=f22e311]: Copilot uses AI. Check for mistakes.
+                  - generic [ref=f22e313]:
+                    - generic [ref=f22e316]:
+                      - button "Positive feedback" [ref=f22e317] [cursor=pointer]
+                      - button "Negative feedback" [ref=f22e320] [cursor=pointer]
+                    - group [ref=f22e326]:
+                      - generic "Add or remove reactions" [ref=f22e327] [cursor=pointer]
+              - generic [ref=f22e330]:
+                - generic [ref=f22e331]: Mention @copilot in a comment to make changes to this pull request.
+                - generic [ref=f22e347]:
+                  - link "Copilot" [ref=f22e350] [cursor=pointer]:
+                    - /url: /apps/copilot-swe-agent
+                  - code [ref=f22e356]:
+                    - link "Initial plan" [ref=f22e357] [cursor=pointer]:
+                      - /url: /richard-fowles-epam/devops-test-app-agent-test/pull/7/commits/78a1c947806bb5bcb306449dcc04a22956ae77d2
+                  - code [ref=f22e367]:
+                    - link "78a1c94" [ref=f22e368] [cursor=pointer]:
+                      - /url: /richard-fowles-epam/devops-test-app-agent-test/pull/7/commits/78a1c947806bb5bcb306449dcc04a22956ae77d2
+                - generic [ref=f22e369]:
+                  - generic [ref=f22e374]:
+                    - link "Copilot" [ref=f22e375] [cursor=pointer]:
+                      - /url: /apps/copilot-swe-agent
+                    - link "Copilot" [ref=f22e380] [cursor=pointer]:
+                      - /url: /apps/copilot-swe-agent
+                    - generic [ref=f22e381]: AI
+                    - text: assigned
+                    - link "Copilot" [ref=f22e382] [cursor=pointer]:
+                      - /url: /apps/copilot-swe-agent
+                    - text: and
+                    - link "richard-fowles-epam" [ref=f22e383] [cursor=pointer]:
+                      - /url: /richard-fowles-epam
+                    - link "Aug 5, 20268 minutes ago" [ref=f22e384] [cursor=pointer]:
+                      - /url: "#event-29015011699"
+                  - generic [ref=f22e391]:
+                    - strong [ref=f22e392]: Copilot
+                    - link "started work" [ref=f22e393] [cursor=pointer]:
+                      - /url: https://github.com/richard-fowles-epam/devops-test-app-agent-test/sessions/59b28db8-b531-4fab-8491-de493b60d39c
+                    - text: on behalf of
+                    - link "richard-fowles-epam" [ref=f22e394] [cursor=pointer]:
+                      - /url: /richard-fowles-epam
+                    - link "August 5, 2026 15:328 minutes ago" [ref=f22e395] [cursor=pointer]:
+                      - /url: "#event-29015023615"
+                    - link "View session 59b28db8-b531-4fab-8491-de493b60d39c" [ref=f22e396] [cursor=pointer]:
+                      - /url: https://github.com/richard-fowles-epam/devops-test-app-agent-test/sessions/59b28db8-b531-4fab-8491-de493b60d39c
+                      - generic [ref=f22e397]: View session
+                  - generic [ref=f22e403]:
+                    - generic [ref=f22e404]:
+                      - link "Copilot" [ref=f22e405] [cursor=pointer]:
+                        - /url: /apps/copilot-swe-agent
+                      - link "Copilot" [ref=f22e410] [cursor=pointer]:
+                        - /url: /apps/copilot-swe-agent
+                      - generic [ref=f22e411]: AI
+                      - text: linked an issue
+                      - link "Aug 5, 20268 minutes ago" [ref=f22e412] [cursor=pointer]:
+                        - /url: "#event-29015023735"
+                      - text: that may be closed by this pull request
+                    - generic [ref=f22e413]:
+                      - 'link "[Agent Task]: Update customer #2" [ref=f22e415] [cursor=pointer]':
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/issues/2
+                      - 'generic "Status: Open" [ref=f22e417]': Open
+                - generic [ref=f22e431]:
+                  - generic [ref=f22e433]:
+                    - link "Copilot" [ref=f22e434] [cursor=pointer]:
+                      - /url: /apps/copilot-swe-agent
+                    - link [ref=f22e439] [cursor=pointer]:
+                      - /url: /richard-fowles-epam
+                      - img "@richard-fowles-epam" [ref=f22e440]
+                  - generic [ref=f22e441]:
+                    - code [ref=f22e442]:
+                      - 'link "Add PUT /customers/{id} endpoint with unit and acceptance tests" [ref=f22e443] [cursor=pointer]':
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/pull/7/commits/c63b85560f5bb7ea0a715d4edd3a24fb637b0ff7
+                    - button "Commit message body" [ref=f22e445] [cursor=pointer]: …
+                  - code [ref=f22e455]:
+                    - link "c63b855" [ref=f22e456] [cursor=pointer]:
+                      - /url: /richard-fowles-epam/devops-test-app-agent-test/pull/7/commits/c63b85560f5bb7ea0a715d4edd3a24fb637b0ff7
+                - generic [ref=f22e457]:
+                  - generic [ref=f22e462]:
+                    - link "Copilot" [ref=f22e463] [cursor=pointer]:
+                      - /url: /apps/copilot-swe-agent
+                    - link "Copilot" [ref=f22e468] [cursor=pointer]:
+                      - /url: /apps/copilot-swe-agent
+                    - generic [ref=f22e469]: AI
+                    - text: changed the title
+                    - deletion [ref=f22e470]: "[WIP] Add update customer endpoint for minimal API"
+                    - insertion [ref=f22e471]: "Add PUT /customers/{id} — update customer endpoint"
+                    - link "Aug 5, 20263 minutes ago" [ref=f22e472] [cursor=pointer]:
+                      - /url: "#event-29015322866"
+                  - generic [ref=f22e479]:
+                    - strong [ref=f22e480]: Copilot
+                    - link "finished work" [ref=f22e481] [cursor=pointer]:
+                      - /url: https://github.com/richard-fowles-epam/devops-test-app-agent-test/sessions/59b28db8-b531-4fab-8491-de493b60d39c
+                    - text: on behalf of
+                    - link "richard-fowles-epam" [ref=f22e482] [cursor=pointer]:
+                      - /url: /richard-fowles-epam
+                    - link "August 5, 2026 15:373 minutes ago" [ref=f22e483] [cursor=pointer]:
+                      - /url: "#event-29015330455"
+                  - generic [ref=f22e489]:
+                    - link "Copilot" [ref=f22e491] [cursor=pointer]:
+                      - /url: /apps/copilot-swe-agent
+                    - generic [ref=f22e496]:
+                      - link "Copilot" [ref=f22e497] [cursor=pointer]:
+                        - /url: /apps/copilot-swe-agent
+                      - generic [ref=f22e498]: AI
+                      - text: requested a review from
+                      - link "richard-fowles-epam" [ref=f22e499] [cursor=pointer]:
+                        - /url: /richard-fowles-epam
+                      - link "August 5, 2026 15:373 minutes ago" [ref=f22e500] [cursor=pointer]:
+                        - /url: "#event-29015330748"
+            - generic [ref=f22e502]: Loading
+            - generic [ref=f22e511]:
+              - link [ref=f22e513] [cursor=pointer]:
+                - /url: /richard-fowles-epam
+                - img "@richard-fowles-epam" [ref=f22e514]
+              - form [ref=f22e517]:
+                - group [ref=f22e518]:
+                  - heading "Add a comment" [level=4] [ref=f22e521]
+                  - generic [ref=f22e522]: Comment
+                  - generic [ref=f22e523]:
+                    - generic [ref=f22e524]:
+                      - tablist "Add a comment" [ref=f22e525]:
+                        - tab "Write" [selected] [ref=f22e526] [cursor=pointer]
+                        - tab "Preview" [ref=f22e527] [cursor=pointer]
+                      - toolbar [ref=f22e528]:
+                        - generic [ref=f22e529]:
+                          - button "Mention Copilot" [ref=f22e531] [cursor=pointer]
+                          - separator [ref=f22e532]
+                          - button "Heading" [ref=f22e534] [cursor=pointer]
+                          - button "Bold" [ref=f22e536] [cursor=pointer]
+                          - button "Italic" [ref=f22e538] [cursor=pointer]
+                          - button "Quote" [ref=f22e540] [cursor=pointer]
+                          - button "Code" [ref=f22e542] [cursor=pointer]
+                          - button "Link" [ref=f22e544] [cursor=pointer]
+                          - separator [ref=f22e545]
+                          - button "Numbered list" [ref=f22e547] [cursor=pointer]
+                          - button "Unordered list" [ref=f22e549] [cursor=pointer]
+                          - button "Task list" [ref=f22e551] [cursor=pointer]
+                          - separator [ref=f22e552]
+                          - button "Attach files" [ref=f22e554] [cursor=pointer]
+                          - button "Mention" [ref=f22e556] [cursor=pointer]
+                          - button "Reference" [ref=f22e558] [cursor=pointer]
+                          - button "Saved replies" [ref=f22e560] [cursor=pointer]
+                          - button "Slash commands" [ref=f22e562] [cursor=pointer]
+                    - tabpanel "Write" [ref=f22e563]:
+                      - generic [ref=f22e568]:
+                        - textbox "Comment" [ref=f22e569]:
+                          - /placeholder: " "
+                        - paragraph: Add your comment here...
+                      - generic [ref=f22e570]:
+                        - link "Markdown is supported" [ref=f22e572] [cursor=pointer]:
+                          - /url: https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+                        - button "Paste, drop, or click to add files" [ref=f22e575] [cursor=pointer]
+                - generic [ref=f22e580]:
+                  - button "Close pull request" [ref=f22e582] [cursor=pointer]
+                  - button "Comment" [disabled] [ref=f22e586]
+              - generic [ref=f22e590]:
+                - text: Remember, contributions to this repository should follow our
+                - link "GitHub Community Guidelines" [ref=f22e591] [cursor=pointer]:
+                  - /url: https://docs.github.com/articles/github-community-guidelines
+                - text: .
+              - generic [ref=f22e592]:
+                - strong [ref=f22e595]: ProTip!
+                - text: Add comments to specific lines under
+                - link "Files changed" [ref=f22e596] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test/pull/7/files
+                - text: .
+        - generic [ref=f22e600]:
+          - form "Select reviewers" [ref=f22e602]:
+            - group [ref=f22e603]:
+              - button "Reviewers" [ref=f22e604] [cursor=pointer]
+            - generic [ref=f22e607]:
+              - generic [ref=f22e608]:
+                - generic [ref=f22e609]:
+                  - link [ref=f22e610] [cursor=pointer]:
+                    - /url: /richard-fowles-epam
+                    - img "@richard-fowles-epam" [ref=f22e611]
+                  - link "richard-fowles-epam" [ref=f22e612] [cursor=pointer]:
+                    - /url: /richard-fowles-epam
+                - button "Awaiting requested review from richard-fowles-epam" [ref=f22e613] [cursor=pointer]
+              - generic [ref=f22e617]:
+                - generic [ref=f22e618]:
+                  - link "Copilot code review" [ref=f22e619] [cursor=pointer]:
+                    - /url: /apps/copilot-pull-request-reviewer
+                  - link "Copilot" [ref=f22e625] [cursor=pointer]:
+                    - /url: /apps/copilot-pull-request-reviewer
+                - button "Request" [ref=f22e627] [cursor=pointer]
+          - form "Select assignees" [ref=f22e631]:
+            - group [ref=f22e632]:
+              - button "Assignees" [ref=f22e633] [cursor=pointer]
+            - generic [ref=f22e636]:
+              - paragraph [ref=f22e637]:
+                - generic [ref=f22e638]:
+                  - link "Copilot code review" [ref=f22e639] [cursor=pointer]:
+                    - /url: /apps/copilot-swe-agent
+                  - link "Copilot" [ref=f22e645] [cursor=pointer]:
+                    - /url: /apps/copilot-swe-agent
+              - paragraph [ref=f22e646]:
+                - generic [ref=f22e647]:
+                  - link [ref=f22e648] [cursor=pointer]:
+                    - /url: /richard-fowles-epam
+                    - img "@richard-fowles-epam" [ref=f22e649]
+                  - link "richard-fowles-epam" [ref=f22e650] [cursor=pointer]:
+                    - /url: /richard-fowles-epam
+          - generic [ref=f22e651]:
+            - group [ref=f22e652]:
+              - button "Labels" [ref=f22e653] [cursor=pointer]
+            - generic [ref=f22e656]: None yet
+          - form "Select projects" [ref=f22e658]:
+            - group [ref=f22e659]:
+              - button "Projects" [ref=f22e660] [cursor=pointer]
+            - text: None yet
+          - form "Select milestones" [ref=f22e664]:
+            - group [ref=f22e665]:
+              - button "Milestone" [ref=f22e666] [cursor=pointer]
+            - text: No milestone
+          - form "Link issues" [ref=f22e674]:
+            - group [ref=f22e675]:
+              - button "Development" [ref=f22e676] [cursor=pointer]
+            - paragraph [ref=f22e679]: Successfully merging this pull request may close these issues.
+            - link [ref=f22e681] [cursor=pointer]:
+              - /url: https://github.com/richard-fowles-epam/devops-test-app-agent-test/issues/2
+              - img "Open issue" [ref=f22e682]
+              - text: "[Agent Task]: Update customer"
+          - generic [ref=f22e685]: Loading
+          - generic [ref=f22e694]:
+            - heading "2 participants" [level=3] [ref=f22e695]
+            - generic [ref=f22e696]:
+              - link [ref=f22e697] [cursor=pointer]:
+                - /url: /apps/copilot-swe-agent
+              - link [ref=f22e702] [cursor=pointer]:
+                - /url: /richard-fowles-epam
+                - img "@richard-fowles-epam" [ref=f22e703]
+          - group [ref=f22e705]:
+            - button [ref=f22e706] [cursor=pointer]:
+              - strong [ref=f22e709]: Lock conversation
+          - group [ref=f22e711]:
+            - button [ref=f22e712] [cursor=pointer]:
+              - strong [ref=f22e716]: Archive pull request
+  - contentinfo [ref=f22e717]:
+    - heading "Footer" [level=2] [ref=f22e718]
+    - generic [ref=f22e719]:
+      - generic [ref=f22e720]:
+        - link "GitHub Homepage" [ref=f22e721] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=f22e724]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=f22e725]:
+        - heading "Footer navigation" [level=3] [ref=f22e726]
+        - list "Footer navigation" [ref=f22e727]:
+          - listitem [ref=f22e728]:
+            - link "Terms" [ref=f22e729] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=f22e730]:
+            - link "Privacy" [ref=f22e731] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=f22e732]:
+            - link "Security" [ref=f22e733] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=f22e734]:
+            - link "Status" [ref=f22e735] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=f22e736]:
+            - link "Community" [ref=f22e737] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=f22e738]:
+            - link "Docs" [ref=f22e739] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=f22e740]:
+            - link "Contact" [ref=f22e741] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=f22e742]:
+            - button "Manage cookies" [ref=f22e744] [cursor=pointer]
+          - listitem [ref=f22e745]:
+            - button "Do not share my personal information" [ref=f22e747] [cursor=pointer]

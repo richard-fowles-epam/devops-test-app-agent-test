@@ -1,0 +1,1010 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e8]:
+        - heading "Navigation Menu" [level=2] [ref=e9]
+        - generic [ref=e10]:
+          - link "Homepage" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e15]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+            - generic [ref=e46]:
+              - button "Search or jump to, type / to search" [ref=e48] [cursor=pointer]
+              - link "Sign in" [ref=e52] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Frichard-fowles-epam%2Fdevops-test-app-agent-test
+              - link "Sign up" [ref=e53] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=richard-fowles-epam%2Fdevops-test-app-agent-test
+              - button "Appearance settings" [ref=e54] [cursor=pointer]
+    - main [ref=e60]:
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e64]:
+            - link "richard-fowles-epam" [ref=e68] [cursor=pointer]:
+              - /url: /richard-fowles-epam
+            - generic [ref=e69]: /
+            - strong [ref=e70]:
+              - link "devops-test-app-agent-test" [ref=e71] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test
+            - generic [ref=e72]: Public
+          - generic [ref=e73]:
+            - list:
+              - listitem [ref=e74]:
+                - link "You must be signed in to change notification settings" [ref=e75] [cursor=pointer]:
+                  - /url: /login?return_to=%2Frichard-fowles-epam%2Fdevops-test-app-agent-test
+                  - text: Notifications
+              - listitem [ref=e78]:
+                - link "Fork 0" [ref=e79] [cursor=pointer]:
+                  - /url: /login?return_to=%2Frichard-fowles-epam%2Fdevops-test-app-agent-test
+                  - text: Fork
+                  - generic "0" [ref=e82]
+              - listitem [ref=e83]:
+                - link "You must be signed in to star a repository" [ref=e85] [cursor=pointer]:
+                  - /url: /login?return_to=%2Frichard-fowles-epam%2Fdevops-test-app-agent-test
+                  - text: Star
+                  - generic "0 users starred this repository" [ref=e88]: "0"
+        - navigation "Repository" [ref=e89]:
+          - list [ref=e90]:
+            - listitem [ref=e91]:
+              - link "Code" [ref=e92] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test
+            - listitem [ref=e96]:
+              - link "Issues" [ref=e97] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/issues
+            - listitem [ref=e102]:
+              - link "Pull requests" [ref=e103] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/pulls
+            - listitem [ref=e107]:
+              - link "Actions" [ref=e108] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/actions
+            - listitem [ref=e112]:
+              - link "Projects" [ref=e113] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/projects
+            - listitem [ref=e117]:
+              - link "Security and quality" [ref=e118] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/security
+            - listitem [ref=e122]:
+              - link "Insights" [ref=e123] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/pulse
+      - generic [ref=e140]:
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e145]:
+              - button "main branch" [ref=e147] [cursor=pointer]:
+                - generic [ref=e148]: main
+              - generic [ref=e152]:
+                - link "Branches" [ref=e153] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test/branches
+                - link "Tags" [ref=e156] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test/tags
+            - button "Code" [ref=e160] [cursor=pointer]
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - heading "Folders and files" [level=2] [ref=e165]
+              - table "Folders and files" [ref=e166]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message"
+                    - columnheader "Last commit date"
+                - rowgroup [ref=e167]:
+                  - row [ref=e168]:
+                    - cell "Latest commit History 5 Commits" [ref=e169]:
+                      - generic [ref=e170]:
+                        - heading "Latest commit" [level=2] [ref=e171]
+                        - generic [ref=e174]:
+                          - heading "History" [level=2] [ref=e175]
+                          - link "5 Commits" [ref=e176] [cursor=pointer]:
+                            - /url: /richard-fowles-epam/devops-test-app-agent-test/commits/main/
+                  - row ".config, (Directory)" [ref=e179]:
+                    - cell [ref=e180]:
+                      - link ".config, (Directory)" [ref=e187] [cursor=pointer]:
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/tree/main/.config
+                        - text: .config
+                    - cell [ref=e188]
+                    - cell [ref=e190]
+                  - row ".github, (Directory)" [ref=e193]:
+                    - cell [ref=e194]:
+                      - link ".github, (Directory)" [ref=e201] [cursor=pointer]:
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/tree/main/.github
+                        - text: .github
+                    - cell [ref=e202]
+                    - cell [ref=e204]
+                  - row "backend, (Directory)" [ref=e207]:
+                    - cell [ref=e208]:
+                      - link "backend, (Directory)" [ref=e215] [cursor=pointer]:
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/tree/main/backend
+                        - text: backend
+                    - cell [ref=e216]
+                    - cell [ref=e218]
+                  - row "frontend, (Directory)" [ref=e221]:
+                    - cell [ref=e222]:
+                      - link "frontend, (Directory)" [ref=e229] [cursor=pointer]:
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/tree/main/frontend
+                        - text: frontend
+                    - cell [ref=e230]
+                    - cell [ref=e232]
+                  - row "scripts, (Directory)" [ref=e235]:
+                    - cell [ref=e236]:
+                      - link "scripts, (Directory)" [ref=e243] [cursor=pointer]:
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/tree/main/scripts
+                        - text: scripts
+                    - cell [ref=e244]
+                    - cell [ref=e246]
+                  - row "training-resources/templates, (Directory)" [ref=e249]:
+                    - cell [ref=e250]:
+                      - link "training-resources/templates, (Directory)" [ref=e257] [cursor=pointer]:
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/tree/main/training-resources/templates
+                        - text: training-resources/templates
+                    - cell [ref=e258]
+                    - cell [ref=e260]
+                  - row ".DS_Store, (File)" [ref=e263]:
+                    - cell [ref=e264]:
+                      - link ".DS_Store, (File)" [ref=e271] [cursor=pointer]:
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/blob/main/.DS_Store
+                        - text: .DS_Store
+                    - cell [ref=e272]
+                    - cell [ref=e274]
+                  - row ".gitignore, (File)" [ref=e277]:
+                    - cell [ref=e278]:
+                      - link ".gitignore, (File)" [ref=e285] [cursor=pointer]:
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/blob/main/.gitignore
+                        - text: .gitignore
+                    - cell [ref=e286]
+                    - cell [ref=e288]
+                  - row "CustomerManagement.slnx, (File)" [ref=e291]:
+                    - cell [ref=e292]:
+                      - link "CustomerManagement.slnx, (File)" [ref=e299] [cursor=pointer]:
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/blob/main/CustomerManagement.slnx
+                        - text: CustomerManagement.slnx
+                    - cell [ref=e300]
+                    - cell [ref=e302]
+                  - row "README.md, (File)" [ref=e305]:
+                    - cell [ref=e306]:
+                      - link "README.md, (File)" [ref=e313] [cursor=pointer]:
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/blob/main/README.md
+                        - text: README.md
+                    - cell [ref=e314]
+                    - cell [ref=e316]
+                  - row "copilot-agentic-delivery-student.md, (File)" [ref=e319]:
+                    - cell [ref=e320]:
+                      - link "copilot-agentic-delivery-student.md, (File)" [ref=e327] [cursor=pointer]:
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/blob/main/copilot-agentic-delivery-student.md
+                        - text: copilot-agentic-delivery-student.md
+                    - cell [ref=e328]
+                    - cell [ref=e330]
+            - generic [ref=e334]:
+              - generic [ref=e335]:
+                - heading "Repository files navigation" [level=2] [ref=e336]
+                - navigation "Repository files" [ref=e337]:
+                  - list [ref=e338]:
+                    - listitem [ref=e339]:
+                      - link "README" [ref=e340] [cursor=pointer]:
+                        - /url: "#"
+                - button "Outline" [ref=e342] [cursor=pointer]
+              - article [ref=e346]:
+                - generic [ref=e347]:
+                  - heading "Customer Management API" [level=1] [ref=e348]
+                  - 'link "Permalink: Customer Management API" [ref=e349] [cursor=pointer]':
+                    - /url: "#customer-management-api"
+                - paragraph [ref=e352]:
+                  - text: A small, beginner-friendly
+                  - strong [ref=e353]: customer management API
+                  - text: built with
+                  - strong [ref=e354]: .NET Minimal APIs
+                  - text: ","
+                  - strong [ref=e355]: Entity Framework Core
+                  - text: ", and"
+                  - strong [ref=e356]: SQLite
+                  - text: . It is designed as a clean starter project for a hands-on
+                  - strong [ref=e357]: GitHub Copilot agentic coding
+                  - text: training course.
+                - paragraph [ref=e358]:
+                  - text: "The application currently supports a single business capability:"
+                  - strong [ref=e359]: add a new customer
+                  - text: .
+                - separator [ref=e360]
+                - generic [ref=e361]:
+                  - heading "0. Templates — read this first (for agents)" [level=2] [ref=e362]
+                  - 'link "Permalink: 0. Templates — read this first (for agents)" [ref=e363] [cursor=pointer]':
+                    - /url: "#0-templates--read-this-first-for-agents"
+                - blockquote [ref=e366]:
+                  - paragraph [ref=e367]:
+                    - strong [ref=e368]: 📌 Standing instruction for any GitHub Copilot agent working in this repository.
+                  - paragraph [ref=e369]:
+                    - text: This is a training project. Whenever you are asked to
+                    - strong [ref=e370]: create a new artifact of a kind that has a template
+                    - text: — for example a new custom agent — you
+                    - strong [ref=e371]: must
+                    - text: first read the matching template in
+                    - link [ref=e372] [cursor=pointer]:
+                      - /url: /richard-fowles-epam/devops-test-app-agent-test/blob/main/training-resources/templates
+                      - code [ref=e373]: training-resources/templates/
+                    - text: and follow its structure. Do not invent your own structure when a template exists.
+                - paragraph [ref=e374]:
+                  - text: The available templates are listed in the registry below.
+                  - strong [ref=e375]: This table is the source of truth
+                  - text: — whenever a new template is added to
+                  - code [ref=e376]: training-resources/templates/
+                  - text: ", add a row here in the same change so that every agent knows, from the very start of the project, exactly what templates exist and when to use them."
+                - generic [ref=e377]:
+                  - heading "Template registry" [level=3] [ref=e378]
+                  - 'link "Permalink: Template registry" [ref=e379] [cursor=pointer]':
+                    - /url: "#template-registry"
+                - table [ref=e383]:
+                  - rowgroup [ref=e384]:
+                    - row [ref=e385]:
+                      - columnheader "Template" [ref=e386]
+                      - columnheader "File" [ref=e387]
+                      - columnheader "Use it when you are asked to…" [ref=e388]
+                  - rowgroup [ref=e389]:
+                    - row [ref=e390]:
+                      - cell "Custom agent" [ref=e391]
+                      - cell [ref=e392]:
+                        - link [ref=e393] [cursor=pointer]:
+                          - /url: /richard-fowles-epam/devops-test-app-agent-test/blob/main/training-resources/templates/agent.template.md
+                          - code [ref=e394]: training-resources/templates/agent.template.md
+                      - cell [ref=e395]:
+                        - text: Create a new custom agent (a
+                        - code [ref=e396]: "*.agent.md"
+                        - text: file, typically under
+                        - code [ref=e397]: .github/agents/
+                        - text: ).
+                - blockquote [ref=e398]:
+                  - paragraph [ref=e399]:
+                    - strong [ref=e400]: Adding a new template?
+                    - text: Drop the file into
+                    - code [ref=e401]: training-resources/templates/
+                    - text: ", then add a row to the table above describing what it is and when to reach for it. Keep the registry complete and current."
+                - separator [ref=e402]
+                - generic [ref=e403]:
+                  - heading "1. Project overview" [level=2] [ref=e404]
+                  - 'link "Permalink: 1. Project overview" [ref=e405] [cursor=pointer]':
+                    - /url: "#1-project-overview"
+                - paragraph [ref=e408]: This is a minimal HTTP API that lets you create customer records and store them in a local SQLite database file.
+                - list [ref=e409]:
+                  - listitem [ref=e410]:
+                    - strong [ref=e411]: "Framework:"
+                    - text: .NET Minimal APIs (
+                    - code [ref=e412]: .NET 10
+                    - text: )
+                  - listitem [ref=e413]:
+                    - strong [ref=e414]: "Data access:"
+                    - text: Entity Framework Core
+                  - listitem [ref=e415]:
+                    - strong [ref=e416]: "Database:"
+                    - text: SQLite (a real, on-disk file — data survives restarts)
+                  - listitem [ref=e417]:
+                    - strong [ref=e418]: "API docs:"
+                    - text: Swagger / OpenAPI, enabled automatically in development
+                  - listitem [ref=e419]:
+                    - strong [ref=e420]: "Auth:"
+                    - text: none yet (intentionally, to keep the demo simple)
+                  - listitem [ref=e421]:
+                    - strong [ref=e422]: "Frontend:"
+                    - text: placeholder only for future exercises — for now you drive the API through Swagger or
+                    - code [ref=e423]: curl
+                - paragraph [ref=e424]: "The only endpoint is:"
+                - generic [ref=e425]:
+                  - code [ref=e427]: POST /customers
+                  - button "Copy code to clipboard" [ref=e429] [cursor=pointer]
+                - paragraph [ref=e433]:
+                  - text: It accepts a JSON body with
+                  - code [ref=e434]: firstName
+                  - text: ","
+                  - code [ref=e435]: lastName
+                  - text: ", and"
+                  - code [ref=e436]: email
+                  - text: ", validates them, saves the customer, and returns the created record including its generated"
+                  - code [ref=e437]: id
+                  - text: .
+                - paragraph [ref=e438]:
+                  - strong [ref=e439]: Project structure
+                - generic [ref=e440]:
+                  - code [ref=e442]: ". ├── CustomerManagement.slnx # Solution file (.NET 10 XML format) ├── README.md ├── .gitignore ├── frontend/ # Empty placeholder reserved for future course exercises │ ├── src/ │ │ └── .gitkeep │ └── tests/ │ └── .gitkeep ├── backend/ │ ├── src/ │ │ └── CustomerManagement.Api/ │ │ ├── Program.cs # App startup + POST /customers endpoint │ │ ├── Models/ │ │ │ ├── Customer.cs # Customer entity │ │ │ └── AddCustomerRequest.cs # Request model + validation rules │ │ ├── Data/ │ │ │ └── AppDbContext.cs # EF Core DbContext │ │ ├── Migrations/ # EF Core migration (creates the schema) │ │ ├── appsettings.json │ │ └── appsettings.Development.json # SQLite connection string lives here │ └── tests/ │ ├── CustomerManagement.UnitTests/ │ │ └── AddCustomerTests.cs # xUnit test: a valid customer can be added │ └── CustomerManagement.AcceptanceTests/ # SpecFlow.xUnit BDD acceptance tests │ ├── Features/ │ │ └── CreateCustomer.feature # Gherkin scenarios for POST /customers │ ├── StepDefinitions/ │ │ └── CreateCustomerSteps.cs # Step bindings │ └── Support/ # WebApplicationFactory + scenario state ├── training-resources/ │ └── templates/ # Templates agents must follow (see section 0) │ ├── agent.template.md # Structure for new custom agents │ └── skill.template/ # Structure for new agent skills (AgentSkills.io spec) │ ├── SKILL.md │ ├── scripts/ │ ├── references/ │ └── assets/ ├── .config/ │ └── dotnet-tools.json # Local dotnet-ef tool (for migrations) ├── .github/ │ └── skills/ # Local-only Copilot skills │ └── minimal-api-swagger-standards/"
+                  - button "Copy code to clipboard" [ref=e444] [cursor=pointer]
+                - separator [ref=e448]
+                - generic [ref=e449]:
+                  - heading "2. Prerequisites" [level=2] [ref=e450]
+                  - 'link "Permalink: 2. Prerequisites" [ref=e451] [cursor=pointer]':
+                    - /url: "#2-prerequisites"
+                - paragraph [ref=e454]:
+                  - text: You are expected to have the following installed
+                  - strong [ref=e455]: before
+                  - text: "the course:"
+                - list [ref=e456]:
+                  - listitem [ref=e457]:
+                    - strong [ref=e458]: Git
+                  - listitem [ref=e459]:
+                    - strong [ref=e460]: .NET SDK
+                    - text: (version 10.0 or later)
+                  - listitem [ref=e461]:
+                    - strong [ref=e462]: Visual Studio Code
+                  - listitem [ref=e463]:
+                    - strong [ref=e464]: Access to GitHub Copilot
+                  - listitem [ref=e465]:
+                    - strong [ref=e466]: The GitHub Copilot app
+                  - listitem [ref=e467]:
+                    - strong [ref=e468]: SQLite tooling
+                    - text: (the
+                    - code [ref=e469]: sqlite3
+                    - text: command-line tool)
+                  - listitem [ref=e470]:
+                    - strong [ref=e471]: pipx
+                    - text: — used to install Python tools in isolated environments (
+                    - code [ref=e472]: brew install pipx
+                    - text: on macOS)
+                  - listitem [ref=e473]:
+                    - strong [ref=e474]: Datasette
+                    - text: — a web UI for browsing SQLite databases; installed via
+                    - code [ref=e475]: pipx install datasette
+                  - listitem [ref=e476]:
+                    - strong [ref=e477]: A terminal or command-line shell
+                - blockquote [ref=e478]:
+                  - paragraph [ref=e479]:
+                    - strong [ref=e480]: Missing something?
+                    - text: You don't have to fix it by hand. Open the GitHub Copilot app, connect it to this repository, and paste the suggested prompt from section 10. The agent will check what is installed, ask your permission before installing anything, and get everything running for you.
+                - separator [ref=e481]
+                - generic [ref=e482]:
+                  - heading "3. Agent setup instructions" [level=2] [ref=e483]
+                  - 'link "Permalink: 3. Agent setup instructions" [ref=e484] [cursor=pointer]':
+                    - /url: "#3-agent-setup-instructions"
+                - blockquote [ref=e487]:
+                  - paragraph [ref=e488]:
+                    - strong [ref=e489]: This section is written for a GitHub Copilot coding agent.
+                    - text: A student can simply ask the agent to "follow the Agent setup instructions in the README" and the application should end up running. Follow these steps in order.
+                - list [ref=e490]:
+                  - listitem [ref=e491]:
+                    - paragraph [ref=e492]:
+                      - strong [ref=e493]: Inspect the repository structure.
+                      - text: List the files and folders and read this README so you understand the layout described in section 1.
+                  - listitem [ref=e494]:
+                    - paragraph [ref=e495]:
+                      - strong [ref=e496]: Confirm the required tools are installed.
+                      - text: Run the checks in the following steps. If any tool is missing, tell the student what is missing and ask their permission before installing anything.
+                  - listitem [ref=e497]:
+                    - paragraph [ref=e498]:
+                      - strong [ref=e499]: "Check that Git is available:"
+                    - generic [ref=e500]:
+                      - generic [ref=e501]: git --version
+                      - button "Copy code to clipboard" [ref=e503] [cursor=pointer]
+                  - listitem [ref=e507]:
+                    - paragraph [ref=e508]:
+                      - strong [ref=e509]: Check that the .NET SDK is available
+                      - text: "(expect 10.0 or later):"
+                    - generic [ref=e510]:
+                      - generic [ref=e511]: dotnet --version
+                      - button "Copy code to clipboard" [ref=e513] [cursor=pointer]
+                  - listitem [ref=e517]:
+                    - paragraph [ref=e518]:
+                      - strong [ref=e519]: "Check that Visual Studio Code is available:"
+                    - generic [ref=e520]:
+                      - generic [ref=e521]: code --version
+                      - button "Copy code to clipboard" [ref=e523] [cursor=pointer]
+                  - listitem [ref=e527]:
+                    - paragraph [ref=e528]:
+                      - strong [ref=e529]: "Check that SQLite tooling is available:"
+                    - generic [ref=e530]:
+                      - generic [ref=e531]: sqlite3 --version
+                      - button "Copy code to clipboard" [ref=e533] [cursor=pointer]
+                  - listitem [ref=e537]:
+                    - paragraph [ref=e538]:
+                      - strong [ref=e539]: "Check that pipx is available:"
+                    - generic [ref=e540]:
+                      - generic [ref=e541]: pipx --version
+                      - button "Copy code to clipboard" [ref=e543] [cursor=pointer]
+                    - paragraph [ref=e547]:
+                      - text: If
+                      - code [ref=e548]: pipx
+                      - text: "is not found, ask the student:"
+                      - emphasis [ref=e549]:
+                        - text: "\"pipx is not installed. It is needed to install Datasette. May I install it now using Homebrew ("
+                        - code [ref=e550]: brew install pipx
+                        - text: )? Please confirm yes or no."
+                      - text: "Only proceed if the student confirms. Install with:"
+                    - generic [ref=e551]:
+                      - generic [ref=e552]: brew install pipx && pipx ensurepath
+                      - button "Copy code to clipboard" [ref=e554] [cursor=pointer]
+                  - listitem [ref=e558]:
+                    - paragraph [ref=e559]:
+                      - strong [ref=e560]: "Check that Datasette is available:"
+                    - generic [ref=e561]:
+                      - generic [ref=e562]: datasette --version || ~/.local/bin/datasette --version
+                      - button "Copy code to clipboard" [ref=e564] [cursor=pointer]
+                    - paragraph [ref=e568]:
+                      - text: If
+                      - code [ref=e569]: datasette
+                      - text: "is not found, ask the student:"
+                      - emphasis [ref=e570]:
+                        - text: "\"Datasette is not installed. It is used to browse the SQLite database in a web UI. May I install it now using"
+                        - code [ref=e571]: pipx install datasette
+                        - text: "? Please confirm yes or no.\""
+                      - text: "Only proceed if the student confirms. Install with:"
+                    - generic [ref=e572]:
+                      - generic [ref=e573]: pipx install datasette
+                      - button "Copy code to clipboard" [ref=e575] [cursor=pointer]
+                    - paragraph [ref=e579]:
+                      - text: "After installing, verify:"
+                      - code [ref=e580]: ~/.local/bin/datasette --version
+                      - text: .
+                  - listitem [ref=e581]:
+                    - paragraph [ref=e582]:
+                      - strong [ref=e583]: Restore NuGet packages
+                      - text: (this also restores the local
+                      - code [ref=e584]: dotnet-ef
+                      - text: "tool):"
+                    - generic [ref=e585]:
+                      - generic [ref=e586]: dotnet tool restore dotnet restore
+                      - button "Copy code to clipboard" [ref=e588] [cursor=pointer]
+                  - listitem [ref=e592]:
+                    - paragraph [ref=e593]:
+                      - strong [ref=e594]: "Build the solution:"
+                    - generic [ref=e595]:
+                      - generic [ref=e596]: dotnet build
+                      - button "Copy code to clipboard" [ref=e598] [cursor=pointer]
+                  - listitem [ref=e602]:
+                    - paragraph [ref=e603]:
+                      - strong [ref=e604]: "Run the single automated unit test:"
+                    - generic [ref=e605]:
+                      - generic [ref=e606]: dotnet test
+                      - button "Copy code to clipboard" [ref=e608] [cursor=pointer]
+                  - listitem [ref=e612]:
+                    - paragraph [ref=e613]:
+                      - strong [ref=e614]: Create or update the SQLite database.
+                      - text: Apply the EF Core migration to create the local
+                      - code [ref=e615]: customers.db
+                      - text: "file and its schema:"
+                    - generic [ref=e616]:
+                      - generic [ref=e617]: dotnet ef database update --project backend/src/CustomerManagement.Api
+                      - button "Copy code to clipboard" [ref=e619] [cursor=pointer]
+                    - blockquote [ref=e623]:
+                      - paragraph [ref=e624]: "Note: the API also applies migrations automatically on startup in development, so this step is optional — but running it explicitly is a good way to confirm the database is set up correctly."
+                  - listitem [ref=e625]:
+                    - paragraph [ref=e626]:
+                      - strong [ref=e627]: Run the API
+                      - text: "in one terminal:"
+                    - generic [ref=e628]:
+                      - generic [ref=e629]: dotnet run --project backend/src/CustomerManagement.Api
+                      - button "Copy code to clipboard" [ref=e631] [cursor=pointer]
+                    - paragraph [ref=e635]:
+                      - text: The API listens on
+                      - strong [ref=e636]:
+                        - link "http://localhost:5154" [ref=e637] [cursor=pointer]:
+                          - /url: http://localhost:5154
+                      - text: .
+                  - listitem [ref=e638]:
+                    - paragraph [ref=e639]:
+                      - strong [ref=e640]: Start Datasette
+                      - text: "in a separate terminal so the student can browse the database:"
+                    - generic [ref=e641]:
+                      - generic [ref=e642]: datasette serve backend/src/CustomerManagement.Api/customers.db --port 8001
+                      - button "Copy code to clipboard" [ref=e644] [cursor=pointer]
+                    - blockquote [ref=e648]:
+                      - paragraph [ref=e649]:
+                        - text: If
+                        - code [ref=e650]: datasette
+                        - text: is not on
+                        - code [ref=e651]: PATH
+                        - text: ", use"
+                        - code [ref=e652]: ~/.local/bin/datasette serve ...
+                        - text: instead.
+                    - paragraph [ref=e653]:
+                      - text: Datasette will be available at
+                      - strong [ref=e654]:
+                        - link "http://localhost:8001" [ref=e655] [cursor=pointer]:
+                          - /url: http://localhost:8001
+                      - text: ". The Customers table is at:"
+                    - generic [ref=e656]:
+                      - code [ref=e658]: http://localhost:8001/customers/Customers
+                      - button "Copy code to clipboard" [ref=e660] [cursor=pointer]
+                  - listitem [ref=e664]:
+                    - paragraph [ref=e665]:
+                      - strong [ref=e666]: Open or provide the Swagger URL.
+                      - text: "Share this link with the student:"
+                    - generic [ref=e667]:
+                      - code [ref=e669]: http://localhost:5154/swagger
+                      - button "Copy code to clipboard" [ref=e671] [cursor=pointer]
+                  - listitem [ref=e675]:
+                    - paragraph [ref=e676]:
+                      - strong [ref=e677]:
+                        - text: Explain how to send a sample
+                        - code [ref=e678]: POST /customers
+                        - text: request.
+                      - text: Show the student how to add a customer from Swagger (section 7) or with
+                      - code [ref=e679]: curl
+                      - text: ":"
+                    - generic [ref=e680]:
+                      - generic [ref=e681]:
+                        - text: curl -X POST http://localhost:5154/customers \ -H
+                        - generic [ref=e682]: "\"Content-Type: application/json\""
+                        - text: \ -d
+                        - generic [ref=e683]: "'{\"firstName\":\"Ada\",\"lastName\":\"Lovelace\",\"email\":\"ada@example.com\"}'"
+                      - button "Copy code to clipboard" [ref=e685] [cursor=pointer]
+                    - paragraph [ref=e689]:
+                      - text: After adding a customer, tell the student to refresh the Datasette tab at
+                      - code [ref=e690]: http://localhost:8001/customers/Customers
+                      - text: to see the new record appear.
+                - separator [ref=e691]
+                - generic [ref=e692]:
+                  - heading "4. Getting started manually" [level=2] [ref=e693]
+                  - 'link "Permalink: 4. Getting started manually" [ref=e694] [cursor=pointer]':
+                    - /url: "#4-getting-started-manually"
+                - paragraph [ref=e697]: "If you prefer to set the project up yourself instead of asking the agent:"
+                - generic [ref=e698]:
+                  - generic [ref=e699]:
+                    - generic [ref=e700]: "# 1. Restore the local dotnet-ef tool and NuGet packages"
+                    - text: dotnet tool restore dotnet restore
+                    - generic [ref=e701]: "# 2. Build"
+                    - text: dotnet build
+                    - generic [ref=e702]: "# 3. Run the test"
+                    - text: dotnet test
+                    - generic [ref=e703]: "# 4. Create the SQLite database (optional — also happens on startup)"
+                    - text: dotnet ef database update --project backend/src/CustomerManagement.Api
+                    - generic [ref=e704]: "# 5. Run the API"
+                    - text: dotnet run --project backend/src/CustomerManagement.Api
+                  - button "Copy code to clipboard" [ref=e706] [cursor=pointer]
+                - separator [ref=e710]
+                - generic [ref=e711]:
+                  - heading "5. Running the API" [level=2] [ref=e712]
+                  - 'link "Permalink: 5. Running the API" [ref=e713] [cursor=pointer]':
+                    - /url: "#5-running-the-api"
+                - generic [ref=e716]:
+                  - generic [ref=e717]: dotnet run --project backend/src/CustomerManagement.Api
+                  - button "Copy code to clipboard" [ref=e719] [cursor=pointer]
+                - list [ref=e723]:
+                  - listitem [ref=e724]:
+                    - text: The API starts on
+                    - strong [ref=e725]:
+                      - link "http://localhost:5154" [ref=e726] [cursor=pointer]:
+                        - /url: http://localhost:5154
+                    - text: .
+                  - listitem [ref=e727]: In development it applies any pending database migrations at startup, so the database is always ready.
+                  - listitem [ref=e728]:
+                    - text: Press
+                    - strong [ref=e729]: Ctrl+C
+                    - text: to stop it.
+                - separator [ref=e730]
+                - generic [ref=e731]:
+                  - heading "6. Using Swagger" [level=2] [ref=e732]
+                  - 'link "Permalink: 6. Using Swagger" [ref=e733] [cursor=pointer]':
+                    - /url: "#6-using-swagger"
+                - paragraph [ref=e736]: "Swagger UI is enabled automatically in development. With the API running, open:"
+                - generic [ref=e737]:
+                  - code [ref=e739]: http://localhost:5154/swagger
+                  - button "Copy code to clipboard" [ref=e741] [cursor=pointer]
+                - paragraph [ref=e745]:
+                  - text: From there you can see the
+                  - code [ref=e746]: POST /customers
+                  - text: endpoint, view the expected request/response shapes, and send requests directly from the browser.
+                - separator [ref=e747]
+                - generic [ref=e748]:
+                  - heading "7. Adding a customer" [level=2] [ref=e749]
+                  - 'link "Permalink: 7. Adding a customer" [ref=e750] [cursor=pointer]':
+                    - /url: "#7-adding-a-customer"
+                - paragraph [ref=e753]:
+                  - text: Using
+                  - strong [ref=e754]: Swagger
+                  - text: ":"
+                - list [ref=e755]:
+                  - listitem [ref=e756]:
+                    - text: Open
+                    - link "http://localhost:5154/swagger" [ref=e757] [cursor=pointer]:
+                      - /url: http://localhost:5154/swagger
+                    - text: .
+                  - listitem [ref=e758]:
+                    - text: Expand
+                    - strong [ref=e759]: POST /customers
+                    - text: and click
+                    - strong [ref=e760]: Try it out
+                    - text: .
+                  - listitem [ref=e761]:
+                    - text: "Enter a request body, for example:"
+                    - generic [ref=e762]:
+                      - generic [ref=e763]:
+                        - text: "{ \"firstName\":"
+                        - generic [ref=e764]: "\"Ada\""
+                        - text: ", \"lastName\":"
+                        - generic [ref=e765]: "\"Lovelace\""
+                        - text: ", \"email\":"
+                        - generic [ref=e766]: "\"ada@example.com\""
+                        - text: "}"
+                      - button "Copy code to clipboard" [ref=e768] [cursor=pointer]
+                  - listitem [ref=e772]:
+                    - text: Click
+                    - strong [ref=e773]: Execute
+                    - text: .
+                - paragraph [ref=e774]:
+                  - strong [ref=e775]:
+                    - text: Successful response —
+                    - code [ref=e776]: 201 Created
+                    - text: ":"
+                - generic [ref=e777]:
+                  - generic [ref=e778]:
+                    - text: "{ \"id\": 1, \"firstName\":"
+                    - generic [ref=e779]: "\"Ada\""
+                    - text: ", \"lastName\":"
+                    - generic [ref=e780]: "\"Lovelace\""
+                    - text: ", \"email\":"
+                    - generic [ref=e781]: "\"ada@example.com\""
+                    - text: "}"
+                  - button "Copy code to clipboard" [ref=e783] [cursor=pointer]
+                - paragraph [ref=e787]:
+                  - strong [ref=e788]: Validation rules
+                  - text: (all fields are required; email must be a valid email address). A bad request returns
+                  - strong [ref=e789]:
+                    - code [ref=e790]: 400 Bad Request
+                  - text: "with details, for example:"
+                - generic [ref=e791]:
+                  - generic [ref=e792]:
+                    - text: "{ \"title\":"
+                    - generic [ref=e793]: "\"One or more validation errors occurred.\""
+                    - text: ", \"status\": 400, \"errors\": { \"Email\": ["
+                    - generic [ref=e794]: "\"The Email field is not a valid e-mail address.\""
+                    - text: "] } }"
+                  - button "Copy code to clipboard" [ref=e796] [cursor=pointer]
+                - paragraph [ref=e800]:
+                  - text: Using
+                  - strong [ref=e801]: curl
+                  - text: ":"
+                - generic [ref=e802]:
+                  - generic [ref=e803]:
+                    - text: curl -X POST http://localhost:5154/customers \ -H
+                    - generic [ref=e804]: "\"Content-Type: application/json\""
+                    - text: \ -d
+                    - generic [ref=e805]: "'{\"firstName\":\"Ada\",\"lastName\":\"Lovelace\",\"email\":\"ada@example.com\"}'"
+                  - button "Copy code to clipboard" [ref=e807] [cursor=pointer]
+                - separator [ref=e811]
+                - generic [ref=e812]:
+                  - heading "8. Database setup" [level=2] [ref=e813]
+                  - 'link "Permalink: 8. Database setup" [ref=e814] [cursor=pointer]':
+                    - /url: "#8-database-setup"
+                - list [ref=e817]:
+                  - listitem [ref=e818]:
+                    - text: The database is
+                    - strong [ref=e819]: SQLite
+                    - text: ", stored in a local file named"
+                    - strong [ref=e820]:
+                      - code [ref=e821]: customers.db
+                    - text: inside
+                    - code [ref=e822]: backend/src/CustomerManagement.Api/
+                    - text: (created when you first run the API or apply the migration).
+                  - listitem [ref=e823]:
+                    - text: The connection string is configured in
+                    - strong [ref=e824]:
+                      - code [ref=e825]: backend/src/CustomerManagement.Api/appsettings.Development.json
+                    - text: ":"
+                    - generic [ref=e826]:
+                      - generic [ref=e827]:
+                        - text: "{ \"ConnectionStrings\": { \"Default\":"
+                        - generic [ref=e828]: "\"Data Source=customers.db\""
+                        - text: "} }"
+                      - button "Copy code to clipboard" [ref=e830] [cursor=pointer]
+                  - listitem [ref=e834]:
+                    - text: The schema is created by an
+                    - strong [ref=e835]: EF Core migration
+                    - text: (
+                    - code [ref=e836]: Migrations/
+                    - text: ), which is checked into the repository. You never have to create tables by hand.
+                  - listitem [ref=e837]:
+                    - text: "Apply the migration explicitly with:"
+                    - generic [ref=e838]:
+                      - generic [ref=e839]: dotnet ef database update --project backend/src/CustomerManagement.Api
+                      - button "Copy code to clipboard" [ref=e841] [cursor=pointer]
+                  - listitem [ref=e845]:
+                    - strong [ref=e846]: For convenience during training, the API also applies migrations automatically on startup in development
+                    - text: (
+                    - code [ref=e847]: db.Database.Migrate()
+                    - text: in
+                    - code [ref=e848]: Program.cs
+                    - text: ). This is a deliberate choice to keep the demo simple — in a production application you would typically apply migrations as an explicit, controlled step rather than on every startup.
+                  - listitem [ref=e849]:
+                    - text: The database is a
+                    - strong [ref=e850]: real, persistent file
+                    - text: ", not an in-memory database, so customers you add remain after you restart the app. To start fresh, delete"
+                    - code [ref=e851]: backend/src/CustomerManagement.Api/customers.db
+                    - text: and run the app again.
+                - separator [ref=e852]
+                - generic [ref=e853]:
+                  - heading "9. Useful commands" [level=2] [ref=e854]
+                  - 'link "Permalink: 9. Useful commands" [ref=e855] [cursor=pointer]':
+                    - /url: "#9-useful-commands"
+                - table [ref=e859]:
+                  - rowgroup [ref=e860]:
+                    - row [ref=e861]:
+                      - columnheader "Task" [ref=e862]
+                      - columnheader "Command" [ref=e863]
+                  - rowgroup [ref=e864]:
+                    - row [ref=e865]:
+                      - cell [ref=e866]:
+                        - text: Restore local tools (
+                        - code [ref=e867]: dotnet-ef
+                        - text: )
+                      - cell [ref=e868]:
+                        - code [ref=e869]: dotnet tool restore
+                    - row [ref=e870]:
+                      - cell "Restore NuGet packages" [ref=e871]
+                      - cell [ref=e872]:
+                        - code [ref=e873]: dotnet restore
+                    - row [ref=e874]:
+                      - cell "Build" [ref=e875]
+                      - cell [ref=e876]:
+                        - code [ref=e877]: dotnet build
+                    - row [ref=e878]:
+                      - cell "Run tests" [ref=e879]
+                      - cell [ref=e880]:
+                        - code [ref=e881]: dotnet test
+                    - row [ref=e882]:
+                      - cell "Apply/create the database" [ref=e883]
+                      - cell [ref=e884]:
+                        - code [ref=e885]: dotnet ef database update --project backend/src/CustomerManagement.Api
+                    - row [ref=e886]:
+                      - cell "Run the API" [ref=e887]
+                      - cell [ref=e888]:
+                        - code [ref=e889]: dotnet run --project backend/src/CustomerManagement.Api
+                    - row [ref=e890]:
+                      - cell "Add a new migration (after changing the model)" [ref=e891]
+                      - cell [ref=e892]:
+                        - code [ref=e893]: dotnet ef migrations add <Name> --project backend/src/CustomerManagement.Api
+                    - row [ref=e894]:
+                      - cell "Inspect the database via CLI" [ref=e895]
+                      - cell [ref=e896]:
+                        - code [ref=e897]: sqlite3 backend/src/CustomerManagement.Api/customers.db ".tables"
+                    - row [ref=e898]:
+                      - cell "Browse the database in Datasette" [ref=e899]
+                      - cell [ref=e900]:
+                        - code [ref=e901]: datasette serve backend/src/CustomerManagement.Api/customers.db --port 8001
+                    - row [ref=e902]:
+                      - cell "Install Datasette" [ref=e903]
+                      - cell [ref=e904]:
+                        - code [ref=e905]: pipx install datasette
+                - separator [ref=e906]
+                - generic [ref=e907]:
+                  - heading "10. Suggested first prompt for students" [level=2] [ref=e908]
+                  - 'link "Permalink: 10. Suggested first prompt for students" [ref=e909] [cursor=pointer]':
+                    - /url: "#10-suggested-first-prompt-for-students"
+                - paragraph [ref=e912]: "Open the GitHub Copilot app, connect it to this repository, and paste this prompt:"
+                - blockquote [ref=e913]:
+                  - paragraph [ref=e914]: I am new to this repository. Please read the README, inspect the project structure, follow the Agent setup instructions, check the prerequisites, restore the project, set up the SQLite database, run the API, start Datasette so I can browse the database, and show me how to add a customer using Swagger.
+                - separator [ref=e915]
+                - generic [ref=e916]:
+                  - heading "11. Troubleshooting" [level=2] [ref=e917]
+                  - 'link "Permalink: 11. Troubleshooting" [ref=e918] [cursor=pointer]':
+                    - /url: "#11-troubleshooting"
+                - list [ref=e921]:
+                  - listitem [ref=e922]:
+                    - strong [ref=e923]:
+                      - code [ref=e924]: "dotnet: command not found"
+                    - text: — the .NET SDK isn't installed or isn't on your
+                    - code [ref=e925]: PATH
+                    - text: . Ask the Copilot agent to help you install the .NET SDK, or download it from
+                    - link "https://dotnet.microsoft.com/download" [ref=e926] [cursor=pointer]:
+                      - /url: https://dotnet.microsoft.com/download
+                    - text: .
+                  - listitem [ref=e927]:
+                    - strong [ref=e928]:
+                      - code [ref=e929]: dotnet ef
+                      - text: isn't recognised
+                    - text: — run
+                    - code [ref=e930]: dotnet tool restore
+                    - text: first; the
+                    - code [ref=e931]: dotnet-ef
+                    - text: tool is defined locally in
+                    - code [ref=e932]: .config/dotnet-tools.json
+                    - text: .
+                  - listitem [ref=e933]:
+                    - strong [ref=e934]:
+                      - code [ref=e935]: "sqlite3: command not found"
+                    - text: — the SQLite command-line tooling isn't installed. It's only needed for inspecting the database directly; the API itself does not require it. Ask the agent to help you install it.
+                  - listitem [ref=e936]:
+                    - strong [ref=e937]:
+                      - code [ref=e938]: "'0xE2' is an invalid start of a value"
+                      - text: / "Failed to read parameter ... from the request body as JSON"
+                    - text: — your request body contains
+                    - strong [ref=e939]: smart/curly quotes
+                    - text: (
+                    - code [ref=e940]: “ ”
+                    - text: ) instead of straight quotes (
+                    - code [ref=e941]: "\""
+                    - text: ). Some editors and macOS (System Settings → Keyboard → Text Input → "Use smart quotes") replace straight quotes automatically. Retype the JSON using straight double quotes, e.g.
+                    - code [ref=e942]: "{\"firstName\": \"Ada\", \"lastName\": \"Lovelace\", \"email\": \"ada@example.com\"}"
+                    - text: . The API now returns a clear 400 message explaining this if it happens.
+                  - listitem [ref=e943]:
+                    - strong [ref=e944]: Port 5154 is already in use
+                    - text: — another process is using the port. Stop that process, or change the port in
+                    - code [ref=e945]: backend/src/CustomerManagement.Api/Properties/launchSettings.json
+                    - text: .
+                  - listitem [ref=e946]:
+                    - strong [ref=e947]: Swagger page doesn't load
+                    - text: — make sure the API is running and that you are in the Development environment (the default when using
+                    - code [ref=e948]: dotnet run
+                    - text: ). Swagger is only enabled in development.
+                  - listitem [ref=e949]:
+                    - strong [ref=e950]: Want to reset the data
+                    - text: — stop the API and delete
+                    - code [ref=e951]: backend/src/CustomerManagement.Api/customers.db
+                    - text: ", then run the app again to recreate an empty database."
+                  - listitem [ref=e952]:
+                    - strong [ref=e953]:
+                      - code [ref=e954]: "datasette: command not found"
+                    - text: — Datasette isn't installed or isn't on
+                    - code [ref=e955]: PATH
+                    - text: . Try
+                    - code [ref=e956]: ~/.local/bin/datasette
+                    - text: . If that also fails, ask the agent to install it with
+                    - code [ref=e957]: pipx install datasette
+                    - text: .
+                  - listitem [ref=e958]:
+                    - strong [ref=e959]: Datasette shows no rows
+                    - text: — make sure the API has been started at least once (so the migration runs and
+                    - code [ref=e960]: customers.db
+                    - text: is created) and that you've added at least one customer. Refresh the Datasette page after adding records.
+                  - listitem [ref=e961]:
+                    - strong [ref=e962]: Port 8001 is already in use
+                    - text: — another Datasette process may still be running. Find its PID with
+                    - code [ref=e963]: lsof -i :8001
+                    - text: and stop it, or start Datasette on a different port with
+                    - code [ref=e964]: "--port 8002"
+                    - text: .
+                  - listitem [ref=e965]:
+                    - strong [ref=e966]: Still stuck?
+                    - text: "Ask the GitHub Copilot agent:"
+                    - emphasis [ref=e967]: "\"The setup isn't working — please check my environment against the README prerequisites and help me fix it.\""
+                - separator [ref=e968]
+                - generic [ref=e969]:
+                  - heading "12. Project conventions for agent primitives" [level=2] [ref=e970]
+                  - 'link "Permalink: 12. Project conventions for agent primitives" [ref=e971] [cursor=pointer]':
+                    - /url: "#12-project-conventions-for-agent-primitives"
+                - paragraph [ref=e974]:
+                  - text: This repository is a GitHub Copilot training project. As you work through the course
+                  - strong [ref=e975]: on your own local clone
+                  - text: ", you may create"
+                  - strong [ref=e976]: agent primitives
+                  - text: — Copilot
+                  - strong [ref=e977]: skills
+                  - text: ", custom"
+                  - strong [ref=e978]: agents
+                  - text: ","
+                  - strong [ref=e979]: prompt files
+                  - text: ", and similar reusable building blocks. These should follow the official"
+                  - strong [ref=e980]: GitHub Copilot
+                  - text: directory conventions so that the Copilot app discovers and loads them automatically while you work locally.
+                - blockquote [ref=e981]:
+                  - paragraph [ref=e982]:
+                    - strong [ref=e983]: These are local-only.
+                    - text: You are not expected to commit or push anything — the convention is simply about
+                    - strong [ref=e984]: where to put primitives on your machine so they work
+                    - text: ", not about sharing them back to the repository."
+                - table [ref=e986]:
+                  - rowgroup [ref=e987]:
+                    - row [ref=e988]:
+                      - columnheader "Primitive" [ref=e989]
+                      - columnheader "Where to put it locally" [ref=e990]
+                  - rowgroup [ref=e991]:
+                    - row [ref=e992]:
+                      - cell "Skills" [ref=e993]
+                      - cell [ref=e994]:
+                        - code [ref=e995]: .github/skills/<skill-name>/SKILL.md
+                    - row [ref=e996]:
+                      - cell "Agents" [ref=e997]
+                      - cell [ref=e998]:
+                        - code [ref=e999]: .github/agents/
+                    - row [ref=e1000]:
+                      - cell "Prompt files" [ref=e1001]
+                      - cell [ref=e1002]:
+                        - code [ref=e1003]: .github/prompts/
+                - paragraph [ref=e1004]:
+                  - text: You can also place primitives in your personal Copilot directory (
+                  - code [ref=e1005]: ~/.copilot/skills/
+                  - text: ","
+                  - code [ref=e1006]: ~/.copilot/agents/
+                  - text: ","
+                  - code [ref=e1007]: ~/.copilot/prompts/
+                  - text: ) if you want them available across every repository rather than just this one.
+                - paragraph [ref=e1008]: "Guidelines:"
+                - list [ref=e1009]:
+                  - listitem [ref=e1010]:
+                    - strong [ref=e1011]: One folder per skill.
+                    - text: Each skill lives in its own directory under
+                    - code [ref=e1012]: .github/skills/
+                    - text: and contains a
+                    - code [ref=e1013]: SKILL.md
+                    - text: with YAML frontmatter (
+                    - code [ref=e1014]: name
+                    - text: ","
+                    - code [ref=e1015]: description
+                    - text: ) followed by the instructions. The
+                    - code [ref=e1016]: name
+                    - text: in the frontmatter must match the folder name.
+                  - listitem [ref=e1017]:
+                    - strong [ref=e1018]: Use the GitHub Copilot paths above
+                    - text: ", not the newer cross-editor"
+                    - code [ref=e1019]: .agents/
+                    - text: convention, so the Copilot app picks primitives up out of the box.
+                  - listitem [ref=e1020]:
+                    - strong [ref=e1021]: Nothing needs to be committed.
+                    - text: Your primitives stay on your machine. That is expected for this training project.
+                - paragraph [ref=e1022]:
+                  - strong [ref=e1023]: "Example skill:"
+                  - code [ref=e1024]: minimal-api-swagger-standards
+                  - text: (at
+                  - code [ref=e1025]: .github/skills/minimal-api-swagger-standards/SKILL.md
+                  - text: once you have it locally) captures the mandatory Swagger/OpenAPI documentation standards every API endpoint in this project should follow. When you ask the agent to add or change an endpoint, it applies this skill automatically.
+        - generic [ref=e1028]:
+          - generic [ref=e1029]:
+            - heading "About" [level=2] [ref=e1030]
+            - generic [ref=e1031]: No description, website, or topics provided.
+            - heading "Resources" [level=3] [ref=e1032]
+            - link "Readme" [ref=e1034] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+            - link "Activity" [ref=e1038] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/activity
+            - heading "Stars" [level=3] [ref=e1041]
+            - generic [ref=e1043]:
+              - strong [ref=e1046]: "0"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1047]
+            - generic [ref=e1049]:
+              - strong [ref=e1052]: "0"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1053]
+            - link [ref=e1055] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/forks
+              - strong [ref=e1059]: "0"
+              - text: forks
+            - link "Report repository" [ref=e1061] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Frichard-fowles-epam%2Fdevops-test-app-agent-test&report=richard-fowles-epam+%28user%29
+          - heading "Releases" [level=2] [ref=e1063]
+          - heading "Packages" [level=2] [ref=e1067]
+          - heading "Contributors" [level=2] [ref=e1070]
+          - heading "Languages" [level=2] [ref=e1073]
+    - contentinfo [ref=e1076]:
+      - heading "Footer" [level=2] [ref=e1077]
+      - generic [ref=e1078]:
+        - generic [ref=e1079]:
+          - link "GitHub Homepage" [ref=e1080] [cursor=pointer]:
+            - /url: https://github.com
+          - generic [ref=e1083]: © 2026 GitHub, Inc.
+        - navigation "Footer" [ref=e1084]:
+          - heading "Footer navigation" [level=3] [ref=e1085]
+          - list "Footer navigation" [ref=e1086]:
+            - listitem [ref=e1087]:
+              - link "Terms" [ref=e1088] [cursor=pointer]:
+                - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+            - listitem [ref=e1089]:
+              - link "Privacy" [ref=e1090] [cursor=pointer]:
+                - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+            - listitem [ref=e1091]:
+              - link "Security" [ref=e1092] [cursor=pointer]:
+                - /url: https://github.com/security
+            - listitem [ref=e1093]:
+              - link "Status" [ref=e1094] [cursor=pointer]:
+                - /url: https://www.githubstatus.com/
+            - listitem [ref=e1095]:
+              - link "Community" [ref=e1096] [cursor=pointer]:
+                - /url: https://github.community/
+            - listitem [ref=e1097]:
+              - link "Docs" [ref=e1098] [cursor=pointer]:
+                - /url: https://docs.github.com/
+            - listitem [ref=e1099]:
+              - link "Contact" [ref=e1100] [cursor=pointer]:
+                - /url: https://support.github.com?tags=dotcom-footer
+            - listitem [ref=e1101]:
+              - button "Manage cookies" [ref=e1103] [cursor=pointer]
+            - listitem [ref=e1104]:
+              - button "Do not share my personal information" [ref=e1106] [cursor=pointer]
+  - alert [ref=e1109]

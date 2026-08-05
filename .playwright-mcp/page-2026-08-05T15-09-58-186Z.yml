@@ -1,0 +1,227 @@
+- generic [ref=f41e2]:
+  - menu "Pull requests" [ref=f41e407]:
+    - menuitem "My open pull requests" [active] [ref=f41e408]
+    - menuitem "Summarize my latest PR" [ref=f41e413]
+  - link "Skip to content" [ref=f41e3] [cursor=pointer]:
+    - /url: "#start-of-content"
+  - main [ref=f41e7]:
+    - generic [ref=f41e10]:
+      - complementary [ref=f41e11]:
+        - generic [ref=f41e12]:
+          - generic [ref=f41e13]:
+            - heading "Copilot navigation" [level=2] [ref=f41e14]
+            - link "GitHub homepage" [ref=f41e15] [cursor=pointer]:
+              - /url: /
+          - generic [ref=f41e18]:
+            - navigation [ref=f41e19]:
+              - heading "Quick links" [level=3] [ref=f41e20]
+              - list [ref=f41e21]:
+                - listitem [ref=f41e22]:
+                  - link "New chat" [ref=f41e24] [cursor=pointer]:
+                    - /url: /copilot
+                - listitem [ref=f41e32]:
+                  - link "Agents" [ref=f41e34] [cursor=pointer]:
+                    - /url: /copilot/agents
+                - listitem [ref=f41e42]:
+                  - link "Spaces" [ref=f41e44] [cursor=pointer]:
+                    - /url: /copilot/spaces
+                - listitem [ref=f41e52]:
+                  - link "Spark" [ref=f41e54] [cursor=pointer]:
+                    - /url: /spark
+                    - generic [ref=f41e58]:
+                      - generic [ref=f41e59]: Spark
+                      - generic [ref=f41e61]: Preview
+            - navigation "Navigation" [ref=f41e66]:
+              - generic [ref=f41e68]:
+                - generic [ref=f41e69]:
+                  - generic [ref=f41e70]:
+                    - heading "Agent sessions" [level=4] [ref=f41e71]
+                    - button "New agent session" [ref=f41e72] [cursor=pointer]
+                  - list [ref=f41e211]:
+                    - listitem [ref=f41e212]:
+                      - link "Loading Detailed implementation plan for GET customer endpoint In progress · Aug 5, 20261m" [ref=f41e213] [cursor=pointer]:
+                        - /url: /richard-fowles-epam/devops-test-app-4/tasks/6e74e97b-2a6d-4b91-b736-a57b33be6710
+                        - generic [ref=f41e214]:
+                          - generic [ref=f41e215]:
+                            - generic [ref=f41e216]: Loading
+                            - generic [ref=f41e226]: Detailed implementation plan for GET customer endpoint
+                          - paragraph [ref=f41e227]: In progress · Aug 5, 20261m
+                      - generic [ref=f41e228]:
+                        - generic:
+                          - img "Cloud session"
+                        - generic:
+                          - button "Manage session"
+                    - listitem [ref=f41e229]:
+                      - link "Explaining repository structure and key technologies Completed · Aug 5, 20261m" [ref=f41e230] [cursor=pointer]:
+                        - /url: /richard-fowles-epam/devops-test-app-4/tasks/44c3c66e-98ba-4340-b094-15e5bd48f303
+                        - generic [ref=f41e231]:
+                          - generic [ref=f41e232]: Explaining repository structure and key technologies
+                          - paragraph [ref=f41e238]: Completed · Aug 5, 20261m
+                      - generic [ref=f41e239]:
+                        - generic:
+                          - img "Cloud session"
+                        - generic:
+                          - button "Manage session"
+                    - listitem [ref=f41e240]:
+                      - 'link "Implementing acceptance tests for customer deletion Draft · #10 · Aug 5, 20266m" [ref=f41e241] [cursor=pointer]':
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/855e6ce5-c6fa-4a5a-8788-613d04e91a5b
+                        - generic [ref=f41e242]:
+                          - generic [ref=f41e243]: Implementing acceptance tests for customer deletion
+                          - paragraph [ref=f41e249]: "Draft · #10 · Aug 5, 20266m"
+                      - generic [ref=f41e250]:
+                        - generic:
+                          - img "Cloud session"
+                        - generic:
+                          - button "Manage session"
+                    - listitem [ref=f41e251]:
+                      - link "Creating custom agent for .NET specialist Completed · Aug 5, 202615m" [ref=f41e252] [cursor=pointer]:
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/84b598a9-8f10-428e-9dc2-e5fda81877de
+                        - generic [ref=f41e253]:
+                          - generic [ref=f41e254]: Creating custom agent for .NET specialist
+                          - paragraph [ref=f41e260]: Completed · Aug 5, 202615m
+                      - generic [ref=f41e261]:
+                        - generic:
+                          - img "Cloud session"
+                        - generic:
+                          - button "Manage session"
+                    - listitem [ref=f41e262]:
+                      - link "Creating a custom SpecFlow automation tester agent Completed · Aug 5, 202615m" [ref=f41e263] [cursor=pointer]:
+                        - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/f324ab41-8da7-4d4e-a97d-44d37e7c7c85
+                        - generic [ref=f41e264]:
+                          - generic [ref=f41e265]: Creating a custom SpecFlow automation tester agent
+                          - paragraph [ref=f41e271]: Completed · Aug 5, 202615m
+                      - generic [ref=f41e272]:
+                        - generic:
+                          - img "Cloud session"
+                        - generic:
+                          - button "Manage session"
+                - generic [ref=f41e81]:
+                  - generic [ref=f41e82]:
+                    - heading "Chats" [level=4] [ref=f41e83]
+                    - button "New chat" [ref=f41e84] [cursor=pointer]
+                  - list [ref=f41e273]:
+                    - listitem [ref=f41e274]:
+                      - link "Copilot instructions affecting code review" [ref=f41e275] [cursor=pointer]:
+                        - /url: /copilot/c/f3cc9fcd-bc49-4f1d-843a-1b967b78e25d
+                      - button "Manage chat" [ref=f41e280] [cursor=pointer]
+                    - listitem [ref=f41e283]:
+                      - link "Copilot review comments suppression explained" [ref=f41e284] [cursor=pointer]:
+                        - /url: /copilot/c/bc52aa38-8b2b-4d38-8947-5083b417b5b6
+                      - button "Manage chat" [ref=f41e289] [cursor=pointer]
+                    - listitem [ref=f41e292]:
+                      - link "Copilot instructions not observed in PR" [ref=f41e293] [cursor=pointer]:
+                        - /url: /copilot/c/8efea79f-8a83-4d28-a30e-8c56ac2db96a
+                      - button "Manage chat" [ref=f41e298] [cursor=pointer]
+          - generic [ref=f41e93]:
+            - button "Collapse sidebar" [ref=f41e94] [cursor=pointer]:
+              - generic [ref=f41e98]: Collapse
+            - button "richard-fowles-epam Copilot Enterprise" [ref=f41e99] [cursor=pointer]:
+              - generic [ref=f41e101]:
+                - text: richard-fowles-epam
+                - generic [ref=f41e102]: Copilot Enterprise
+        - button "Condense sidebar" [ref=f41e103]
+      - generic [ref=f41e109]:
+        - link "Download GitHub Copilot app (opens in new tab)" [ref=f41e111] [cursor=pointer]:
+          - /url: https://github.com/features/ai/github-app
+          - generic [ref=f41e112]: Download
+        - button "More download options" [ref=f41e115] [cursor=pointer]
+      - generic [ref=f41e122]:
+        - generic [ref=f41e126]:
+          - heading "Copilot Chat" [level=1] [ref=f41e127]
+          - generic [ref=f41e128]:
+            - generic [ref=f41e136]:
+              - status [ref=f41e137]
+              - textbox "Ask anything or type @ to add context" [ref=f41e140]
+              - generic [ref=f41e141]:
+                - button "Ask" [ref=f41e144] [cursor=pointer]
+                - generic [ref=f41e147]:
+                  - button "Select repositories to attach to conversation" [ref=f41e148] [cursor=pointer]:
+                    - generic "All repositories" [ref=f41e151]
+                  - button "Add files, and spaces" [ref=f41e152] [cursor=pointer]
+                - generic [ref=f41e155]:
+                  - 'button "Model: Auto" [ref=f41e302] [cursor=pointer]':
+                    - generic [ref=f41e304]:
+                      - generic [ref=f41e305]: "Model:"
+                      - generic [ref=f41e306]: Auto
+                  - button "View token usage" [ref=f41e156] [cursor=pointer]
+                  - button "Send now (enter)" [ref=f41e160] [cursor=pointer]
+            - generic [ref=f41e163]:
+              - heading "Chat commands" [level=2] [ref=f41e164]
+              - list [ref=f41e166]:
+                - listitem [ref=f41e167]:
+                  - button "Debug" [ref=f41e168] [cursor=pointer]
+                - listitem [ref=f41e171]:
+                  - button "Agent" [ref=f41e172] [cursor=pointer]
+                - listitem [ref=f41e175]:
+                  - button "Create issue" [ref=f41e176] [cursor=pointer]
+                - listitem [ref=f41e179]:
+                  - button "Git" [ref=f41e180] [cursor=pointer]
+                - listitem [ref=f41e183]:
+                  - button "Pull requests" [expanded] [ref=f41e184] [cursor=pointer]
+          - generic [ref=f41e189]:
+            - generic [ref=f41e190]:
+              - heading "Recent agent sessions" [level=3] [ref=f41e191]
+              - link "View all sessions" [ref=f41e308] [cursor=pointer]:
+                - /url: /copilot/agents?q=is%3Aopen
+                - text: View all
+                - generic [ref=f41e309]: sessions
+            - list "Recent agent sessions" [ref=f41e193]:
+              - listitem [ref=f41e310]:
+                - generic [ref=f41e311]:
+                  - generic [ref=f41e312]: Loading
+                  - link "Detailed implementation plan for GET customer endpoint" [ref=f41e323] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-4/tasks/6e74e97b-2a6d-4b91-b736-a57b33be6710
+                  - generic [ref=f41e325]:
+                    - text: richard-fowles-epam/devops-test-app-4
+                    - generic [ref=f41e326]: ·
+                    - generic [ref=f41e327]: Started Aug 5, 2026now · In progress
+                  - img "Cloud session" [ref=f41e330]
+              - listitem [ref=f41e333]:
+                - generic [ref=f41e334]:
+                  - link "Explaining repository structure and key technologies" [ref=f41e340] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-4/tasks/44c3c66e-98ba-4340-b094-15e5bd48f303
+                  - generic [ref=f41e342]:
+                    - text: richard-fowles-epam/devops-test-app-4
+                    - generic [ref=f41e343]: ·
+                    - generic [ref=f41e344]: Completed Aug 5, 20261 minute ago · Completed
+                  - img "Cloud session" [ref=f41e347]
+              - listitem [ref=f41e350]:
+                - generic [ref=f41e351]:
+                  - link "Implementing acceptance tests for customer deletion" [ref=f41e357] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/855e6ce5-c6fa-4a5a-8788-613d04e91a5b
+                  - generic [ref=f41e359]:
+                    - text: "richard-fowles-epam/devops-test-app-agent-test #10"
+                    - generic [ref=f41e360]: ·
+                    - generic [ref=f41e361]: Completed Aug 5, 20266 minutes ago · Completed
+                  - generic [ref=f41e362]:
+                    - generic [ref=f41e363]:
+                      - generic [ref=f41e364]: "+58"
+                      - generic [ref=f41e365]: "Lines changed: 58 additions & 0 deletions"
+                    - img "Cloud session" [ref=f41e367]
+                  - generic [ref=f41e370]:
+                    - generic:
+                      - link "View pull request":
+                        - /url: https://github.com/richard-fowles-epam/devops-test-app-agent-test/pull/10
+              - listitem [ref=f41e371]:
+                - generic [ref=f41e372]:
+                  - link "Creating custom agent for .NET specialist" [ref=f41e378] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/84b598a9-8f10-428e-9dc2-e5fda81877de
+                  - generic [ref=f41e380]:
+                    - text: richard-fowles-epam/devops-test-app-agent-test
+                    - generic [ref=f41e381]: ·
+                    - generic [ref=f41e382]: Completed Aug 5, 202615 minutes ago · 2 revisions · Completed
+                  - img "Cloud session" [ref=f41e385]
+              - listitem [ref=f41e388]:
+                - generic [ref=f41e389]:
+                  - link "Creating a custom SpecFlow automation tester agent" [ref=f41e395] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/f324ab41-8da7-4d4e-a97d-44d37e7c7c85
+                  - generic [ref=f41e397]:
+                    - text: richard-fowles-epam/devops-test-app-agent-test
+                    - generic [ref=f41e398]: ·
+                    - generic [ref=f41e399]: Completed Aug 5, 202615 minutes ago · 2 revisions · Completed
+                  - img "Cloud session" [ref=f41e402]
+        - generic [ref=f41e207]:
+          - link "Copilot uses AI. Check for mistakes." [ref=f41e208] [cursor=pointer]:
+            - /url: https://docs.github.com/en/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-githubcom
+            - text: Copilot
+          - text: uses AI. Check for mistakes.

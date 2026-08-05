@@ -1,0 +1,163 @@
+- generic [ref=f12e2]:
+  - generic [ref=f12e3]:
+    - link "Skip to content" [ref=f12e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f12e8]:
+      - generic [ref=f12e9]:
+        - generic [ref=f12e10]:
+          - button "Open menu" [ref=f12e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f12e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f12e18]:
+          - navigation "Breadcrumbs" [ref=f12e19]:
+            - list [ref=f12e20]:
+              - listitem [ref=f12e21]:
+                - link "richard-fowles-epam" [ref=f12e22] [cursor=pointer]:
+                  - /url: /richard-fowles-epam
+              - listitem [ref=f12e24]:
+                - link "devops-test-app-agent-test" [ref=f12e25] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test
+                - button "Switch repository (option shift r)" [ref=f12e26] [cursor=pointer]
+          - button "Open quick search dialog, type / to search" [ref=f12e31] [cursor=pointer]:
+            - generic [ref=f12e33]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f12e34]:
+          - generic [ref=f12e35]:
+            - generic [ref=f12e37]:
+              - generic [ref=f12e38]:
+                - link "Chat with Copilot" [ref=f12e40] [cursor=pointer]:
+                  - /url: /copilot
+                - button "Open Copilot…" [ref=f12e45] [cursor=pointer]
+              - button "Open agents panel" [ref=f12e46] [cursor=pointer]
+            - button "Create new..." [ref=f12e49] [cursor=pointer]
+            - generic [ref=f12e51]:
+              - link "All issues" [ref=f12e52] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests" [ref=f12e56] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f12e59] [cursor=pointer]:
+                - /url: /repos
+          - link "You have unread notifications (g then n)" [ref=f12e62] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f12e66] [cursor=pointer]:
+            - img "User avatar" [ref=f12e67]
+      - heading "Repository navigation" [level=2] [ref=f12e68]
+      - navigation "Repository" [ref=f12e69]:
+        - list [ref=f12e70]:
+          - listitem [ref=f12e71]:
+            - link "Code" [ref=f12e72] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test
+          - listitem [ref=f12e74]:
+            - link "Issues" [ref=f12e75] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/issues
+          - listitem [ref=f12e77]:
+            - link "Pull requests (1)" [ref=f12e78] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulls
+              - generic [ref=f12e79]: Pull requests
+              - generic [ref=f12e80]:
+                - generic [ref=f12e81]: "1"
+                - generic [ref=f12e82]: (1)
+          - listitem [ref=f12e83]:
+            - link "Agents" [ref=f12e84] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/agents?author=richard-fowles-epam
+          - listitem [ref=f12e86]:
+            - link "Actions" [ref=f12e87] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/actions
+          - listitem [ref=f12e89]:
+            - link "Projects" [ref=f12e90] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/projects
+          - listitem [ref=f12e92]:
+            - link "Wiki" [ref=f12e93] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/wiki
+          - listitem [ref=f12e95]:
+            - link "Security and quality" [ref=f12e96] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/security
+          - listitem [ref=f12e98]:
+            - link "Insights" [ref=f12e99] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulse
+          - listitem [ref=f12e101]:
+            - link "Settings" [ref=f12e102] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/settings
+  - main [ref=f12e107]:
+    - generic [ref=f12e113]:
+      - generic [ref=f12e116]:
+        - link "Pull Request CI" [ref=f12e119] [cursor=pointer]:
+          - /url: /richard-fowles-epam/devops-test-app-agent-test/actions/workflows/ci.yml
+        - generic [ref=f12e123]:
+          - generic [ref=f12e124]:
+            - img "queued:" [ref=f12e128]
+            - 'heading "feat: add GET /customers/{id} endpoint #1" [level=1] [ref=f12e130]'
+          - generic [ref=f12e133]:
+            - 'button "Latest #2" [ref=f12e136] [cursor=pointer]'
+            - button "Workflow run options" [ref=f12e142] [cursor=pointer]
+      - generic [ref=f12e143]:
+        - navigation "Workflow run" [ref=f12e149]:
+          - list [ref=f12e150]:
+            - listitem [ref=f12e151]:
+              - link "Summary" [ref=f12e152] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/actions/runs/31015277045
+            - generic [ref=f12e155]:
+              - heading "All jobs" [level=4] [ref=f12e156]
+              - button "Filter by job status" [ref=f12e157] [cursor=pointer]
+            - listitem [ref=f12e160]
+            - listitem:
+              - list
+            - listitem [ref=f12e161]
+            - listitem [ref=f12e162]:
+              - heading "Run details" [level=3] [ref=f12e164]
+              - list "Run details" [ref=f12e165]:
+                - listitem [ref=f12e166]:
+                  - link "Usage" [ref=f12e167] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-agent-test/actions/runs/31015277045/usage
+                - listitem [ref=f12e170]:
+                  - link "Workflow file" [ref=f12e171] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-agent-test/actions/runs/31015277045/workflow
+        - generic [ref=f12e175]:
+          - region "Workflow run summary" [ref=f12e176]:
+            - generic [ref=f12e177]:
+              - generic [ref=f12e178]:
+                - generic [ref=f12e179]: Re-run triggered August 5, 2026 15:28now
+                - generic [ref=f12e180]:
+                  - link [ref=f12e181] [cursor=pointer]:
+                    - /url: /apps/copilot-swe-agent
+                    - img "@Copilot" [ref=f12e182]
+                    - text: Copilot
+                  - link "#1" [ref=f12e184] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-agent-test/pull/1
+                  - link "copilot/add-get-customer-endpoint" [ref=f12e185] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-agent-test/tree/refs/heads/copilot/add-get-customer-endpoint
+              - generic [ref=f12e186]:
+                - generic [ref=f12e187]: Status
+                - text: Queued
+              - generic [ref=f12e188]:
+                - generic [ref=f12e189]: Total duration
+                - link "–" [ref=f12e190] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test/actions/runs/31015277045/usage
+              - generic [ref=f12e191]:
+                - generic [ref=f12e192]: Artifacts
+                - text: –
+          - region "Workflow run graph" [ref=f12e193]:
+            - generic [ref=f12e195]:
+              - generic [ref=f12e197]:
+                - heading [level=2] [ref=f12e198]:
+                  - link "ci.yml" [ref=f12e199] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-agent-test/actions/runs/31015277045/workflow
+                - generic [ref=f12e200]: "on: pull_request"
+              - generic [ref=f12e202]:
+                - generic [ref=f12e203]: build-and-test
+                - generic [ref=f12e214]:
+                  - paragraph [ref=f12e215]: Oh hello! Nice to see you.
+                  - paragraph [ref=f12e216]:
+                    - text: Made with ❤️ by
+                    - link [ref=f12e217] [cursor=pointer]:
+                      - /url: https://actions.github.io/humans.txt
+                      - text: humans.txt
+              - generic [ref=f12e218]:
+                - button "Fit to window" [disabled] [ref=f12e219]
+                - generic [ref=f12e220]:
+                  - button "Zoom out" [disabled] [ref=f12e222]
+                  - button "Zoom in" [disabled] [ref=f12e224]
+          - region "Annotations"

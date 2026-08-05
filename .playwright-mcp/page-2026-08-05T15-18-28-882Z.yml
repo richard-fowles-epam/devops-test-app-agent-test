@@ -1,0 +1,314 @@
+- generic [ref=f45e2]:
+  - generic [ref=f45e3]:
+    - link "Skip to content" [ref=f45e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f45e8]:
+      - generic [ref=f45e9]:
+        - generic [ref=f45e10]:
+          - button "Open menu" [ref=f45e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f45e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f45e18]:
+          - navigation "Breadcrumbs" [ref=f45e19]:
+            - list [ref=f45e20]:
+              - listitem [ref=f45e21]:
+                - link "richard-fowles-epam" [ref=f45e22] [cursor=pointer]:
+                  - /url: /richard-fowles-epam
+              - listitem [ref=f45e24]:
+                - link "devops-test-app-agent-test" [ref=f45e25] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test
+                - button "Switch repository (option shift r)" [ref=f45e26] [cursor=pointer]
+          - button "Open quick search dialog, type / to search" [ref=f45e31] [cursor=pointer]:
+            - generic [ref=f45e33]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f45e34]:
+          - generic [ref=f45e35]:
+            - generic [ref=f45e37]:
+              - generic [ref=f45e38]:
+                - link "Chat with Copilot" [ref=f45e40] [cursor=pointer]:
+                  - /url: /copilot
+                - button "Open Copilot…" [ref=f45e45] [cursor=pointer]
+              - button "Open agents panel" [ref=f45e46] [cursor=pointer]
+            - button "Create new..." [ref=f45e49] [cursor=pointer]
+            - generic [ref=f45e51]:
+              - link "All issues" [ref=f45e52] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests" [ref=f45e56] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f45e59] [cursor=pointer]:
+                - /url: /repos
+          - link "You have unread notifications (g then n)" [ref=f45e246] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f45e66] [cursor=pointer]:
+            - img "User avatar" [ref=f45e67]
+      - heading "Repository navigation" [level=2] [ref=f45e68]
+      - navigation "Repository" [ref=f45e69]:
+        - list [ref=f45e70]:
+          - listitem [ref=f45e71]:
+            - link "Code" [ref=f45e72] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test
+          - listitem [ref=f45e74]:
+            - link "Issues (3)" [ref=f45e75] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/issues
+              - generic [ref=f45e76]: Issues
+              - generic [ref=f45e77]:
+                - generic [ref=f45e78]: "3"
+                - generic [ref=f45e79]: (3)
+          - listitem [ref=f45e80]:
+            - link "Pull requests (1)" [ref=f45e81] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulls
+              - generic [ref=f45e82]: Pull requests
+              - generic [ref=f45e83]:
+                - generic [ref=f45e84]: "1"
+                - generic [ref=f45e85]: (1)
+          - listitem [ref=f45e86]:
+            - link "Agents" [ref=f45e87] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/agents?author=richard-fowles-epam
+          - listitem [ref=f45e89]:
+            - link "Actions" [ref=f45e90] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/actions
+          - listitem [ref=f45e92]:
+            - link "Projects" [ref=f45e93] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/projects
+          - listitem [ref=f45e95]:
+            - link "Wiki" [ref=f45e96] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/wiki
+          - listitem [ref=f45e98]:
+            - link "Security and quality" [ref=f45e99] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/security
+          - listitem [ref=f45e101]:
+            - link "Insights" [ref=f45e102] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulse
+          - listitem [ref=f45e104]:
+            - link "Settings" [ref=f45e105] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/settings
+  - main [ref=f45e109]:
+    - generic [ref=f45e112]:
+      - complementary [ref=f45e113]:
+        - generic [ref=f45e114]:
+          - generic [ref=f45e115]:
+            - heading "Created by me" [level=2] [ref=f45e117]
+            - button "New session" [ref=f45e119] [cursor=pointer]
+          - list [ref=f45e247]:
+            - listitem [ref=f45e248]:
+              - generic [ref=f45e249]: Today
+            - listitem [ref=f45e250]:
+              - 'link "Implementing acceptance tests for customer deletion Draft · #10 · Aug 5, 202614m" [ref=f45e251] [cursor=pointer]':
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/855e6ce5-c6fa-4a5a-8788-613d04e91a5b
+                - generic [ref=f45e252]:
+                  - generic [ref=f45e253]: Implementing acceptance tests for customer deletion
+                  - paragraph [ref=f45e259]: "Draft · #10 · Aug 5, 202614m"
+              - generic [ref=f45e260]:
+                - generic:
+                  - img "Cloud session"
+                - generic:
+                  - button "Manage session"
+            - listitem [ref=f45e261]:
+              - link "Creating custom agent for .NET specialist Completed · Aug 5, 202623m" [ref=f45e262] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/84b598a9-8f10-428e-9dc2-e5fda81877de
+                - generic [ref=f45e263]:
+                  - generic [ref=f45e264]: Creating custom agent for .NET specialist
+                  - paragraph [ref=f45e270]: Completed · Aug 5, 202623m
+              - generic [ref=f45e271]:
+                - generic:
+                  - img "Cloud session"
+                - generic:
+                  - button "Manage session"
+            - listitem [ref=f45e272]:
+              - link "Creating a custom SpecFlow automation tester agent Completed · Aug 5, 202623m" [ref=f45e273] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/f324ab41-8da7-4d4e-a97d-44d37e7c7c85
+                - generic [ref=f45e274]:
+                  - generic [ref=f45e275]: Creating a custom SpecFlow automation tester agent
+                  - paragraph [ref=f45e281]: Completed · Aug 5, 202623m
+              - generic [ref=f45e282]:
+                - generic:
+                  - img "Cloud session"
+                - generic:
+                  - button "Manage session"
+            - listitem [ref=f45e283]:
+              - link "Understanding the codebase structure and technologies used Completed · Aug 5, 20261h" [ref=f45e284] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/05df01b0-c27a-49dd-b920-4ea93a5cfeb0
+                - generic [ref=f45e285]:
+                  - generic [ref=f45e286]: Understanding the codebase structure and technologies used
+                  - paragraph [ref=f45e292]: Completed · Aug 5, 20261h
+              - generic [ref=f45e293]:
+                - generic:
+                  - img "Cloud session"
+                - generic:
+                  - button "Manage session"
+          - generic [ref=f45e130]:
+            - region [ref=f45e131]:
+              - generic [ref=f45e136]:
+                - heading "Agent apps" [level=2] [ref=f45e137]
+                - generic [ref=f45e138]: Improve your workflow with agents from LaunchDarkly, Miro, PagerDuty and others, integrated into GitHub.
+              - button "Dismiss banner" [ref=f45e139] [cursor=pointer]
+            - generic [ref=f45e142]:
+              - link "Get started" [ref=f45e144] [cursor=pointer]:
+                - /url: https://gh.io/agent-apps-nudge
+              - group "Cycle through tips" [ref=f45e147]:
+                - button "Previous tip" [ref=f45e148] [cursor=pointer]
+                - button "Next tip" [ref=f45e151] [cursor=pointer]
+      - region "Task activity" [ref=f45e162]:
+        - button "Scroll to bottom" [ref=f45e594] [cursor=pointer]
+        - generic [ref=f45e163]:
+          - generic "Agent session header" [ref=f45e164]:
+            - 'heading "Review of Add SpecFlow acceptance coverage for `DELETE /customers/{id}`" [level=1] [ref=f45e166]'
+            - generic [ref=f45e169]:
+              - generic [ref=f45e180]: You
+              - generic [ref=f45e181]: created the session
+              - generic "Aug 5, 2026, 16:13 GMT+1" [ref=f45e182]: Aug 5, 20263 minutes ago
+              - generic [ref=f45e183]: ·
+              - generic [ref=f45e184]: 1 session
+              - button "1 successful check" [ref=f45e299] [cursor=pointer]:
+                - generic [ref=f45e300]: 1/1
+            - generic [ref=f45e185]:
+              - button "Give feedback" [ref=f45e186] [cursor=pointer]
+              - button "More actions" [ref=f45e189] [cursor=pointer]
+              - generic [ref=f45e192]:
+                - link "View pull request" [ref=f45e194] [cursor=pointer]:
+                  - /url: https://github.com/richard-fowles-epam/devops-test-app-agent-test/pull/10
+                - link "View files changed" [ref=f45e198] [cursor=pointer]:
+                  - /url: https://github.com/richard-fowles-epam/devops-test-app-agent-test/pull/10/files
+          - generic [ref=f45e201]:
+            - paragraph [ref=f45e205]:
+              - generic [ref=f45e206]: You
+              - text: requested a review
+            - generic [ref=f45e208]:
+              - generic [ref=f45e209] [cursor=pointer]:
+                - img "Copilot Code Review" [ref=f45e302]
+                - generic [ref=f45e215]:
+                  - generic [ref=f45e216]: Reviewing pull request
+                  - button "Reviewing pull request" [expanded] [ref=f45e217]
+                - time [ref=f45e222]: 4m 11s
+                - button "More actions" [ref=f45e224]
+              - generic [ref=f45e229]:
+                - generic [ref=f45e602]:
+                  - 'button "Custom setup run: Setting up environment" [expanded] [ref=f45e605] [cursor=pointer]':
+                    - img "Custom setup run:" [ref=f45e608]
+                    - generic [ref=f45e613]: Setting up environment
+                  - generic [ref=f45e617]:
+                    - button "Start 'github-mcp-server' MCP server" [ref=f45e620] [cursor=pointer]
+                    - button "Start 'playwright' MCP server" [ref=f45e626] [cursor=pointer]
+                - generic [ref=f45e630]:
+                  - 'button "Search: Search 5 times" [expanded] [ref=f45e633] [cursor=pointer]':
+                    - img "Search:" [ref=f45e636]
+                    - generic [ref=f45e640]: Search 5 times
+                  - generic [ref=f45e644]:
+                    - button [ref=f45e647] [cursor=pointer]
+                    - button [ref=f45e653] [cursor=pointer]
+                    - button [ref=f45e659] [cursor=pointer]
+                    - button [ref=f45e665] [cursor=pointer]
+                    - button [ref=f45e671] [cursor=pointer]
+                - generic [ref=f45e675]:
+                  - 'button "View file: View 6 files" [expanded] [ref=f45e678] [cursor=pointer]':
+                    - img "View file:" [ref=f45e681]
+                    - generic [ref=f45e685]: View 6 files
+                  - generic [ref=f45e689]:
+                    - button [ref=f45e692] [cursor=pointer]
+                    - button [ref=f45e698] [cursor=pointer]
+                    - button [ref=f45e704] [cursor=pointer]
+                    - button [ref=f45e710] [cursor=pointer]
+                    - button [ref=f45e716] [cursor=pointer]
+                    - button [ref=f45e722] [cursor=pointer]
+                - generic [ref=f45e726]:
+                  - 'button "View file: View 3 files" [expanded] [ref=f45e729] [cursor=pointer]':
+                    - img "View file:" [ref=f45e732]
+                    - generic [ref=f45e736]: View 3 files
+                  - generic [ref=f45e740]:
+                    - button [ref=f45e743] [cursor=pointer]
+                    - button [ref=f45e749] [cursor=pointer]
+                    - button [ref=f45e755] [cursor=pointer]
+                - 'button "Find files: Find files backend/tests/CustomerManagement.AcceptanceTests/*.csproj" [ref=f45e761] [cursor=pointer]':
+                  - img "Find files:" [ref=f45e764]
+                  - generic [ref=f45e768]: Find files backend/tests/CustomerManagement.AcceptanceTests/*.csproj
+                - 'button "View file: View backend/tests/CustomerManagement.AcceptanceTests/CustomerManagement.AcceptanceTests.csproj:1-200" [ref=f45e771] [cursor=pointer]':
+                  - img "View file:" [ref=f45e774]
+                  - generic [ref=f45e778]: View backend/tests/CustomerManagement.AcceptanceTests/CustomerManagement.AcceptanceTests.csproj:1-200
+                - 'button "View file: View backend/tests/CustomerManagement.AcceptanceTests/Features/CreateCustomer.feature.cs:1-60" [ref=f45e781] [cursor=pointer]':
+                  - img "View file:" [ref=f45e784]
+                  - generic [ref=f45e788]: View backend/tests/CustomerManagement.AcceptanceTests/Features/CreateCustomer.feature.cs:1-60
+                - 'button "Search: Search GenerateSpecFlowFeatureFiles|SpecFlowGeneratedFiles|SpecFlow\\.Tools\\.MsBuild" [ref=f45e791] [cursor=pointer]':
+                  - img "Search:" [ref=f45e794]
+                  - generic [ref=f45e798]: Search GenerateSpecFlowFeatureFiles|SpecFlowGeneratedFiles|SpecFlow\.Tools\.MsBuild
+                - 'button "View file: View backend/tests/CustomerManagement.AcceptanceTests/Features" [ref=f45e801] [cursor=pointer]':
+                  - img "View file:" [ref=f45e804]
+                  - generic [ref=f45e808]: View backend/tests/CustomerManagement.AcceptanceTests/Features
+                - 'button "Tool output: Store comment" [ref=f45e811] [cursor=pointer]':
+                  - img "Tool output:" [ref=f45e814]
+                  - generic [ref=f45e818]: Store comment
+                - 'button "View file: View backend/tests/CustomerManagement.AcceptanceTests/StepDefinitions/DeleteCustomerSteps.cs:1-120" [ref=f45e821] [cursor=pointer]':
+                  - img "View file:" [ref=f45e824]
+                  - generic [ref=f45e828]: View backend/tests/CustomerManagement.AcceptanceTests/StepDefinitions/DeleteCustomerSteps.cs:1-120
+                - generic [ref=f45e829]:
+                  - 'button "Tool output: store_comment" [expanded] [ref=f45e832] [cursor=pointer]':
+                    - img "Tool output:" [ref=f45e835]
+                    - generic [ref=f45e839]: store_comment
+                  - generic [ref=f45e843]:
+                    - button "Store comment" [ref=f45e846] [cursor=pointer]
+                    - button "Store comment" [ref=f45e852] [cursor=pointer]
+                    - button "Store comment" [ref=f45e858] [cursor=pointer]
+                    - button "Store comment" [ref=f45e864] [cursor=pointer]
+                - 'button "Tool output: Store memory" [ref=f45e870] [cursor=pointer]':
+                  - img "Tool output:" [ref=f45e873]
+                  - generic [ref=f45e877]: Store memory
+            - generic [ref=f45e881]:
+              - heading "PR Overview" [level=2] [ref=f45e882]
+              - paragraph [ref=f45e883]:
+                - text: Adds SpecFlow end-to-end acceptance coverage for
+                - code [ref=f45e884]: "DELETE /customers/{id}"
+                - text: in
+                - code [ref=f45e885]: CustomerManagement.AcceptanceTests
+                - text: ", exercising the API over HTTP via the existing in-memory test host patterns."
+              - paragraph [ref=f45e886]:
+                - strong [ref=f45e887]: "Changes:"
+              - list [ref=f45e888]:
+                - listitem [ref=f45e889]:
+                  - text: Added
+                  - code [ref=f45e890]: DeleteCustomer.feature
+                  - text: scenarios covering
+                  - code [ref=f45e891]: "204"
+                  - text: for existing deletes,
+                  - code [ref=f45e892]: "404"
+                  - text: for non-existent deletes, and delete-then-get returning
+                  - code [ref=f45e893]: "404"
+                  - text: .
+                - listitem [ref=f45e894]:
+                  - text: Added
+                  - code [ref=f45e895]: DeleteCustomerSteps
+                  - text: step definitions using the existing
+                  - code [ref=f45e896]: ScenarioWorld
+                  - text: /
+                  - code [ref=f45e897]: ScenarioState
+                  - text: pattern to call
+                  - code [ref=f45e898]: DELETE
+                  - text: and
+                  - code [ref=f45e899]: GET
+                  - text: .
+                - listitem [ref=f45e900]:
+                  - text: Added
+                  - code [ref=f45e901]: .github/copilot-instructions.md
+                  - text: documenting a private-field naming requirement.
+              - heading "Reviewed Changes" [level=3] [ref=f45e902]
+              - table [ref=f45e903]:
+                - rowgroup [ref=f45e904]:
+                  - row [ref=f45e905]:
+                    - columnheader "File" [ref=f45e906]
+                    - columnheader "Description" [ref=f45e907]
+                - rowgroup [ref=f45e908]:
+                  - row [ref=f45e909]:
+                    - cell "backend/tests/CustomerManagement.AcceptanceTests/StepDefinitions/DeleteCustomerSteps.cs" [ref=f45e910]
+                    - cell [ref=f45e911]:
+                      - text: Adds SpecFlow step definitions to issue
+                      - code [ref=f45e912]: DELETE
+                      - text: /
+                      - code [ref=f45e913]: GET
+                      - text: requests for delete scenarios.
+                  - row [ref=f45e914]:
+                    - cell "backend/tests/CustomerManagement.AcceptanceTests/Features/DeleteCustomer.feature" [ref=f45e915]
+                    - cell "Adds SpecFlow feature/scenarios for customer deletion and post-delete retrieval behavior." [ref=f45e916]
+                  - row [ref=f45e917]:
+                    - cell ".github/copilot-instructions.md" [ref=f45e918]
+                    - cell "Documents a private-field naming convention for contributors/tools." [ref=f45e919]

@@ -1,0 +1,91 @@
+- generic [ref=f41e2]:
+  - link "Skip to content" [ref=f41e3] [cursor=pointer]:
+    - /url: "#start-of-content"
+  - main [ref=f41e7]:
+    - generic [ref=f41e10]:
+      - complementary [ref=f41e11]:
+        - generic [ref=f41e12]:
+          - generic [ref=f41e13]:
+            - heading "Copilot navigation" [level=2] [ref=f41e14]
+            - link "GitHub homepage" [ref=f41e15] [cursor=pointer]:
+              - /url: /
+          - generic [ref=f41e18]:
+            - navigation [ref=f41e19]:
+              - heading "Quick links" [level=3] [ref=f41e20]
+              - list [ref=f41e21]:
+                - listitem [ref=f41e22]:
+                  - link "New chat" [ref=f41e24] [cursor=pointer]:
+                    - /url: /copilot
+                - listitem [ref=f41e32]:
+                  - link "Agents" [ref=f41e34] [cursor=pointer]:
+                    - /url: /copilot/agents
+                - listitem [ref=f41e42]:
+                  - link "Spaces" [ref=f41e44] [cursor=pointer]:
+                    - /url: /copilot/spaces
+                - listitem [ref=f41e52]:
+                  - link "Spark" [ref=f41e54] [cursor=pointer]:
+                    - /url: /spark
+                    - generic [ref=f41e58]:
+                      - generic [ref=f41e59]: Spark
+                      - generic [ref=f41e61]: Preview
+            - navigation "Navigation" [ref=f41e66]:
+              - generic [ref=f41e68]:
+                - generic [ref=f41e70]:
+                  - heading "Agent sessions" [level=4] [ref=f41e71]
+                  - button "New agent session" [ref=f41e72] [cursor=pointer]
+                - generic [ref=f41e82]:
+                  - heading "Chats" [level=4] [ref=f41e83]
+                  - button "New chat" [ref=f41e84] [cursor=pointer]
+          - generic [ref=f41e93]:
+            - button "Collapse sidebar" [ref=f41e94] [cursor=pointer]:
+              - generic [ref=f41e98]: Collapse
+            - button "richard-fowles-epam Copilot Enterprise" [ref=f41e99] [cursor=pointer]:
+              - generic [ref=f41e101]:
+                - text: richard-fowles-epam
+                - generic [ref=f41e102]: Copilot Enterprise
+        - button "Condense sidebar" [ref=f41e103]
+      - generic [ref=f41e109]:
+        - link "Download GitHub Copilot app (opens in new tab)" [ref=f41e111] [cursor=pointer]:
+          - /url: https://github.com/features/ai/github-app
+          - generic [ref=f41e112]: Download
+        - button "More download options" [ref=f41e115] [cursor=pointer]
+      - generic [ref=f41e122]:
+        - generic [ref=f41e126]:
+          - heading "Copilot Chat" [level=1] [ref=f41e127]
+          - generic [ref=f41e128]:
+            - generic [ref=f41e136]:
+              - status [ref=f41e137]
+              - textbox "Ask anything or type @ to add context" [active] [ref=f41e140]
+              - generic [ref=f41e141]:
+                - button "Ask" [ref=f41e144] [cursor=pointer]
+                - generic [ref=f41e147]:
+                  - button "Select repositories to attach to conversation" [ref=f41e148] [cursor=pointer]:
+                    - generic "All repositories" [ref=f41e151]
+                  - button "Add files, and spaces" [ref=f41e152] [cursor=pointer]
+                - generic [ref=f41e155]:
+                  - button "View token usage" [ref=f41e156] [cursor=pointer]
+                  - button "Send now (enter)" [ref=f41e160] [cursor=pointer]
+            - generic [ref=f41e163]:
+              - heading "Chat commands" [level=2] [ref=f41e164]
+              - list [ref=f41e166]:
+                - listitem [ref=f41e167]:
+                  - button "Debug" [ref=f41e168] [cursor=pointer]
+                - listitem [ref=f41e171]:
+                  - button "Agent" [ref=f41e172] [cursor=pointer]
+                - listitem [ref=f41e175]:
+                  - button "Create issue" [ref=f41e176] [cursor=pointer]
+                - listitem [ref=f41e179]:
+                  - button "Git" [ref=f41e180] [cursor=pointer]
+                - listitem [ref=f41e183]:
+                  - button "Pull requests" [ref=f41e184] [cursor=pointer]
+          - generic [ref=f41e189]:
+            - heading "Recent agent sessions" [level=3] [ref=f41e191]
+            - list "Recent agent sessions" [ref=f41e193]:
+              - listitem [ref=f41e194]
+              - listitem [ref=f41e198]
+              - listitem [ref=f41e202]
+        - generic [ref=f41e207]:
+          - link "Copilot uses AI. Check for mistakes." [ref=f41e208] [cursor=pointer]:
+            - /url: https://docs.github.com/en/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-githubcom
+            - text: Copilot
+          - text: uses AI. Check for mistakes.

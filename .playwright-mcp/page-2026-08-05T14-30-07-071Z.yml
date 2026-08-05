@@ -1,0 +1,136 @@
+- generic [ref=f14e2]:
+  - generic [ref=f14e3]:
+    - link "Skip to content" [ref=f14e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f14e8]:
+      - generic [ref=f14e9]:
+        - generic [ref=f14e10]:
+          - button "Open menu" [ref=f14e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f14e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f14e18]:
+          - navigation "Breadcrumbs" [ref=f14e19]:
+            - list [ref=f14e20]:
+              - listitem [ref=f14e21]:
+                - link "richard-fowles-epam" [ref=f14e22] [cursor=pointer]:
+                  - /url: /richard-fowles-epam
+              - listitem [ref=f14e24]:
+                - link "devops-test-app-agent-test" [ref=f14e25] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test
+                - button "Switch repository (option shift r)" [ref=f14e26] [cursor=pointer]
+          - button "Open quick search dialog, type / to search" [ref=f14e31] [cursor=pointer]:
+            - generic [ref=f14e33]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f14e34]:
+          - generic [ref=f14e35]:
+            - generic [ref=f14e37]:
+              - generic [ref=f14e38]:
+                - link "Chat with Copilot" [ref=f14e40] [cursor=pointer]:
+                  - /url: /copilot
+                - button "Open Copilot…" [ref=f14e45] [cursor=pointer]
+              - button "Open agents panel" [ref=f14e46] [cursor=pointer]
+            - button "Create new..." [ref=f14e49] [cursor=pointer]
+            - generic [ref=f14e51]:
+              - link "All issues" [ref=f14e52] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests" [ref=f14e56] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f14e59] [cursor=pointer]:
+                - /url: /repos
+          - link "You have no unread notifications (g then n)" [ref=f14e62] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f14e66] [cursor=pointer]:
+            - img "User avatar" [ref=f14e67]
+      - heading "Repository navigation" [level=2] [ref=f14e68]
+      - navigation "Repository" [ref=f14e69]:
+        - list [ref=f14e70]:
+          - listitem [ref=f14e71]:
+            - link "Code" [ref=f14e72] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test
+          - listitem [ref=f14e74]:
+            - link "Issues" [ref=f14e75] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/issues
+          - listitem [ref=f14e77]:
+            - link "Pull requests" [ref=f14e78] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulls
+          - listitem [ref=f14e80]:
+            - link "Agents" [ref=f14e81] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/agents?author=richard-fowles-epam
+          - listitem [ref=f14e83]:
+            - link "Actions" [ref=f14e84] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/actions
+          - listitem [ref=f14e86]:
+            - link "Projects" [ref=f14e87] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/projects
+          - listitem [ref=f14e89]:
+            - link "Wiki" [ref=f14e90] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/wiki
+          - listitem [ref=f14e92]:
+            - link "Security and quality" [ref=f14e93] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/security
+          - listitem [ref=f14e95]:
+            - link "Insights" [ref=f14e96] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulse
+          - listitem [ref=f14e98]:
+            - link "Settings" [ref=f14e99] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/settings
+  - main [ref=f14e103]:
+    - generic [ref=f14e107]:
+      - link "View richard-fowles-epam's profile" [ref=f14e108] [cursor=pointer]:
+        - /url: /richard-fowles-epam
+      - generic [ref=f14e110]:
+        - heading "Create new issue" [level=1] [ref=f14e111]
+        - list [ref=f14e114]:
+          - listitem [ref=f14e115]:
+            - heading "Templates and forms" [level=2] [ref=f14e117]
+            - list "Templates and forms" [ref=f14e118]:
+              - listitem [ref=f14e119]:
+                - link "Agent Task" [ref=f14e120] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test/issues/new?template=agent-task.yml
+                  - generic [ref=f14e122]:
+                    - generic [ref=f14e123]: Agent Task
+                    - generic [ref=f14e124]: Define a task for an autonomous coding agent to pick up and complete.
+              - listitem [ref=f14e125]:
+                - link "Blank issue" [ref=f14e126] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test/issues/new?template=BLANK_ISSUE
+                  - generic [ref=f14e128]:
+                    - generic [ref=f14e129]: Blank issue
+                    - generic [ref=f14e130]: Create a new issue from scratch
+  - contentinfo [ref=f14e131]:
+    - heading "Footer" [level=2] [ref=f14e132]
+    - generic [ref=f14e133]:
+      - generic [ref=f14e134]:
+        - link "GitHub Homepage" [ref=f14e135] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=f14e138]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=f14e139]:
+        - heading "Footer navigation" [level=3] [ref=f14e140]
+        - list "Footer navigation" [ref=f14e141]:
+          - listitem [ref=f14e142]:
+            - link "Terms" [ref=f14e143] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=f14e144]:
+            - link "Privacy" [ref=f14e145] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=f14e146]:
+            - link "Security" [ref=f14e147] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=f14e148]:
+            - link "Status" [ref=f14e149] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=f14e150]:
+            - link "Community" [ref=f14e151] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=f14e152]:
+            - link "Docs" [ref=f14e153] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=f14e154]:
+            - link "Contact" [ref=f14e155] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=f14e156]:
+            - button "Manage cookies" [ref=f14e158] [cursor=pointer]
+          - listitem [ref=f14e159]:
+            - button "Do not share my personal information" [ref=f14e161] [cursor=pointer]

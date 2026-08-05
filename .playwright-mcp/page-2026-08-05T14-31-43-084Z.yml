@@ -1,0 +1,427 @@
+- generic [ref=f17e2]:
+  - generic:
+    - generic:
+      - tooltip "You are the owner of the devops-test-app-agent-test repository."
+  - generic [ref=f17e3]:
+    - link "Skip to content" [ref=f17e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f17e8]:
+      - generic [ref=f17e9]:
+        - generic [ref=f17e10]:
+          - button "Open menu" [ref=f17e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f17e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f17e18]:
+          - navigation "Breadcrumbs" [ref=f17e19]:
+            - list [ref=f17e20]:
+              - listitem [ref=f17e21]:
+                - link "richard-fowles-epam" [ref=f17e22] [cursor=pointer]:
+                  - /url: /richard-fowles-epam
+              - listitem [ref=f17e24]:
+                - link "devops-test-app-agent-test" [ref=f17e25] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test
+                - button "Switch repository (option shift r)" [ref=f17e26] [cursor=pointer]
+          - button "Open quick search dialog, type / to search" [ref=f17e31] [cursor=pointer]:
+            - generic [ref=f17e33]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f17e34]:
+          - generic [ref=f17e35]:
+            - generic [ref=f17e37]:
+              - generic [ref=f17e38]:
+                - link "Chat with Copilot" [ref=f17e40] [cursor=pointer]:
+                  - /url: /copilot
+                - button "Open Copilot…" [ref=f17e45] [cursor=pointer]
+              - button "Open agents panel" [ref=f17e46] [cursor=pointer]
+            - button "Create new..." [ref=f17e49] [cursor=pointer]
+            - generic [ref=f17e51]:
+              - link "All issues" [ref=f17e52] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests" [ref=f17e56] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f17e59] [cursor=pointer]:
+                - /url: /repos
+          - link "You have no unread notifications (g then n)" [ref=f17e62] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f17e66] [cursor=pointer]:
+            - img "User avatar" [ref=f17e67]
+      - heading "Repository navigation" [level=2] [ref=f17e68]
+      - navigation "Repository" [ref=f17e69]:
+        - list [ref=f17e70]:
+          - listitem [ref=f17e71]:
+            - link "Code" [ref=f17e72] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test
+          - listitem [ref=f17e74]:
+            - link "Issues (5)" [ref=f17e75] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/issues
+              - generic [ref=f17e76]: Issues
+              - generic [ref=f17e77]:
+                - generic [ref=f17e78]: "5"
+                - generic [ref=f17e79]: (5)
+          - listitem [ref=f17e80]:
+            - link "Pull requests" [ref=f17e81] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulls
+          - listitem [ref=f17e83]:
+            - link "Agents" [ref=f17e84] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/agents?author=richard-fowles-epam
+          - listitem [ref=f17e86]:
+            - link "Discussions" [ref=f17e87] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/discussions
+          - listitem [ref=f17e89]:
+            - link "Actions" [ref=f17e90] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/actions
+          - listitem [ref=f17e92]:
+            - link "Projects" [ref=f17e93] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/projects
+          - listitem [ref=f17e95]:
+            - link "Wiki" [ref=f17e96] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/wiki
+          - listitem [ref=f17e98]:
+            - link "Security and quality" [ref=f17e99] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/security
+          - listitem [ref=f17e101]:
+            - link "Insights" [ref=f17e102] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulse
+          - listitem [ref=f17e104]:
+            - link "Settings" [ref=f17e105] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/settings
+  - main [ref=f17e110]:
+    - generic [ref=f17e116]:
+      - region "Header" [ref=f17e118]:
+        - generic [ref=f17e119]:
+          - 'heading "[Agent Task]: Update customer #2 Edit issue title" [level=1] [ref=f17e121]':
+            - text: "[Agent Task]: Update customer"
+            - generic [ref=f17e122]:
+              - generic [ref=f17e123]: "#2"
+              - button "Edit issue title" [ref=f17e124] [cursor=pointer]
+          - generic [ref=f17e128]:
+            - link "New issue" [ref=f17e130] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/issues/new/choose
+            - button "Copy link" [ref=f17e133] [cursor=pointer]
+      - generic [ref=f17e142]:
+        - img "Issue" [ref=f17e143]
+        - text: Open
+      - generic [ref=f17e147]:
+        - generic [ref=f17e148]:
+          - generic [ref=f17e151]:
+            - heading "Description" [level=2] [ref=f17e152]
+            - generic [ref=f17e154]:
+              - generic [ref=f17e156]:
+                - link "@richard-fowles-epam's profile" [ref=f17e158] [cursor=pointer]:
+                  - /url: https://github.com/richard-fowles-epam
+                  - img "@richard-fowles-epam" [ref=f17e159]
+                - generic [ref=f17e160]:
+                  - link "richard-fowles-epam" [ref=f17e162] [cursor=pointer]:
+                    - /url: https://github.com/richard-fowles-epam
+                  - generic [ref=f17e163]:
+                    - text: opened
+                    - link "on Aug 5, 20261m ago" [ref=f17e164] [cursor=pointer]:
+                      - /url: https://github.com/richard-fowles-epam/devops-test-app-agent-test/issues/2#issue-5071960826
+                - generic [ref=f17e166]:
+                  - generic "You are the owner of the devops-test-app-agent-test repository." [ref=f17e168]: Owner
+                  - button "Issue body actions" [ref=f17e170] [cursor=pointer]
+              - generic [ref=f17e173]:
+                - generic [ref=f17e175]:
+                  - heading "Context and inputs" [level=3] [ref=f17e176]
+                  - list [ref=f17e177]:
+                    - listitem [ref=f17e178]:
+                      - text: "Related issue/PR: none — this is the next endpoint to add after"
+                      - code [ref=f17e179]: POST /customers
+                      - text: (Add) and
+                      - code [ref=f17e180]: "GET /customers/{id}"
+                      - text: (Get)
+                    - listitem [ref=f17e181]:
+                      - text: "Starting point (branch, files, or module):"
+                      - list [ref=f17e182]:
+                        - listitem [ref=f17e183]:
+                          - code [ref=f17e184]: backend/src/CustomerManagement.Api/Program.cs
+                          - text: — existing minimal API endpoints (
+                          - code [ref=f17e185]: AddCustomer
+                          - text: ","
+                          - code [ref=f17e186]: GetCustomer
+                          - text: )
+                        - listitem [ref=f17e187]:
+                          - code [ref=f17e188]: backend/src/CustomerManagement.Api/Models/Customer.cs
+                          - text: and
+                          - code [ref=f17e189]: Models/AddCustomerRequest.cs
+                        - listitem [ref=f17e190]:
+                          - code [ref=f17e191]: backend/src/CustomerManagement.Api/Data/AppDbContext.cs
+                        - listitem [ref=f17e192]:
+                          - code [ref=f17e193]: backend/tests/CustomerManagement.UnitTests/
+                          - text: (xUnit)
+                        - listitem [ref=f17e194]:
+                          - code [ref=f17e195]: backend/tests/CustomerManagement.AcceptanceTests/
+                          - text: (SpecFlow —
+                          - code [ref=f17e196]: Features/
+                          - text: ","
+                          - code [ref=f17e197]: StepDefinitions/
+                          - text: ","
+                          - code [ref=f17e198]: Support/
+                          - text: )
+                    - listitem [ref=f17e199]:
+                      - text: "Constraints (frameworks, versions, style rules):"
+                      - list [ref=f17e200]:
+                        - listitem [ref=f17e201]:
+                          - text: .NET minimal APIs (no controllers) — follow the existing endpoint style in
+                          - code [ref=f17e202]: Program.cs
+                        - listitem [ref=f17e203]:
+                          - text: EF Core with SQLite via
+                          - code [ref=f17e204]: AppDbContext
+                        - listitem [ref=f17e205]:
+                          - text: Reuse the existing
+                          - code [ref=f17e206]: DataAnnotations
+                          - text: validation pattern (see
+                          - code [ref=f17e207]: AddCustomerRequest
+                          - text: ) for the update request body
+                        - listitem [ref=f17e208]:
+                          - text: "Unit tests: xUnit, following the style/naming in"
+                          - code [ref=f17e209]: AddCustomerTests.cs
+                          - text: /
+                          - code [ref=f17e210]: GetCustomerTests.cs
+                        - listitem [ref=f17e211]:
+                          - text: "Acceptance tests: SpecFlow Gherkin feature file + step definitions, following the style of"
+                          - code [ref=f17e212]: CreateCustomer.feature
+                          - text: /
+                          - code [ref=f17e213]: GetCustomer.feature
+                          - text: and their step definitions
+                    - listitem [ref=f17e214]:
+                      - text: "Relevant background/context:"
+                      - list [ref=f17e215]:
+                        - listitem [ref=f17e216]: The API currently supports Add and Get only. Update and Delete are explicitly called out in the Swagger description as "Not included (yet)".
+                        - listitem [ref=f17e217]:
+                          - text: "A customer has three editable fields:"
+                          - code [ref=f17e218]: firstName
+                          - text: ","
+                          - code [ref=f17e219]: lastName
+                          - text: ","
+                          - code [ref=f17e220]: email
+                          - text: (all required,
+                          - code [ref=f17e221]: email
+                          - text: must be a valid email format).
+                  - heading "Expected outputs" [level=3] [ref=f17e222]
+                  - list [ref=f17e223]:
+                    - listitem [ref=f17e224]: "Plan: a written plan describing the approach, posted for review before/with the PR"
+                    - listitem [ref=f17e225]:
+                      - text: "Pull request: implements"
+                      - code [ref=f17e226]: "PUT /customers/{id}"
+                      - text: ", targets the correct branch, references this issue"
+                    - listitem [ref=f17e227]:
+                      - text: "Evidence:"
+                      - code [ref=f17e228]: dotnet test
+                      - text: output for both
+                      - code [ref=f17e229]: CustomerManagement.UnitTests
+                      - text: and
+                      - code [ref=f17e230]: CustomerManagement.AcceptanceTests
+                      - text: showing all new and existing tests passing
+                  - heading "Success criteria" [level=3] [ref=f17e231]
+                  - list [ref=f17e232]:
+                    - listitem [ref=f17e233]:
+                      - text: "Correct behaviour:"
+                      - list [ref=f17e234]:
+                        - listitem [ref=f17e235]:
+                          - code [ref=f17e236]: "PUT /customers/{id}"
+                          - text: updates
+                          - code [ref=f17e237]: firstName
+                          - text: ","
+                          - code [ref=f17e238]: lastName
+                          - text: ", and"
+                          - code [ref=f17e239]: email
+                          - text: on an existing customer and returns
+                          - code [ref=f17e240]: 200 OK
+                          - text: with the updated customer record.
+                        - listitem [ref=f17e241]:
+                          - text: Returns
+                          - code [ref=f17e242]: 404 Not Found
+                          - text: if no customer with the given
+                          - code [ref=f17e243]: id
+                          - text: exists.
+                        - listitem [ref=f17e244]:
+                          - text: Returns
+                          - code [ref=f17e245]: 400 Bad Request
+                          - text: with a validation problem if any field is missing or invalid (same validation approach as
+                          - code [ref=f17e246]: POST /customers
+                          - text: ).
+                        - listitem [ref=f17e247]:
+                          - text: Existing
+                          - code [ref=f17e248]: POST /customers
+                          - text: and
+                          - code [ref=f17e249]: "GET /customers/{id}"
+                          - text: behaviour is unchanged.
+                    - listitem [ref=f17e250]:
+                      - text: "Required checks: CI green ("
+                      - code [ref=f17e251]: dotnet test
+                      - text: for both test projects), no build warnings introduced
+                    - listitem [ref=f17e252]: "Review/scan outcomes required: code review approval"
+                    - listitem [ref=f17e253]:
+                      - text: "Explicitly NOT sufficient: \"tests pass\" alone — the PR must include both unit tests (success, not-found, validation-failure cases) AND acceptance tests (Gherkin scenarios exercising the endpoint end-to-end via"
+                      - code [ref=f17e254]: CustomerApiFactory
+                      - text: )
+                - generic [ref=f17e255]:
+                  - generic [ref=f17e258]:
+                    - button "Create sub-issue" [ref=f17e260] [cursor=pointer]
+                    - button "View more sub-issue options" [ref=f17e264] [cursor=pointer]
+                  - toolbar "Reactions" [ref=f17e267]:
+                    - button "React" [ref=f17e268] [cursor=pointer]
+          - generic [ref=f17e273]:
+            - heading "Activity" [level=2] [ref=f17e274]
+            - region "Events" [ref=f17e276]:
+              - generic [ref=f17e291]:
+                - link "richard-fowles-epam" [ref=f17e293] [cursor=pointer]:
+                  - /url: /richard-fowles-epam
+                - text: added
+                - link "agent-task Task defined for an AI coding agent to implement" [ref=f17e296] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test/issues?q=state%3Aopen%20label%3A%22agent-task%22
+                  - generic [ref=f17e297]: agent-task
+                  - generic [ref=f17e299]: Task defined for an AI coding agent to implement
+                - link "on Aug 5, 20261m ago" [ref=f17e300] [cursor=pointer]:
+                  - /url: https://github.com/richard-fowles-epam/devops-test-app-agent-test/issues/2#event-29014912635
+          - generic [ref=f17e303]:
+            - heading "Add a comment" [level=2] [ref=f17e305]
+            - group "new Comment" [ref=f17e309]:
+              - generic [ref=f17e311]:
+                - generic [ref=f17e312]: "Markdown input: edit mode selected."
+                - generic [ref=f17e313]:
+                  - generic [ref=f17e314]:
+                    - navigation "View mode" [ref=f17e317]:
+                      - tablist "View mode" [ref=f17e318]:
+                        - tab "Write" [selected] [ref=f17e319] [cursor=pointer]
+                        - tab "Preview" [ref=f17e320] [cursor=pointer]
+                    - generic [ref=f17e321]:
+                      - toolbar "Formatting tools" [ref=f17e323]:
+                        - generic [ref=f17e324]:
+                          - button "Heading" [ref=f17e325] [cursor=pointer]
+                          - button "Bold" [ref=f17e328] [cursor=pointer]
+                          - button "Italic" [ref=f17e331] [cursor=pointer]
+                          - button "Quote" [ref=f17e334] [cursor=pointer]
+                          - button "Code" [ref=f17e337] [cursor=pointer]
+                          - button "Link" [ref=f17e340] [cursor=pointer]
+                          - generic [ref=f17e343]:
+                            - button "Unordered list" [ref=f17e345] [cursor=pointer]
+                            - button "Numbered list" [ref=f17e348] [cursor=pointer]
+                            - button "Task list" [ref=f17e351] [cursor=pointer]
+                          - generic [ref=f17e354]:
+                            - button "Mention" [ref=f17e356] [cursor=pointer]
+                            - button "Reference" [ref=f17e359] [cursor=pointer]
+                          - button "Slash commands" [ref=f17e362] [cursor=pointer]
+                      - button "Saved replies" [ref=f17e365] [cursor=pointer]
+                  - textbox "Add a comment" [ref=f17e371]:
+                    - /placeholder: Use Markdown to format your comment
+                  - status
+                - generic [ref=f17e372]:
+                  - button "Paste, drop, or click to add files" [ref=f17e375] [cursor=pointer]
+                  - generic [ref=f17e379]:
+                    - generic [ref=f17e380]:
+                      - button "Close issue" [ref=f17e382] [cursor=pointer]
+                      - button "More options" [ref=f17e386] [cursor=pointer]
+                    - tooltip "Comment can not be empty" [ref=f17e389]:
+                      - button "Comment" [disabled] [ref=f17e390]
+        - generic [ref=f17e394]:
+          - heading "Metadata" [level=2] [ref=f17e395]
+          - generic [ref=f17e397]:
+            - generic [ref=f17e398]:
+              - generic [ref=f17e399]:
+                - generic [ref=f17e400]:
+                  - heading "Assignees" [level=3]
+                  - button "Edit Assignees" [ref=f17e401] [cursor=pointer]
+                - generic [ref=f17e403]:
+                  - text: No one -
+                  - button "Assign yourself" [ref=f17e404] [cursor=pointer]
+              - button "Assign to Agent" [ref=f17e409] [cursor=pointer]
+            - generic [ref=f17e412]:
+              - generic [ref=f17e414]:
+                - heading "Labels" [level=3]
+                - button "Edit Labels" [ref=f17e415] [cursor=pointer]
+              - link "agent-task Task defined for an AI coding agent to implement" [ref=f17e419] [cursor=pointer]:
+                - /url: https://github.com/richard-fowles-epam/devops-test-app-agent-test/issues?q=state%3Aopen%20label%3A%22agent-task%22
+                - generic [ref=f17e420]: agent-task
+                - generic [ref=f17e422]: Task defined for an AI coding agent to implement
+            - generic [ref=f17e424]:
+              - generic [ref=f17e425]:
+                - heading "Projects" [level=3]
+                - button "Edit Projects" [ref=f17e426] [cursor=pointer]
+              - generic [ref=f17e428]: No projects
+            - generic [ref=f17e430]:
+              - generic [ref=f17e431]:
+                - heading "Milestone" [level=3]
+                - button "Edit Milestone" [ref=f17e432] [cursor=pointer]
+              - generic [ref=f17e434]: No milestone
+            - generic [ref=f17e436]:
+              - generic [ref=f17e437]:
+                - heading "Relationships" [level=3]
+                - button "Edit Relationships" [ref=f17e438] [cursor=pointer]
+              - generic [ref=f17e440]: None yet
+            - generic [ref=f17e441]:
+              - generic [ref=f17e443]:
+                - heading "Development" [level=3]
+                - button "Edit Development" [ref=f17e444] [cursor=pointer]
+              - generic [ref=f17e446]:
+                - generic [ref=f17e447]:
+                  - button "Create a branch" [ref=f17e448] [cursor=pointer]
+                  - text: for this issue or link a pull request.
+                - list
+            - generic [ref=f17e451]:
+              - generic [ref=f17e453]:
+                - heading "Notifications" [level=3]
+                - button "Customize" [ref=f17e454] [cursor=pointer]
+              - generic [ref=f17e456]:
+                - button "Unsubscribe" [ref=f17e457] [cursor=pointer]
+                - paragraph [ref=f17e460]: You're receiving notifications because you're subscribed to this thread.
+            - generic [ref=f17e461]:
+              - generic [ref=f17e463]:
+                - heading "Participants" [level=3]
+              - link [ref=f17e467] [cursor=pointer]:
+                - /url: /richard-fowles-epam
+                - img "@richard-fowles-epam" [ref=f17e468]
+            - heading "Issue actions" [level=2] [ref=f17e469]
+            - list [ref=f17e470]:
+              - listitem [ref=f17e471]:
+                - button "Open in GitHub Copilot app" [ref=f17e472] [cursor=pointer]
+              - listitem [ref=f17e476]:
+                - button "Transfer issue" [ref=f17e477] [cursor=pointer]
+              - listitem [ref=f17e480]:
+                - button "Clone issue" [ref=f17e481] [cursor=pointer]
+              - listitem [ref=f17e484]:
+                - button "Lock conversation" [ref=f17e485] [cursor=pointer]
+              - listitem [ref=f17e488]:
+                - button "Pin issue" [ref=f17e489] [cursor=pointer]
+              - listitem [ref=f17e492]:
+                - button "Delete issue" [ref=f17e493] [cursor=pointer]
+              - listitem [ref=f17e496]:
+                - button "Give feedback" [ref=f17e497] [cursor=pointer]
+  - contentinfo [ref=f17e500]:
+    - heading "Footer" [level=2] [ref=f17e501]
+    - generic [ref=f17e502]:
+      - generic [ref=f17e503]:
+        - link "GitHub Homepage" [ref=f17e504] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=f17e507]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=f17e508]:
+        - heading "Footer navigation" [level=3] [ref=f17e509]
+        - list "Footer navigation" [ref=f17e510]:
+          - listitem [ref=f17e511]:
+            - link "Terms" [ref=f17e512] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=f17e513]:
+            - link "Privacy" [ref=f17e514] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=f17e515]:
+            - link "Security" [ref=f17e516] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=f17e517]:
+            - link "Status" [ref=f17e518] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=f17e519]:
+            - link "Community" [ref=f17e520] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=f17e521]:
+            - link "Docs" [ref=f17e522] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=f17e523]:
+            - link "Contact" [ref=f17e524] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=f17e525]:
+            - button "Manage cookies" [ref=f17e527] [cursor=pointer]
+          - listitem [ref=f17e528]:
+            - button "Do not share my personal information" [ref=f17e530] [cursor=pointer]

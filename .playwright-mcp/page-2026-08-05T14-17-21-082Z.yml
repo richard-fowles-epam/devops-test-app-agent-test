@@ -1,0 +1,165 @@
+- generic [ref=f5e2]:
+  - dialog [ref=f5e222]:
+    - generic [ref=f5e224]:
+      - heading "Select a repository" [level=1] [ref=f5e227]
+      - generic [ref=f5e228]:
+        - combobox "Search" [expanded] [active] [ref=f5e236]
+        - generic [ref=f5e240]: Items will be filtered as you type
+        - listbox "Select a repository" [ref=f5e242]:
+          - option "epam-agent-forge/copilot-training-m..." [selected] [ref=f5e243]
+          - option "epam-agent-forge/copilot-devops-tra..." [ref=f5e247]
+          - option "epam-agent-forge/copilot-training-c..." [ref=f5e251]
+          - option "richard-fowles-epam/devops-test-app..." [ref=f5e255]
+          - option "richard-fowles-epam/devops-test-app" [ref=f5e259]
+          - option "epam-acme-bookstore-demo-org/dark-c..." [ref=f5e263]
+          - option "epam-acme-bookstore-demo-org/rag-de..." [ref=f5e267]
+          - option "epam-acme-bookstore-demo-org/ai-ima..." [ref=f5e271]
+          - option "epam-acme-bookstore-demo-org/Apollo..." [ref=f5e275]
+          - option "epam-acme-bookstore-demo-org/rpg-ag..." [ref=f5e279]
+      - link "New repository" [ref=f5e285] [cursor=pointer]:
+        - /url: /new?owner=richard-fowles-epam
+  - generic [ref=f5e3]:
+    - link "Skip to content" [ref=f5e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f5e8]:
+      - generic [ref=f5e9]:
+        - generic [ref=f5e10]:
+          - button "Open menu" [ref=f5e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f5e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f5e18]:
+          - navigation "Breadcrumbs" [ref=f5e19]:
+            - list [ref=f5e20]:
+              - listitem [ref=f5e21]:
+                - generic [ref=f5e22]: Agents
+          - button "Open quick search dialog, type / to search" [ref=f5e26] [cursor=pointer]:
+            - generic [ref=f5e28]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f5e29]:
+          - generic [ref=f5e30]:
+            - generic [ref=f5e32]:
+              - generic [ref=f5e33]:
+                - link "Chat with Copilot" [ref=f5e35] [cursor=pointer]:
+                  - /url: /copilot
+                - button "Open Copilot…" [ref=f5e40] [cursor=pointer]
+              - button "Open agents panel" [ref=f5e41] [cursor=pointer]
+            - button "Create new..." [ref=f5e44] [cursor=pointer]
+            - generic [ref=f5e46]:
+              - link "All issues (g then i)" [ref=f5e47] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests (g then p)" [ref=f5e51] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f5e54] [cursor=pointer]:
+                - /url: /repos
+          - link "You have unread notifications (g then n)" [ref=f5e57] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f5e61] [cursor=pointer]:
+            - img "User avatar" [ref=f5e62]
+  - main [ref=f5e65]:
+    - generic [ref=f5e69]:
+      - complementary "Agent navigation" [ref=f5e70]:
+        - generic [ref=f5e73]:
+          - navigation "Agent navigation" [ref=f5e74]:
+            - list [ref=f5e75]:
+              - listitem [ref=f5e76]:
+                - link "Home" [ref=f5e77] [cursor=pointer]:
+                  - /url: /copilot/agents
+              - listitem [ref=f5e80]:
+                - link "Created by me" [ref=f5e81] [cursor=pointer]:
+                  - /url: /copilot/agents?q=is%3Aopen
+              - listitem [ref=f5e84]:
+                - link "Needs attention" [ref=f5e85] [cursor=pointer]:
+                  - /url: /copilot/agents?q=is%3Aopen+status%3Aneeds-attention
+          - region "Sessions" [ref=f5e88]:
+            - generic [ref=f5e89]:
+              - generic [ref=f5e90]: Sessions
+              - link "Start a new session" [ref=f5e91] [cursor=pointer]:
+                - /url: /copilot/agents
+            - navigation "Sessions" [ref=f5e94]:
+              - list [ref=f5e95]:
+                - listitem [ref=f5e96]:
+                  - list [ref=f5e97]:
+                    - listitem [ref=f5e98]:
+                      - button "devops-test-app-2" [expanded] [ref=f5e99] [cursor=pointer]
+                      - list "devops-test-app-2" [ref=f5e103]:
+                        - listitem [ref=f5e104]:
+                          - link "Updating CI pipeline with final status print step Cloud session" [ref=f5e105] [cursor=pointer]:
+                            - /url: /richard-fowles-epam/devops-test-app-2/tasks/134a8e4d-dc4e-4143-ac86-4c2ba603e742
+                            - generic [ref=f5e106]:
+                              - generic [ref=f5e107]: Updating CI pipeline with final status print step
+                              - generic:
+                                - generic:
+                                  - img "Cloud session"
+                        - listitem [ref=f5e109]:
+                          - link "Updating README for current lesson marker Cloud session" [ref=f5e110] [cursor=pointer]:
+                            - /url: /richard-fowles-epam/devops-test-app-2/tasks/62fb4f00-4e35-49af-b6d6-dde34efa1909
+                            - generic [ref=f5e111]:
+                              - generic [ref=f5e112]: Updating README for current lesson marker
+                              - generic:
+                                - generic:
+                                  - img "Cloud session"
+                        - listitem [ref=f5e114]:
+                          - link "Implementing update product endpoint with tests Cloud session" [ref=f5e115] [cursor=pointer]:
+                            - /url: /richard-fowles-epam/devops-test-app-2/tasks/bf71c3aa-7e00-4c8e-9332-8f9b0b979c19
+                            - generic [ref=f5e116]:
+                              - generic [ref=f5e117]: Implementing update product endpoint with tests
+                              - generic:
+                                - generic:
+                                  - img "Cloud session"
+                        - listitem [ref=f5e119]:
+                          - link "Creating copilot instructions for private fields Cloud session" [ref=f5e120] [cursor=pointer]:
+                            - /url: /richard-fowles-epam/devops-test-app-2/tasks/d5a1a894-74a0-4910-8757-dccf76df149c
+                            - generic [ref=f5e121]:
+                              - generic [ref=f5e122]: Creating copilot instructions for private fields
+                              - generic:
+                                - generic:
+                                  - img "Cloud session"
+                        - listitem [ref=f5e124]:
+                          - link "Understanding codebase structure and organization Cloud session" [ref=f5e125] [cursor=pointer]:
+                            - /url: /richard-fowles-epam/devops-test-app-2/tasks/1bc5b499-52ea-4db6-8c87-98ca1286a4b5
+                            - generic [ref=f5e126]:
+                              - generic [ref=f5e127]: Understanding codebase structure and organization
+                              - generic:
+                                - generic:
+                                  - img "Cloud session"
+        - list [ref=f5e130]:
+          - listitem [ref=f5e131]:
+            - button "Collapse sidebar" [expanded] [ref=f5e132] [cursor=pointer]
+      - generic [ref=f5e144]:
+        - generic [ref=f5e155]:
+          - status [ref=f5e156]
+          - textbox "Coding task prompt" [ref=f5e159]:
+            - /placeholder: Give Copilot a background task to work on
+          - generic [ref=f5e160]:
+            - group [ref=f5e162]:
+              - 'button "Repository: epam-agent-forge/copilot-training-materials" [expanded] [ref=f5e163] [cursor=pointer]'
+              - 'button "Branch: main" [ref=f5e167] [cursor=pointer]'
+              - 'button "Agent: Copilot" [ref=f5e170] [cursor=pointer]'
+              - button "Attach an image" [ref=f5e174] [cursor=pointer]
+            - generic [ref=f5e177]:
+              - 'button "Model: Auto" [ref=f5e179] [cursor=pointer]':
+                - generic [ref=f5e181]:
+                  - generic [ref=f5e182]: "Model:"
+                  - generic [ref=f5e183]: Auto
+              - button "View token usage" [ref=f5e184] [cursor=pointer]
+              - button "Start task (command enter)" [ref=f5e188] [cursor=pointer]
+        - generic [ref=f5e192]:
+          - generic [ref=f5e193]:
+            - heading "Get started with agents" [level=3] [ref=f5e194]
+            - button "Dismiss suggestions" [ref=f5e195] [cursor=pointer]
+          - generic [ref=f5e198]:
+            - button "Explain repository Let the agent help you understand the codebase" [ref=f5e199] [cursor=pointer]:
+              - generic [ref=f5e203]:
+                - generic [ref=f5e204]: Explain repository
+                - generic [ref=f5e205]: Let the agent help you understand the codebase
+            - button "Improve my workflow Get tips based on my recent sessions" [ref=f5e206] [cursor=pointer]:
+              - generic [ref=f5e210]:
+                - generic [ref=f5e211]: Improve my workflow
+                - generic [ref=f5e212]: Get tips based on my recent sessions
+            - button "Create a plan Plan before making changes to the codebase" [ref=f5e213] [cursor=pointer]:
+              - generic [ref=f5e217]:
+                - generic [ref=f5e218]: Create a plan
+                - generic [ref=f5e219]: Plan before making changes to the codebase

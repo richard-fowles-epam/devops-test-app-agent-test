@@ -1,0 +1,300 @@
+- generic [ref=f27e2]:
+  - generic [ref=f27e3]:
+    - link "Skip to content" [ref=f27e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f27e8]:
+      - generic [ref=f27e9]:
+        - generic [ref=f27e10]:
+          - button "Open menu" [ref=f27e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f27e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f27e18]:
+          - navigation "Breadcrumbs" [ref=f27e19]:
+            - list [ref=f27e20]:
+              - listitem [ref=f27e21]:
+                - generic [ref=f27e22]: Agents
+          - button "Open quick search dialog, type / to search" [ref=f27e26] [cursor=pointer]:
+            - generic [ref=f27e28]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f27e29]:
+          - generic [ref=f27e30]:
+            - generic [ref=f27e32]:
+              - generic [ref=f27e33]:
+                - link "Chat with Copilot" [ref=f27e35] [cursor=pointer]:
+                  - /url: /copilot
+                - button "Open Copilot…" [ref=f27e40] [cursor=pointer]
+              - button "Open agents panel" [ref=f27e69] [cursor=pointer]
+            - button "Create new..." [ref=f27e44] [cursor=pointer]
+            - generic [ref=f27e46]:
+              - link "All issues (g then i)" [ref=f27e47] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests (g then p)" [ref=f27e51] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f27e54] [cursor=pointer]:
+                - /url: /repos
+          - link "You have unread notifications (g then n)" [ref=f27e71] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f27e61] [cursor=pointer]:
+            - img "User avatar" [ref=f27e62]
+  - main [ref=f27e65]:
+    - generic [ref=f27e74]:
+      - complementary "Agent navigation" [ref=f27e75]:
+        - generic [ref=f27e78]:
+          - navigation "Agent navigation" [ref=f27e79]:
+            - list [ref=f27e80]:
+              - listitem [ref=f27e81]:
+                - link "Home" [ref=f27e566] [cursor=pointer]:
+                  - /url: /copilot/agents
+              - listitem [ref=f27e85]:
+                - link "Created by me" [ref=f27e250] [cursor=pointer]:
+                  - /url: /copilot/agents?q=is%3Aopen
+              - listitem [ref=f27e89]:
+                - link "Needs attention" [ref=f27e253] [cursor=pointer]:
+                  - /url: /copilot/agents?q=is%3Aopen+status%3Aneeds-attention
+          - region "Sessions" [ref=f27e93]:
+            - generic [ref=f27e94]:
+              - generic [ref=f27e95]: Sessions
+              - link "Start a new session" [ref=f27e96] [cursor=pointer]:
+                - /url: /copilot/agents
+            - navigation "Sessions" [ref=f27e99]:
+              - list [ref=f27e100]:
+                - listitem [ref=f27e101]:
+                  - list [ref=f27e102]:
+                    - listitem [ref=f27e103]:
+                      - button "devops-test-app-agent-test" [expanded] [ref=f27e104] [cursor=pointer]
+                      - list "devops-test-app-agent-test" [ref=f27e108]:
+                        - listitem [ref=f27e569]:
+                          - link "Creating a custom SpecFlow automation tester agent Cloud session" [ref=f27e570] [cursor=pointer]:
+                            - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/f324ab41-8da7-4d4e-a97d-44d37e7c7c85?q=is%3Aopen
+                            - generic [ref=f27e571]:
+                              - generic [ref=f27e572]: Creating a custom SpecFlow automation tester agent
+                              - generic:
+                                - generic:
+                                  - img "Cloud session"
+                        - listitem [ref=f27e109]:
+                          - link "Creating custom agent for .NET specialist Cloud session" [ref=f27e574] [cursor=pointer]:
+                            - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/84b598a9-8f10-428e-9dc2-e5fda81877de?q=is%3Aopen
+                            - generic [ref=f27e575]:
+                              - generic [ref=f27e576]: Creating custom agent for .NET specialist
+                              - generic:
+                                - generic:
+                                  - img "Cloud session"
+                        - listitem [ref=f27e114]:
+                          - link "Understanding the codebase structure and technologies used Cloud session" [ref=f27e260] [cursor=pointer]:
+                            - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/05df01b0-c27a-49dd-b920-4ea93a5cfeb0?q=is%3Aopen
+                            - generic [ref=f27e261]:
+                              - generic [ref=f27e262]: Understanding the codebase structure and technologies used
+                              - generic:
+                                - generic:
+                                  - img "Cloud session"
+                    - listitem [ref=f27e119]:
+                      - button "devops-test-app-2" [expanded] [ref=f27e120] [cursor=pointer]
+                      - list "devops-test-app-2" [ref=f27e124]:
+                        - listitem [ref=f27e125]:
+                          - link "Updating CI pipeline with final status print step Cloud session" [ref=f27e264] [cursor=pointer]:
+                            - /url: /richard-fowles-epam/devops-test-app-2/tasks/134a8e4d-dc4e-4143-ac86-4c2ba603e742?q=is%3Aopen
+                            - generic [ref=f27e265]:
+                              - generic [ref=f27e266]: Updating CI pipeline with final status print step
+                              - generic:
+                                - generic:
+                                  - img "Cloud session"
+                        - listitem [ref=f27e130]:
+                          - link "Updating README for current lesson marker Cloud session" [ref=f27e268] [cursor=pointer]:
+                            - /url: /richard-fowles-epam/devops-test-app-2/tasks/62fb4f00-4e35-49af-b6d6-dde34efa1909?q=is%3Aopen
+                            - generic [ref=f27e269]:
+                              - generic [ref=f27e270]: Updating README for current lesson marker
+                              - generic:
+                                - generic:
+                                  - img "Cloud session"
+                        - listitem [ref=f27e135]:
+                          - link "Implementing update product endpoint with tests Cloud session" [ref=f27e272] [cursor=pointer]:
+                            - /url: /richard-fowles-epam/devops-test-app-2/tasks/bf71c3aa-7e00-4c8e-9332-8f9b0b979c19?q=is%3Aopen
+                            - generic [ref=f27e273]:
+                              - generic [ref=f27e274]: Implementing update product endpoint with tests
+                              - generic:
+                                - generic:
+                                  - img "Cloud session"
+                        - listitem [ref=f27e140]:
+                          - link "Creating copilot instructions for private fields Cloud session" [ref=f27e276] [cursor=pointer]:
+                            - /url: /richard-fowles-epam/devops-test-app-2/tasks/d5a1a894-74a0-4910-8757-dccf76df149c?q=is%3Aopen
+                            - generic [ref=f27e277]:
+                              - generic [ref=f27e278]: Creating copilot instructions for private fields
+                              - generic:
+                                - generic:
+                                  - img "Cloud session"
+                        - listitem [ref=f27e145]:
+                          - link "Understanding codebase structure and organization Cloud session" [ref=f27e280] [cursor=pointer]:
+                            - /url: /richard-fowles-epam/devops-test-app-2/tasks/1bc5b499-52ea-4db6-8c87-98ca1286a4b5?q=is%3Aopen
+                            - generic [ref=f27e281]:
+                              - generic [ref=f27e282]: Understanding codebase structure and organization
+                              - generic:
+                                - generic:
+                                  - img "Cloud session"
+        - list [ref=f27e151]:
+          - listitem [ref=f27e152]:
+            - button "Collapse sidebar" [expanded] [ref=f27e153] [cursor=pointer]
+      - generic [ref=f27e161]:
+        - heading "Created by me" [level=1] [ref=f27e285]
+        - form "Filter sessions" [ref=f27e287]:
+          - generic [ref=f27e290]:
+            - generic [ref=f27e292]:
+              - generic [ref=f27e294]:
+                - text: "is:"
+                - generic [ref=f27e295]: open
+              - combobox "Filter sessions" [ref=f27e297]: is:open
+            - button "Search" [ref=f27e298] [cursor=pointer]
+        - generic [ref=f27e301]:
+          - generic [ref=f27e302]:
+            - generic [ref=f27e305]:
+              - list "Filter by status" [ref=f27e306]:
+                - listitem [ref=f27e307]:
+                  - link "Active (11)" [ref=f27e578] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=f27e309]: Active
+                    - generic [ref=f27e579]: "11"
+                    - generic [ref=f27e580]: (11)
+                - listitem [ref=f27e310]:
+                  - link "Completed (25)" [ref=f27e581] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=f27e312]: Completed
+                    - generic [ref=f27e582]: "25"
+                    - generic [ref=f27e583]: (25)
+              - toolbar "Task filters" [ref=f27e314]:
+                - generic [ref=f27e315]:
+                  - button "Status" [ref=f27e317] [cursor=pointer]
+                  - 'button "Filter by repository: All repositories" [ref=f27e321] [cursor=pointer]':
+                    - generic "Repository" [ref=f27e324]
+                  - button "Type" [ref=f27e326] [cursor=pointer]
+                  - button "Agent" [ref=f27e330] [cursor=pointer]
+                  - button "Newest" [ref=f27e334] [cursor=pointer]
+            - list "Filter by status Task filters" [ref=f27e337]:
+              - listitem [ref=f27e584]:
+                - generic [ref=f27e585]:
+                  - link "Creating a custom SpecFlow automation tester agent" [ref=f27e591] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/f324ab41-8da7-4d4e-a97d-44d37e7c7c85?q=is%3Aopen
+                  - generic [ref=f27e593]:
+                    - generic [ref=f27e594]: richard-fowles-epam/devops-test-app-agent-test
+                    - generic [ref=f27e595]: ·
+                    - generic [ref=f27e596]: Completed Aug 5, 2026now
+                    - generic [ref=f27e597]: ·
+                    - generic [ref=f27e598]: Completed
+                  - generic [ref=f27e599]:
+                    - img "Cloud session" [ref=f27e602]
+                    - img "richard-fowles-epam" [ref=f27e606]
+                  - 'button "Actions for task: Creating a custom SpecFlow automation tester agent" [ref=f27e608] [cursor=pointer]'
+              - listitem [ref=f27e338]:
+                - generic [ref=f27e339]:
+                  - link "Creating custom agent for .NET specialist" [ref=f27e345] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/84b598a9-8f10-428e-9dc2-e5fda81877de?q=is%3Aopen
+                  - generic [ref=f27e347]:
+                    - generic [ref=f27e348]: richard-fowles-epam/devops-test-app-agent-test
+                    - generic [ref=f27e349]: ·
+                    - generic [ref=f27e350]: Completed Aug 5, 2026now
+                    - generic [ref=f27e351]: ·
+                    - generic [ref=f27e352]: Completed
+                  - generic [ref=f27e353]:
+                    - img "Cloud session" [ref=f27e356]
+                    - img "richard-fowles-epam" [ref=f27e360]
+                  - 'button "Actions for task: Creating custom agent for .NET specialist" [ref=f27e362] [cursor=pointer]'
+              - listitem [ref=f27e365]:
+                - generic [ref=f27e366]:
+                  - link "Understanding the codebase structure and technologies used" [ref=f27e372] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/05df01b0-c27a-49dd-b920-4ea93a5cfeb0?q=is%3Aopen
+                  - generic [ref=f27e374]:
+                    - generic [ref=f27e375]: richard-fowles-epam/devops-test-app-agent-test
+                    - generic [ref=f27e376]: ·
+                    - generic [ref=f27e377]: Completed Aug 5, 202625 minutes ago
+                    - generic [ref=f27e378]: ·
+                    - generic [ref=f27e379]: Completed
+                  - generic [ref=f27e380]:
+                    - img "Cloud session" [ref=f27e383]
+                    - img "richard-fowles-epam" [ref=f27e387]
+                  - 'button "Actions for task: Understanding the codebase structure and technologies used" [ref=f27e389] [cursor=pointer]'
+              - listitem [ref=f27e392]:
+                - generic [ref=f27e393]:
+                  - link "Updating CI pipeline with final status print step" [ref=f27e399] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-2/tasks/134a8e4d-dc4e-4143-ac86-4c2ba603e742?q=is%3Aopen
+                  - generic [ref=f27e401]:
+                    - generic [ref=f27e402]: "richard-fowles-epam/devops-test-app-2 #38"
+                    - generic [ref=f27e403]: ·
+                    - generic [ref=f27e404]: Completed Aug 5, 20261 hour ago
+                    - generic [ref=f27e405]: ·
+                    - generic [ref=f27e406]: Completed
+                  - generic [ref=f27e407]:
+                    - 'link "View pull request #38" [ref=f27e409] [cursor=pointer]':
+                      - /url: https://github.com/richard-fowles-epam/devops-test-app-2/pull/38
+                      - text: "#38"
+                    - img "Cloud session" [ref=f27e414]
+                    - img "richard-fowles-epam" [ref=f27e418]
+                  - 'button "Actions for task: Updating CI pipeline with final status print step" [ref=f27e420] [cursor=pointer]'
+              - listitem [ref=f27e423]:
+                - generic [ref=f27e424]:
+                  - link "Updating README for current lesson marker" [ref=f27e430] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-2/tasks/62fb4f00-4e35-49af-b6d6-dde34efa1909?q=is%3Aopen
+                  - generic [ref=f27e432]:
+                    - generic [ref=f27e433]: "richard-fowles-epam/devops-test-app-2 #39"
+                    - generic [ref=f27e434]: ·
+                    - generic [ref=f27e435]: Completed Aug 5, 20261 hour ago
+                    - generic [ref=f27e436]: ·
+                    - generic [ref=f27e437]: Completed
+                  - generic [ref=f27e438]:
+                    - 'link "View pull request #39" [ref=f27e440] [cursor=pointer]':
+                      - /url: https://github.com/richard-fowles-epam/devops-test-app-2/pull/39
+                      - text: "#39"
+                    - img "Cloud session" [ref=f27e445]
+                    - img "richard-fowles-epam" [ref=f27e449]
+                  - 'button "Actions for task: Updating README for current lesson marker" [ref=f27e451] [cursor=pointer]'
+              - listitem [ref=f27e454]:
+                - generic [ref=f27e455]:
+                  - link "Implementing update product endpoint with tests" [ref=f27e461] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-2/tasks/bf71c3aa-7e00-4c8e-9332-8f9b0b979c19?q=is%3Aopen
+                  - generic [ref=f27e463]:
+                    - generic [ref=f27e464]: "richard-fowles-epam/devops-test-app-2 #28"
+                    - generic [ref=f27e465]: ·
+                    - generic [ref=f27e466]: Completed Aug 4, 2026yesterday
+                    - generic [ref=f27e467]: ·
+                    - generic [ref=f27e468]: Completed
+                  - generic [ref=f27e469]:
+                    - 'link "View pull request #28" [ref=f27e471] [cursor=pointer]':
+                      - /url: https://github.com/richard-fowles-epam/devops-test-app-2/pull/28
+                      - text: "#28"
+                    - img "Cloud session" [ref=f27e476]
+                    - img "richard-fowles-epam" [ref=f27e480]
+                  - 'button "Actions for task: Implementing update product endpoint with tests" [ref=f27e482] [cursor=pointer]'
+              - listitem [ref=f27e485]:
+                - generic [ref=f27e486]:
+                  - link "Creating copilot instructions for private fields" [ref=f27e492] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-2/tasks/d5a1a894-74a0-4910-8757-dccf76df149c?q=is%3Aopen
+                  - generic [ref=f27e494]:
+                    - generic [ref=f27e495]: richard-fowles-epam/devops-test-app-2
+                    - generic [ref=f27e496]: ·
+                    - generic [ref=f27e497]: Completed Aug 3, 20262 days ago
+                    - generic [ref=f27e498]: ·
+                    - generic [ref=f27e499]: Completed
+                  - generic [ref=f27e500]:
+                    - img "Cloud session" [ref=f27e503]
+                    - img "richard-fowles-epam" [ref=f27e507]
+                  - 'button "Actions for task: Creating copilot instructions for private fields" [ref=f27e509] [cursor=pointer]'
+              - listitem [ref=f27e512]:
+                - generic [ref=f27e513]:
+                  - link "Understanding codebase structure and organization" [ref=f27e519] [cursor=pointer]:
+                    - /url: /richard-fowles-epam/devops-test-app-2/tasks/1bc5b499-52ea-4db6-8c87-98ca1286a4b5?q=is%3Aopen
+                  - generic [ref=f27e521]:
+                    - generic [ref=f27e522]: richard-fowles-epam/devops-test-app-2
+                    - generic [ref=f27e523]: ·
+                    - generic [ref=f27e524]: Completed Aug 3, 20262 days ago
+                    - generic [ref=f27e525]: ·
+                    - generic [ref=f27e526]: Completed
+                  - generic [ref=f27e527]:
+                    - img "Cloud session" [ref=f27e530]
+                    - img "richard-fowles-epam" [ref=f27e534]
+                  - 'button "Actions for task: Understanding codebase structure and organization" [ref=f27e536] [cursor=pointer]'
+          - navigation "Pagination" [ref=f27e613]:
+            - generic [ref=f27e614]:
+              - generic [ref=f27e615]: Previous
+              - link "Next Page" [ref=f27e618] [cursor=pointer]:
+                - /url: "#2"
+                - text: Next

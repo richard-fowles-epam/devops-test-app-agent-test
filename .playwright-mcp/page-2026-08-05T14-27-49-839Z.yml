@@ -1,0 +1,189 @@
+- generic [ref=f10e2]:
+  - generic [ref=f10e3]:
+    - link "Skip to content" [ref=f10e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f10e8]:
+      - generic [ref=f10e9]:
+        - generic [ref=f10e10]:
+          - button "Open menu" [ref=f10e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f10e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f10e18]:
+          - navigation "Breadcrumbs" [ref=f10e19]:
+            - list [ref=f10e20]:
+              - listitem [ref=f10e21]:
+                - link "richard-fowles-epam" [ref=f10e22] [cursor=pointer]:
+                  - /url: /richard-fowles-epam
+              - listitem [ref=f10e24]:
+                - link "devops-test-app-agent-test" [ref=f10e25] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test
+                - button "Switch repository (option shift r)" [ref=f10e26] [cursor=pointer]
+          - button "Open quick search dialog, type / to search" [ref=f10e31] [cursor=pointer]:
+            - generic [ref=f10e33]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f10e34]:
+          - generic [ref=f10e35]:
+            - generic [ref=f10e37]:
+              - generic [ref=f10e38]:
+                - link "Chat with Copilot" [ref=f10e40] [cursor=pointer]:
+                  - /url: /copilot
+                - button "Open Copilot…" [ref=f10e45] [cursor=pointer]
+              - button "Open agents panel" [ref=f10e46] [cursor=pointer]
+            - button "Create new..." [ref=f10e49] [cursor=pointer]
+            - generic [ref=f10e51]:
+              - link "All issues" [ref=f10e52] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests" [ref=f10e56] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f10e59] [cursor=pointer]:
+                - /url: /repos
+          - link "You have no unread notifications (g then n)" [ref=f10e62] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f10e66] [cursor=pointer]:
+            - img "User avatar" [ref=f10e67]
+      - heading "Repository navigation" [level=2] [ref=f10e68]
+      - navigation "Repository" [ref=f10e69]:
+        - list [ref=f10e70]:
+          - listitem [ref=f10e71]:
+            - link "Code" [ref=f10e72] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test
+          - listitem [ref=f10e74]:
+            - link "Issues" [ref=f10e75] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/issues
+          - listitem [ref=f10e77]:
+            - link "Pull requests (1)" [ref=f10e78] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulls
+              - generic [ref=f10e79]: Pull requests
+              - generic [ref=f10e80]:
+                - generic [ref=f10e81]: "1"
+                - generic [ref=f10e82]: (1)
+          - listitem [ref=f10e83]:
+            - link "Agents" [ref=f10e84] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/agents?author=richard-fowles-epam
+          - listitem [ref=f10e86]:
+            - link "Actions" [ref=f10e87] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/actions
+          - listitem [ref=f10e89]:
+            - link "Projects" [ref=f10e90] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/projects
+          - listitem [ref=f10e92]:
+            - link "Wiki" [ref=f10e93] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/wiki
+          - listitem [ref=f10e95]:
+            - link "Security and quality" [ref=f10e96] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/security
+          - listitem [ref=f10e98]:
+            - link "Insights" [ref=f10e99] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulse
+          - listitem [ref=f10e101]:
+            - link "Settings" [ref=f10e102] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/settings
+  - main [ref=f10e107]:
+    - generic [ref=f10e114]:
+      - generic [ref=f10e118]:
+        - generic [ref=f10e120]:
+          - 'heading "feat: add GET /customers/{id} endpoint - #1" [level=1] [ref=f10e121]':
+            - text: "feat: add GET /customers/{id} endpoint"
+            - generic [ref=f10e122]: "- #1"
+          - generic [ref=f10e123]:
+            - generic [ref=f10e124]: "#1"
+            - button "Edit title" [ref=f10e125] [cursor=pointer]
+        - generic [ref=f10e129]:
+          - generic [ref=f10e130]:
+            - button "View status View status" [disabled] [ref=f10e131]:
+              - generic [ref=f10e132]: Loading
+            - generic [ref=f10e133]: Loading merge status
+          - button "Code" [ref=f10e135] [cursor=pointer]
+        - generic [ref=f10e139]:
+          - generic [ref=f10e141]:
+            - img "Pull request" [ref=f10e142]
+            - text: Open
+          - generic [ref=f10e145]:
+            - generic [ref=f10e147]:
+              - link "richard-fowles-epam" [ref=f10e148] [cursor=pointer]:
+                - /url: /richard-fowles-epam
+              - text: with
+              - link "Copilot" [ref=f10e149] [cursor=pointer]:
+                - /url: /apps/copilot-swe-agent
+            - text: wants to merge 1 commit into
+            - generic [ref=f10e150]:
+              - link "main" [ref=f10e151] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/tree/main
+              - generic [ref=f10e152]: from
+              - generic [ref=f10e153]:
+                - link "copilot/add-get-customer-endpoint" [ref=f10e154] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test/tree/copilot/add-get-customer-endpoint
+                - button "Copy head branch name to clipboard" [ref=f10e155] [cursor=pointer]
+        - generic [ref=f10e159]:
+          - generic [ref=f10e161]:
+            - generic [ref=f10e162]: "+323"
+            - generic [ref=f10e163]: "-1"
+            - generic [ref=f10e164]: "Lines changed: 323 additions & 1 deletion"
+          - navigation "Pull request navigation tabs" [ref=f10e172]:
+            - generic [ref=f10e173]:
+              - link "Conversation" [ref=f10e174] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/pull/1
+              - link "Commits (1)" [ref=f10e177] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/pull/1/commits
+                - text: Commits
+                - generic [ref=f10e180]: "1"
+                - generic [ref=f10e181]: (1)
+              - link "Checks" [ref=f10e182] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/pull/1/checks
+              - link "Files changed" [ref=f10e185] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/pull/1/changes
+      - generic [ref=f10e190]:
+        - generic [ref=f10e199]:
+          - 'heading "feat: add GET /customers/{id} endpoint with unit and acceptance tests" [level=2] [ref=f10e200]'
+          - group [ref=f10e201]:
+            - button [ref=f10e202] [cursor=pointer]:
+              - code [ref=f10e203]: 78f143b
+        - generic [ref=f10e204]:
+          - complementary "Check suites" [ref=f10e205]:
+            - group [ref=f10e207]:
+              - generic [ref=f10e209] [cursor=pointer]:
+                - button "Show details" [ref=f10e211]
+                - 'link "Pull Request CI on: pull_request" [ref=f10e215]':
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test/actions/runs/31015277045
+                  - text: Pull Request CI
+                  - generic [ref=f10e216]: "on: pull_request"
+          - region "Check run summary" [ref=f10e217]:
+            - heading "Workflow runs completed with no jobs" [level=4] [ref=f10e225]
+  - contentinfo [ref=f10e226]:
+    - heading "Footer" [level=2] [ref=f10e227]
+    - generic [ref=f10e228]:
+      - generic [ref=f10e229]:
+        - link "GitHub Homepage" [ref=f10e230] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=f10e233]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=f10e234]:
+        - heading "Footer navigation" [level=3] [ref=f10e235]
+        - list "Footer navigation" [ref=f10e236]:
+          - listitem [ref=f10e237]:
+            - link "Terms" [ref=f10e238] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=f10e239]:
+            - link "Privacy" [ref=f10e240] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=f10e241]:
+            - link "Security" [ref=f10e242] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=f10e243]:
+            - link "Status" [ref=f10e244] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=f10e245]:
+            - link "Community" [ref=f10e246] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=f10e247]:
+            - link "Docs" [ref=f10e248] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=f10e249]:
+            - link "Contact" [ref=f10e250] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=f10e251]:
+            - button "Manage cookies" [ref=f10e253] [cursor=pointer]
+          - listitem [ref=f10e254]:
+            - button "Do not share my personal information" [ref=f10e256] [cursor=pointer]

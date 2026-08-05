@@ -1,0 +1,277 @@
+- generic [ref=f6e2]:
+  - generic [ref=f6e3]:
+    - link "Skip to content" [ref=f6e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f6e8]:
+      - generic [ref=f6e9]:
+        - generic [ref=f6e10]:
+          - button "Open menu" [ref=f6e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f6e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f6e18]:
+          - navigation "Breadcrumbs" [ref=f6e19]:
+            - list [ref=f6e20]:
+              - listitem [ref=f6e21]:
+                - link "richard-fowles-epam" [ref=f6e22] [cursor=pointer]:
+                  - /url: /richard-fowles-epam
+              - listitem [ref=f6e24]:
+                - link "devops-test-app-agent-test" [ref=f6e25] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test
+                - button "Switch repository (option shift r)" [ref=f6e26] [cursor=pointer]
+          - button "Open quick search dialog, type / to search" [ref=f6e31] [cursor=pointer]:
+            - generic [ref=f6e33]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f6e34]:
+          - generic [ref=f6e35]:
+            - generic [ref=f6e37]:
+              - generic [ref=f6e38]:
+                - link "Chat with Copilot" [ref=f6e40] [cursor=pointer]:
+                  - /url: /copilot
+                - button "Open Copilot…" [ref=f6e45] [cursor=pointer]
+              - button "Open agents panel" [ref=f6e265] [cursor=pointer]
+            - button "Create new..." [ref=f6e49] [cursor=pointer]
+            - generic [ref=f6e51]:
+              - link "All issues" [ref=f6e52] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests" [ref=f6e56] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f6e59] [cursor=pointer]:
+                - /url: /repos
+          - link "You have unread notifications (g then n)" [ref=f6e267] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f6e66] [cursor=pointer]:
+            - img "User avatar" [ref=f6e67]
+      - heading "Repository navigation" [level=2] [ref=f6e68]
+      - navigation "Repository" [ref=f6e69]:
+        - list [ref=f6e70]:
+          - listitem [ref=f6e71]:
+            - link "Code" [ref=f6e72] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test
+          - listitem [ref=f6e74]:
+            - link "Issues" [ref=f6e75] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/issues
+          - listitem [ref=f6e77]:
+            - link "Pull requests" [ref=f6e78] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulls
+          - listitem [ref=f6e80]:
+            - link "Agents" [ref=f6e81] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/agents?author=richard-fowles-epam
+          - listitem [ref=f6e83]:
+            - link "Actions" [ref=f6e84] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/actions
+          - listitem [ref=f6e86]:
+            - link "Projects" [ref=f6e87] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/projects
+          - listitem [ref=f6e89]:
+            - link "Wiki" [ref=f6e90] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/wiki
+          - listitem [ref=f6e92]:
+            - link "Security and quality" [ref=f6e93] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/security
+          - listitem [ref=f6e95]:
+            - link "Insights" [ref=f6e96] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulse
+          - listitem [ref=f6e98]:
+            - link "Settings" [ref=f6e99] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/settings
+  - main [ref=f6e103]:
+    - generic [ref=f6e106]:
+      - complementary [ref=f6e107]:
+        - generic [ref=f6e108]:
+          - generic [ref=f6e109]:
+            - heading "Created by me" [level=2] [ref=f6e111]
+            - button "New session" [ref=f6e113] [cursor=pointer]
+          - list [ref=f6e268]:
+            - listitem [ref=f6e269]:
+              - generic [ref=f6e270]: Today
+            - listitem [ref=f6e271]:
+              - link "Understanding the codebase structure and technologies used Completed · Aug 5, 20261m" [ref=f6e272] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/05df01b0-c27a-49dd-b920-4ea93a5cfeb0
+                - generic [ref=f6e273]:
+                  - generic [ref=f6e274]: Understanding the codebase structure and technologies used
+                  - paragraph [ref=f6e280]: Completed · Aug 5, 20261m
+              - generic [ref=f6e281]:
+                - generic:
+                  - img "Cloud session"
+                - button "Manage session" [ref=f6e283] [cursor=pointer]
+          - generic [ref=f6e124]:
+            - region [ref=f6e125]:
+              - generic [ref=f6e130]:
+                - heading "Automations" [level=2] [ref=f6e131]
+                - generic [ref=f6e132]: Start agent sessions automatically on a schedule or in response to events like new issues or updated pull requests.
+              - button "Dismiss banner" [ref=f6e133] [cursor=pointer]
+            - generic [ref=f6e136]:
+              - link "Learn more" [ref=f6e138] [cursor=pointer]:
+                - /url: https://gh.io/cca-automations-docs
+              - group "Cycle through tips" [ref=f6e141]:
+                - button "Previous tip" [ref=f6e142] [cursor=pointer]
+                - button "Next tip" [ref=f6e145] [cursor=pointer]
+      - generic [ref=f6e153]:
+        - region "Task activity" [ref=f6e156]:
+          - button "Scroll to bottom" [ref=f6e286] [cursor=pointer]
+          - generic [ref=f6e157]:
+            - generic "Agent session header" [ref=f6e158]:
+              - heading "Understanding the codebase structure and technologies used" [level=1] [ref=f6e160]
+              - generic [ref=f6e163]:
+                - generic [ref=f6e174]: You
+                - generic [ref=f6e175]: created the session
+                - generic "Aug 5, 2026, 15:18 GMT+1" [ref=f6e176]: Aug 5, 20261 minute ago
+                - generic [ref=f6e177]: ·
+                - generic [ref=f6e291]:
+                  - img "Anthropic logo" [ref=f6e292]
+                  - generic [ref=f6e293]: Claude Sonnet 4.6 ·
+                - generic [ref=f6e178]: 1 session
+                - generic [ref=f6e294]: · 17.3 AI credits
+              - generic [ref=f6e179]:
+                - button "Give feedback" [ref=f6e180] [cursor=pointer]
+                - button "More actions" [ref=f6e183] [cursor=pointer]
+                - button "Code" [ref=f6e187] [cursor=pointer]
+            - generic [ref=f6e190]:
+              - generic [ref=f6e193]:
+                - paragraph [ref=f6e194]:
+                  - generic [ref=f6e195]: You
+                  - text: started a task
+                - paragraph [ref=f6e199]: Explain this repository. Help me understand the codebase structure, key technologies used, and how the code is organized.
+              - generic [ref=f6e201]:
+                - generic [ref=f6e202] [cursor=pointer]:
+                  - generic [ref=f6e208]:
+                    - generic [ref=f6e209]: Understanding the codebase structure and technologies used
+                    - button "Understanding the codebase structure and technologies used" [expanded] [ref=f6e210]
+                  - time [ref=f6e215]: 1m 2s
+                  - button "More actions" [ref=f6e217]
+                - generic [ref=f6e222]:
+                  - generic [ref=f6e298]:
+                    - 'button "Custom setup run: Setting up environment" [expanded] [ref=f6e301] [cursor=pointer]':
+                      - img "Custom setup run:" [ref=f6e304]
+                      - generic [ref=f6e309]: Setting up environment
+                    - generic [ref=f6e313]:
+                      - button "Clone repository richard-fowles-epam/devops-test-app-agent-test" [ref=f6e316] [cursor=pointer]
+                      - button "Agent initialization started" [ref=f6e322] [cursor=pointer]
+                      - button "Start 'runtime-tools' MCP server" [ref=f6e330] [cursor=pointer]
+                      - button "Start 'github-mcp-server' MCP server" [ref=f6e336] [cursor=pointer]
+                      - button "Start 'playwright' MCP server" [ref=f6e342] [cursor=pointer]
+                  - 'button "View file: View repository" [ref=f6e348] [cursor=pointer]':
+                    - img "View file:" [ref=f6e351]
+                    - generic [ref=f6e355]: View repository
+                  - generic [ref=f6e356]:
+                    - 'button "View file: View 4 files" [expanded] [ref=f6e359] [cursor=pointer]':
+                      - img "View file:" [ref=f6e362]
+                      - generic [ref=f6e366]: View 4 files
+                    - generic [ref=f6e370]:
+                      - button [ref=f6e373] [cursor=pointer]
+                      - button [ref=f6e379] [cursor=pointer]
+                      - button [ref=f6e385] [cursor=pointer]
+                      - button [ref=f6e391] [cursor=pointer]
+              - generic [ref=f6e396]:
+                - paragraph [ref=f6e397]: "Here's an overview of this repository:"
+                - separator [ref=f6e398]
+                - 'heading "Repository: Customer Management API (Training Project)" [level=2] [ref=f6e399]'
+                - heading "Purpose" [level=3] [ref=f6e400]
+                - paragraph [ref=f6e401]:
+                  - text: A
+                  - strong [ref=f6e402]: GitHub Copilot agentic coding training project
+                  - text: — a deliberately minimal app used to teach students how to work with AI coding agents. It's not a production app; it's a hands-on sandbox.
+                - separator [ref=f6e403]
+                - heading "Key Technologies" [level=3] [ref=f6e404]
+                - table [ref=f6e405]:
+                  - rowgroup [ref=f6e406]:
+                    - row [ref=f6e407]:
+                      - columnheader "Layer" [ref=f6e408]
+                      - columnheader "Technology" [ref=f6e409]
+                  - rowgroup [ref=f6e410]:
+                    - row [ref=f6e411]:
+                      - cell "Runtime" [ref=f6e412]
+                      - cell [ref=f6e413]:
+                        - strong [ref=f6e414]: .NET 10
+                        - text: (Minimal APIs)
+                    - row [ref=f6e415]:
+                      - cell "Data access" [ref=f6e416]
+                      - cell [ref=f6e417]:
+                        - strong [ref=f6e418]: Entity Framework Core
+                    - row [ref=f6e419]:
+                      - cell "Database" [ref=f6e420]
+                      - cell [ref=f6e421]:
+                        - strong [ref=f6e422]: SQLite
+                        - text: (on-disk file
+                        - code [ref=f6e423]: customers.db
+                        - text: )
+                    - row [ref=f6e424]:
+                      - cell "API docs" [ref=f6e425]
+                      - cell [ref=f6e426]:
+                        - strong [ref=f6e427]: Swagger / OpenAPI
+                        - text: (dev only)
+                    - row [ref=f6e428]:
+                      - cell "Unit tests" [ref=f6e429]
+                      - cell [ref=f6e430]:
+                        - strong [ref=f6e431]: xUnit
+                    - row [ref=f6e432]:
+                      - cell "Acceptance tests" [ref=f6e433]
+                      - cell [ref=f6e434]:
+                        - strong [ref=f6e435]: SpecFlow
+                        - text: (BDD with Gherkin
+                        - code [ref=f6e436]: .feature
+                        - text: files)
+                    - row [ref=f6e437]:
+                      - cell "DB browser" [ref=f6e438]
+                      - cell [ref=f6e439]:
+                        - strong [ref=f6e440]: Datasette
+                        - text: (Python tool, optional)
+                - separator [ref=f6e441]
+                - heading "Code Organization" [level=3] [ref=f6e442]
+                - figure "Code" [ref=f6e443]:
+                  - button "Copy code" [ref=f6e448] [cursor=pointer]
+                  - code [ref=f6e454]: ". ├── backend/ │ ├── src/CustomerManagement.Api/ │ │ ├── Program.cs # App entry point + POST /customers endpoint │ │ ├── Models/ │ │ │ ├── Customer.cs # EF Core entity │ │ │ └── AddCustomerRequest.cs # Request DTO + validation │ │ ├── Data/AppDbContext.cs # EF Core DbContext │ │ └── Migrations/ # EF migration (creates Customers table) │ └── tests/ │ ├── CustomerManagement.UnitTests/ # xUnit tests │ └── CustomerManagement.AcceptanceTests/ # SpecFlow/BDD tests ├── frontend/ # Empty placeholder (for future exercises) ├── .github/ │ ├── workflows/ # CI/CD pipelines │ ├── agents/ # Custom Copilot agent definitions │ └── skills/ # Local Copilot skills (e.g. Swagger standards) ├── training-resources/templates/ # Templates agents must follow when creating artifacts └── CustomerManagement.slnx # .NET solution file"
+                - separator [ref=f6e455]
+                - heading "What the App Does" [level=3] [ref=f6e456]
+                - paragraph [ref=f6e457]: "A single HTTP endpoint:"
+                - list [ref=f6e458]:
+                  - listitem [ref=f6e459]:
+                    - strong [ref=f6e460]:
+                      - code [ref=f6e461]: POST /customers
+                    - text: — accepts
+                    - code [ref=f6e462]: firstName
+                    - text: ","
+                    - code [ref=f6e463]: lastName
+                    - text: ","
+                    - code [ref=f6e464]: email
+                    - text: ; validates them; saves to SQLite; returns the created record with a generated
+                    - code [ref=f6e465]: id
+                    - text: .
+                - paragraph [ref=f6e466]: Auto-migration runs on startup in dev mode, so the DB schema is always up to date without manual steps.
+                - separator [ref=f6e467]
+                - heading "Training-Specific Structure" [level=3] [ref=f6e468]
+                - list [ref=f6e469]:
+                  - listitem [ref=f6e470]:
+                    - strong [ref=f6e471]:
+                      - code [ref=f6e472]: training-resources/templates/
+                    - text: — templates (e.g.
+                    - code [ref=f6e473]: agent.template.md
+                    - text: ) that Copilot agents are instructed to follow when creating new artifacts like custom agents or skills.
+                  - listitem [ref=f6e474]:
+                    - strong [ref=f6e475]:
+                      - code [ref=f6e476]: .github/agents/
+                    - text: — custom Copilot agent definitions for course exercises.
+                  - listitem [ref=f6e477]:
+                    - strong [ref=f6e478]:
+                      - code [ref=f6e479]: copilot-agentic-delivery-student.md
+                    - text: — course material for students.
+                  - listitem [ref=f6e480]:
+                    - text: The README itself is heavily structured as agent instructions (sections 0–3 are written
+                    - emphasis [ref=f6e481]: for
+                    - text: Copilot agents, not just humans).
+        - generic [ref=f6e240]:
+          - generic [ref=f6e241] [cursor=pointer]: Send message
+          - generic [ref=f6e243]:
+            - textbox "What would you like to do next?" [ref=f6e482]
+            - generic [ref=f6e245]:
+              - button "Attach an image" [ref=f6e247] [cursor=pointer]
+              - generic [ref=f6e250]:
+                - 'button "Model: Auto" [ref=f6e484] [cursor=pointer]':
+                  - generic [ref=f6e486]:
+                    - generic [ref=f6e487]: "Model:"
+                    - generic [ref=f6e488]: Auto
+                - button "View token usage" [ref=f6e251] [cursor=pointer]
+                - button "Send now" [ref=f6e260] [cursor=pointer]

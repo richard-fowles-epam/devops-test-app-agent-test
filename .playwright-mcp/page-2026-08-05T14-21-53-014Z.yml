@@ -1,0 +1,389 @@
+- generic [ref=f8e2]:
+  - generic [ref=f8e3]:
+    - link "Skip to content" [ref=f8e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f8e8]:
+      - generic [ref=f8e9]:
+        - generic [ref=f8e10]:
+          - button "Open menu" [ref=f8e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f8e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f8e18]:
+          - navigation "Breadcrumbs" [ref=f8e19]:
+            - list [ref=f8e20]:
+              - listitem [ref=f8e21]:
+                - link "richard-fowles-epam" [ref=f8e22] [cursor=pointer]:
+                  - /url: /richard-fowles-epam
+              - listitem [ref=f8e24]:
+                - link "devops-test-app-agent-test" [ref=f8e25] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test
+                - button "Switch repository (option shift r)" [ref=f8e26] [cursor=pointer]
+          - button "Open quick search dialog, type / to search" [ref=f8e31] [cursor=pointer]:
+            - generic [ref=f8e33]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f8e34]:
+          - generic [ref=f8e35]:
+            - generic [ref=f8e37]:
+              - generic [ref=f8e38]:
+                - link "Chat with Copilot" [ref=f8e40] [cursor=pointer]:
+                  - /url: /copilot
+                - button "Open Copilot…" [ref=f8e45] [cursor=pointer]
+              - button "Open agents panel" [ref=f8e266] [cursor=pointer]
+            - button "Create new..." [ref=f8e49] [cursor=pointer]
+            - generic [ref=f8e51]:
+              - link "All issues" [ref=f8e52] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests" [ref=f8e56] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f8e59] [cursor=pointer]:
+                - /url: /repos
+          - link "You have unread notifications (g then n)" [ref=f8e268] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f8e66] [cursor=pointer]:
+            - img "User avatar" [ref=f8e67]
+      - heading "Repository navigation" [level=2] [ref=f8e68]
+      - navigation "Repository" [ref=f8e69]:
+        - list [ref=f8e70]:
+          - listitem [ref=f8e71]:
+            - link "Code" [ref=f8e72] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test
+          - listitem [ref=f8e74]:
+            - link "Issues" [ref=f8e75] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/issues
+          - listitem [ref=f8e77]:
+            - link "Pull requests" [ref=f8e78] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulls
+          - listitem [ref=f8e80]:
+            - link "Agents" [ref=f8e81] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/agents?author=richard-fowles-epam
+          - listitem [ref=f8e83]:
+            - link "Actions" [ref=f8e84] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/actions
+          - listitem [ref=f8e86]:
+            - link "Projects" [ref=f8e87] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/projects
+          - listitem [ref=f8e89]:
+            - link "Wiki" [ref=f8e90] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/wiki
+          - listitem [ref=f8e92]:
+            - link "Security and quality" [ref=f8e93] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/security
+          - listitem [ref=f8e95]:
+            - link "Insights" [ref=f8e96] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulse
+          - listitem [ref=f8e98]:
+            - link "Settings" [ref=f8e99] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/settings
+  - main [ref=f8e103]:
+    - generic [ref=f8e106]:
+      - complementary [ref=f8e107]:
+        - generic [ref=f8e108]:
+          - generic [ref=f8e109]:
+            - heading "Created by me" [level=2] [ref=f8e111]
+            - button "New session" [ref=f8e113] [cursor=pointer]
+          - list [ref=f8e269]:
+            - listitem [ref=f8e270]:
+              - generic [ref=f8e271]: Today
+            - listitem [ref=f8e272]:
+              - link "Loading Exploring codebase and planning GET customer endpoint implementation In progress · Aug 5, 20261m" [ref=f8e273] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/20e63a6a-9016-4e35-900b-58fa3a44f1dc
+                - generic [ref=f8e274]:
+                  - generic [ref=f8e275]:
+                    - generic [ref=f8e276]: Loading
+                    - generic [ref=f8e286]: Exploring codebase and planning GET customer endpoint implementation
+                  - paragraph [ref=f8e287]: In progress · Aug 5, 20261m
+              - generic [ref=f8e288]:
+                - generic:
+                  - img "Cloud session"
+                - button "Manage session" [ref=f8e290] [cursor=pointer]
+            - listitem [ref=f8e293]:
+              - link "Understanding the codebase structure and technologies used Completed · Aug 5, 20262m" [ref=f8e294] [cursor=pointer]:
+                - /url: /richard-fowles-epam/devops-test-app-agent-test/tasks/05df01b0-c27a-49dd-b920-4ea93a5cfeb0
+                - generic [ref=f8e295]:
+                  - generic [ref=f8e296]: Understanding the codebase structure and technologies used
+                  - paragraph [ref=f8e302]: Completed · Aug 5, 20262m
+              - generic [ref=f8e303]:
+                - generic:
+                  - img "Cloud session"
+                - generic:
+                  - button "Manage session"
+          - generic [ref=f8e124]:
+            - region [ref=f8e125]:
+              - generic [ref=f8e131]:
+                - heading "GitHub Copilot app" [level=2] [ref=f8e132]
+                - generic [ref=f8e133]: Start sessions in a desktop experience with visual diff review and multi-session support.
+              - button "Dismiss banner" [ref=f8e134] [cursor=pointer]
+            - generic [ref=f8e137]:
+              - link "Download" [ref=f8e139] [cursor=pointer]:
+                - /url: https://github.com/features/ai/github-app?utm_source=mission-control-copilot-app&utm_medium=product&utm_campaign=github-app-cli-Q1-push
+              - group "Cycle through tips" [ref=f8e142]:
+                - button "Previous tip" [ref=f8e143] [cursor=pointer]
+                - button "Next tip" [ref=f8e146] [cursor=pointer]
+      - generic [ref=f8e154]:
+        - region "Task activity" [ref=f8e157]:
+          - button "Scroll to bottom" [ref=f8e304] [cursor=pointer]
+          - generic [ref=f8e158]:
+            - generic "Agent session header" [ref=f8e159]:
+              - heading "Exploring codebase and planning GET customer endpoint implementation" [level=1] [ref=f8e161]
+              - generic [ref=f8e164]:
+                - generic [ref=f8e165]: Loading
+                - generic [ref=f8e175]: You
+                - generic [ref=f8e176]: created the session
+                - generic "Aug 5, 2026, 15:20 GMT+1" [ref=f8e177]: Aug 5, 20261 minute ago
+                - generic [ref=f8e178]: ·
+                - generic [ref=f8e307]:
+                  - img "Anthropic logo" [ref=f8e308]
+                  - generic [ref=f8e309]: Claude Sonnet 4.6 ·
+                - generic [ref=f8e179]: 1 session
+              - generic [ref=f8e180]:
+                - button "Give feedback" [ref=f8e181] [cursor=pointer]
+                - button "More actions" [ref=f8e184] [cursor=pointer]
+                - button "Code" [ref=f8e188] [cursor=pointer]
+            - generic [ref=f8e191]:
+              - generic [ref=f8e194]:
+                - paragraph [ref=f8e195]:
+                  - generic [ref=f8e196]: You
+                  - text: started a task
+                - paragraph [ref=f8e200]: "Explore the codebase and create a detailed implementation plan for adding a GET customer endpoint that retrieves a single customer by its identifier (GET /customers/{id}), including test coverage such as unit tests and acceptance tests. Ask clarifying questions if needed."
+              - generic [ref=f8e202]:
+                - generic [ref=f8e203] [cursor=pointer]:
+                  - generic [ref=f8e209]:
+                    - generic [ref=f8e210]: Exploring codebase and planning GET customer endpoint implementation
+                    - button "Exploring codebase and planning GET customer endpoint implementation" [expanded] [ref=f8e211]
+                  - time [ref=f8e216]: 1m 24s
+                  - button "More actions" [ref=f8e218]
+                - generic [ref=f8e223]:
+                  - generic [ref=f8e310]:
+                    - 'button "Custom setup run: Setting up environment" [expanded] [ref=f8e313] [cursor=pointer]':
+                      - img "Custom setup run:" [ref=f8e316]
+                      - generic [ref=f8e321]: Setting up environment
+                    - generic [ref=f8e325]:
+                      - button "Clone repository richard-fowles-epam/devops-test-app-agent-test" [ref=f8e328] [cursor=pointer]
+                      - button "Agent initialization started" [ref=f8e334] [cursor=pointer]
+                      - button "Start 'runtime-tools' MCP server" [ref=f8e342] [cursor=pointer]
+                      - button "Start 'github-mcp-server' MCP server" [ref=f8e348] [cursor=pointer]
+                      - button "Start 'playwright' MCP server" [ref=f8e354] [cursor=pointer]
+                  - 'button "View file: View repository" [ref=f8e360] [cursor=pointer]':
+                    - img "View file:" [ref=f8e363]
+                    - generic [ref=f8e367]: View repository
+                  - generic [ref=f8e368]:
+                    - 'button "View file: View 21 files" [expanded] [ref=f8e371] [cursor=pointer]':
+                      - img "View file:" [ref=f8e374]
+                      - generic [ref=f8e378]: View 21 files
+                    - generic [ref=f8e382]:
+                      - button [ref=f8e385] [cursor=pointer]
+                      - button [ref=f8e391] [cursor=pointer]
+                      - button [ref=f8e397] [cursor=pointer]
+                      - button [ref=f8e403] [cursor=pointer]
+                      - button [ref=f8e409] [cursor=pointer]
+                      - button [ref=f8e415] [cursor=pointer]
+                      - button [ref=f8e421] [cursor=pointer]
+                      - button [ref=f8e427] [cursor=pointer]
+                      - button [ref=f8e433] [cursor=pointer]
+                      - button [ref=f8e439] [cursor=pointer]
+                      - button [ref=f8e445] [cursor=pointer]
+                      - button [ref=f8e451] [cursor=pointer]
+                      - button [ref=f8e457] [cursor=pointer]
+                      - button [ref=f8e463] [cursor=pointer]
+                      - button [ref=f8e469] [cursor=pointer]
+                      - button [ref=f8e475] [cursor=pointer]
+                      - button [ref=f8e481] [cursor=pointer]
+                      - button [ref=f8e487] [cursor=pointer]
+                      - button [ref=f8e493] [cursor=pointer]
+                      - button [ref=f8e499] [cursor=pointer]
+                      - button [ref=f8e505] [cursor=pointer]
+                  - generic [ref=f8e511]:
+                    - paragraph [ref=f8e512]: "Now I have a thorough understanding of the codebase. Here's the implementation plan:"
+                    - heading [level=2] [ref=f8e513]:
+                      - text: "Implementation Plan:"
+                      - code [ref=f8e514]: "GET /customers/{id}"
+                      - text: Endpoint
+                    - heading "Overview" [level=3] [ref=f8e515]
+                    - paragraph [ref=f8e516]:
+                      - text: Add a
+                      - code [ref=f8e517]: "GET /customers/{id}"
+                      - text: endpoint to the existing .NET Minimal API that retrieves a single customer by integer ID, following the same patterns already used by the
+                      - code [ref=f8e518]: POST /customers
+                      - text: endpoint.
+                    - separator [ref=f8e519]
+                    - heading [level=3] [ref=f8e520]:
+                      - text: 1. API Endpoint —
+                      - code [ref=f8e521]: Program.cs
+                    - paragraph [ref=f8e522]:
+                      - text: Add a new
+                      - code [ref=f8e523]: app.MapGet
+                      - text: endpoint after the existing
+                      - code [ref=f8e524]: MapPost
+                      - text: "block:"
+                    - list [ref=f8e525]:
+                      - listitem [ref=f8e526]:
+                        - text: "Route:"
+                        - code [ref=f8e527]: "GET /customers/{id}"
+                        - text: where
+                        - code [ref=f8e528]: "{id}"
+                        - text: is an
+                        - code [ref=f8e529]: int
+                      - listitem [ref=f8e530]:
+                        - text: "Handler: look up the customer via"
+                        - code [ref=f8e531]: AppDbContext.Customers.FindAsync(id)
+                      - listitem [ref=f8e532]:
+                        - text: "If found: return"
+                        - code [ref=f8e533]: 200 OK
+                        - text: with the
+                        - code [ref=f8e534]: Customer
+                        - text: JSON body
+                      - listitem [ref=f8e535]:
+                        - text: "If not found: return"
+                        - code [ref=f8e536]: 404 Not Found
+                      - listitem [ref=f8e537]:
+                        - text: Decorate with
+                        - code [ref=f8e538]: .WithName("GetCustomerById")
+                        - text: ","
+                        - code [ref=f8e539]: .WithTags("Customers")
+                        - text: ","
+                        - code [ref=f8e540]: .WithSummary(...)
+                        - text: ","
+                        - code [ref=f8e541]: .WithDescription(...)
+                        - text: ","
+                        - code [ref=f8e542]: .Produces<Customer>(200)
+                        - text: ","
+                        - code [ref=f8e543]: .Produces(404)
+                      - listitem [ref=f8e544]: Update the Swagger description block to mention the new endpoint under "Current capabilities"
+                    - separator [ref=f8e545]
+                    - heading [level=3] [ref=f8e546]:
+                      - text: 2. Unit Tests —
+                      - code [ref=f8e547]: AddCustomerTests.cs
+                      - text: (or new file)
+                    - paragraph [ref=f8e548]:
+                      - text: Add two new test methods to the unit test project (alongside the existing
+                      - code [ref=f8e549]: AddCustomerTests
+                      - text: class, or in a new
+                      - code [ref=f8e550]: GetCustomerTests.cs
+                      - text: "file following the same style):"
+                    - list [ref=f8e551]:
+                      - listitem [ref=f8e552]:
+                        - strong [ref=f8e553]: Happy path
+                        - text: ": POST a customer first to get a valid ID, then GET"
+                        - code [ref=f8e554]: "/customers/{id}"
+                        - text: → assert
+                        - code [ref=f8e555]: 200 OK
+                        - text: and that the returned customer's fields match
+                      - listitem [ref=f8e556]:
+                        - strong [ref=f8e557]: Not found
+                        - text: ": GET"
+                        - code [ref=f8e558]: /customers/99999
+                        - text: (an ID that doesn't exist) → assert
+                        - code [ref=f8e559]: 404 Not Found
+                    - paragraph [ref=f8e560]:
+                      - text: Both tests reuse the existing
+                      - code [ref=f8e561]: CustomerApiFactory
+                      - text: (already defined in the unit test file).
+                    - separator [ref=f8e562]
+                    - heading "3. Acceptance Tests (SpecFlow)" [level=3] [ref=f8e563]
+                    - paragraph [ref=f8e564]:
+                      - strong [ref=f8e565]: New feature file
+                      - text: —
+                      - code [ref=f8e566]: GetCustomer.feature
+                      - text: ":"
+                    - list [ref=f8e567]:
+                      - listitem [ref=f8e568]:
+                        - text: "Scenario: \"Get an existing customer by id\" — Given a customer has been created, When GET"
+                        - code [ref=f8e569]: "/customers/{id}"
+                        - text: is called with that id, Then response status is 200, And the returned customer matches the created customer
+                      - listitem [ref=f8e570]:
+                        - text: "Scenario: \"Get a non-existent customer\" — When GET"
+                        - code [ref=f8e571]: /customers/99999
+                        - text: is called, Then response status is 404
+                    - paragraph [ref=f8e572]:
+                      - strong [ref=f8e573]: New step definitions file
+                      - text: —
+                      - code [ref=f8e574]: GetCustomerSteps.cs
+                      - text: ":"
+                    - list [ref=f8e575]:
+                      - listitem [ref=f8e576]:
+                        - code [ref=f8e577]: "[Given(@\"a customer has already been created\")]"
+                        - text: — POST a customer and capture the returned
+                        - code [ref=f8e578]: Customer
+                        - text: (store on
+                        - code [ref=f8e579]: ScenarioWorld
+                        - text: )
+                      - listitem [ref=f8e580]:
+                        - code [ref=f8e581]: "[When(@\"the customer is retrieved by id\")]"
+                        - text: — GET
+                        - code [ref=f8e582]: "/customers/{id}"
+                        - text: using the stored ID; store response in
+                        - code [ref=f8e583]: ScenarioState
+                      - listitem [ref=f8e584]:
+                        - code [ref=f8e585]: "[When(@\"a non-existent customer id is requested\")]"
+                        - text: — GET
+                        - code [ref=f8e586]: /customers/99999
+                        - text: ; store response in
+                        - code [ref=f8e587]: ScenarioState
+                      - listitem [ref=f8e588]:
+                        - code [ref=f8e589]: "[Then(@\"the retrieved customer should match the created customer\")]"
+                        - text: — assert all fields match the previously created customer
+                    - paragraph [ref=f8e590]:
+                      - strong [ref=f8e591]:
+                        - code [ref=f8e592]: ScenarioWorld
+                        - text: update
+                      - text: ": Add a"
+                      - code [ref=f8e593]: RetrievedCustomer
+                      - text: property (or reuse
+                      - code [ref=f8e594]: CreatedCustomer
+                      - text: ) to cache the GET response body, mirroring how
+                      - code [ref=f8e595]: CreatedCustomer
+                      - text: caches the POST response.
+                    - separator [ref=f8e596]
+                    - heading "File Change Summary" [level=3] [ref=f8e597]
+                    - table [ref=f8e598]:
+                      - rowgroup [ref=f8e599]:
+                        - row [ref=f8e600]:
+                          - columnheader "File" [ref=f8e601]
+                          - columnheader "Change" [ref=f8e602]
+                      - rowgroup [ref=f8e603]:
+                        - row [ref=f8e604]:
+                          - cell [ref=f8e605]:
+                            - code [ref=f8e606]: backend/src/CustomerManagement.Api/Program.cs
+                          - cell [ref=f8e607]:
+                            - text: Add
+                            - code [ref=f8e608]: "MapGet(\"/customers/{id}\", ...)"
+                            - text: endpoint; update Swagger description
+                        - row [ref=f8e609]:
+                          - cell [ref=f8e610]:
+                            - code [ref=f8e611]: backend/tests/CustomerManagement.UnitTests/AddCustomerTests.cs
+                          - cell [ref=f8e612]:
+                            - text: Add
+                            - code [ref=f8e613]: GetCustomerById_*
+                            - text: test methods (or new
+                            - code [ref=f8e614]: GetCustomerTests.cs
+                            - text: )
+                        - row [ref=f8e615]:
+                          - cell [ref=f8e616]:
+                            - code [ref=f8e617]: backend/tests/CustomerManagement.AcceptanceTests/Features/GetCustomer.feature
+                          - cell "New SpecFlow feature file" [ref=f8e618]
+                        - row [ref=f8e619]:
+                          - cell [ref=f8e620]:
+                            - code [ref=f8e621]: backend/tests/CustomerManagement.AcceptanceTests/StepDefinitions/GetCustomerSteps.cs
+                          - cell "New step definitions" [ref=f8e622]
+                        - row [ref=f8e623]:
+                          - cell [ref=f8e624]:
+                            - code [ref=f8e625]: backend/tests/CustomerManagement.AcceptanceTests/Support/ScenarioWorld.cs
+                          - cell [ref=f8e626]:
+                            - text: Optionally add
+                            - code [ref=f8e627]: RetrievedCustomer
+                            - text: property
+                  - generic [ref=f8e628]: Copilot is working…
+        - generic [ref=f8e241]:
+          - generic [ref=f8e242] [cursor=pointer]: Send message
+          - generic [ref=f8e244]:
+            - textbox "Steer active session while agent is working" [ref=f8e245]
+            - generic [ref=f8e246]:
+              - button "Attach an image" [ref=f8e248] [cursor=pointer]
+              - generic [ref=f8e251]:
+                - button "View token usage" [ref=f8e252] [cursor=pointer]
+                - generic [ref=f8e255]:
+                  - button "Stop session" [ref=f8e257] [cursor=pointer]
+                  - button "Send now" [ref=f8e261] [cursor=pointer]

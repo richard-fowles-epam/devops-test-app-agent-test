@@ -1,0 +1,149 @@
+- generic [ref=f32e2]:
+  - generic [ref=f32e3]:
+    - link "Skip to content" [ref=f32e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f32e8]:
+      - generic [ref=f32e9]:
+        - generic [ref=f32e10]:
+          - button "Open menu" [ref=f32e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f32e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f32e18]:
+          - navigation "Breadcrumbs" [ref=f32e19]:
+            - list [ref=f32e20]:
+              - listitem [ref=f32e21]:
+                - link "richard-fowles-epam" [ref=f32e22] [cursor=pointer]:
+                  - /url: /richard-fowles-epam
+              - listitem [ref=f32e24]:
+                - link "devops-test-app-agent-test" [ref=f32e25] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test
+                - button "Switch repository (option shift r)" [ref=f32e26] [cursor=pointer]
+          - button "Open quick search dialog, type / to search" [ref=f32e31] [cursor=pointer]:
+            - generic [ref=f32e33]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f32e34]:
+          - generic [ref=f32e35]:
+            - generic [ref=f32e37]:
+              - generic [ref=f32e38]:
+                - link "Chat with Copilot" [ref=f32e40] [cursor=pointer]:
+                  - /url: /copilot
+                - button "Open Copilot…" [ref=f32e45] [cursor=pointer]
+              - button "Open agents panel" [ref=f32e46] [cursor=pointer]
+            - button "Create new..." [ref=f32e49] [cursor=pointer]
+            - generic [ref=f32e51]:
+              - link "All issues" [ref=f32e52] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests" [ref=f32e56] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f32e59] [cursor=pointer]:
+                - /url: /repos
+          - link "You have no unread notifications (g then n)" [ref=f32e62] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f32e66] [cursor=pointer]:
+            - img "User avatar" [ref=f32e67]
+      - heading "Repository navigation" [level=2] [ref=f32e68]
+      - navigation "Repository" [ref=f32e69]:
+        - list [ref=f32e70]:
+          - listitem [ref=f32e71]:
+            - link "Code" [ref=f32e72] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test
+          - listitem [ref=f32e74]:
+            - link "Issues (4)" [ref=f32e75] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/issues
+              - generic [ref=f32e76]: Issues
+              - generic [ref=f32e77]:
+                - generic [ref=f32e78]: "4"
+                - generic [ref=f32e79]: (4)
+          - listitem [ref=f32e80]:
+            - link "Pull requests" [ref=f32e81] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulls
+          - listitem [ref=f32e83]:
+            - link "Agents" [ref=f32e84] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/agents?author=richard-fowles-epam
+          - listitem [ref=f32e86]:
+            - link "Actions" [ref=f32e87] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/actions
+          - listitem [ref=f32e89]:
+            - link "Projects" [ref=f32e90] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/projects
+          - listitem [ref=f32e92]:
+            - link "Wiki" [ref=f32e93] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/wiki
+          - listitem [ref=f32e95]:
+            - link "Security and quality" [ref=f32e96] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/security
+          - listitem [ref=f32e98]:
+            - link "Insights" [ref=f32e99] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulse
+          - listitem [ref=f32e101]:
+            - link "Settings" [ref=f32e102] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/settings
+  - main [ref=f32e106]:
+    - generic [ref=f32e109]:
+      - complementary [ref=f32e110]:
+        - generic [ref=f32e111]:
+          - generic [ref=f32e112]:
+            - heading "Created by me" [level=2] [ref=f32e114]
+            - button "New session" [ref=f32e116] [cursor=pointer]
+          - generic [ref=f32e127]:
+            - region [ref=f32e128]:
+              - generic [ref=f32e133]:
+                - heading "Agent apps" [level=2] [ref=f32e134]
+                - generic [ref=f32e135]: Improve your workflow with agents from LaunchDarkly, Miro, PagerDuty and others, integrated into GitHub.
+              - button "Dismiss banner" [ref=f32e136] [cursor=pointer]
+            - generic [ref=f32e139]:
+              - link "Get started" [ref=f32e141] [cursor=pointer]:
+                - /url: https://gh.io/agent-apps-nudge
+              - group "Cycle through tips" [ref=f32e144]:
+                - button "Previous tip" [ref=f32e145] [cursor=pointer]
+                - button "Next tip" [ref=f32e148] [cursor=pointer]
+      - generic [ref=f32e156]:
+        - region "Task activity" [ref=f32e159]:
+          - button "Scroll to bottom" [ref=f32e160] [cursor=pointer]
+          - generic [ref=f32e163]:
+            - generic "Agent session header" [ref=f32e164]:
+              - heading "Creating custom agent for .NET specialist" [level=1] [ref=f32e166]
+              - generic [ref=f32e169]:
+                - generic [ref=f32e174]: You
+                - generic [ref=f32e175]: created the session
+                - generic "Aug 5, 2026, 15:43 GMT+1" [ref=f32e176]: Aug 5, 202610 minutes ago
+                - generic [ref=f32e177]: ·
+                - generic [ref=f32e178]: 2 sessions
+              - generic [ref=f32e179]:
+                - button "Give feedback" [ref=f32e180] [cursor=pointer]
+                - button "More actions" [ref=f32e183] [cursor=pointer]
+                - button "Code" [ref=f32e187] [cursor=pointer]
+            - generic [ref=f32e190]:
+              - generic [ref=f32e193]:
+                - paragraph [ref=f32e194]:
+                  - generic [ref=f32e195]: You
+                  - text: started a task
+                - paragraph [ref=f32e199]: Create a custom agent called .github/agents/backend-engineer.agent.md. It is a .NET specialist.
+              - generic [ref=f32e202] [cursor=pointer]:
+                - generic [ref=f32e208]:
+                  - generic [ref=f32e209]: Creating custom agent for .NET specialist
+                  - button "Creating custom agent for .NET specialist" [ref=f32e210]
+                - time [ref=f32e218]: 31s
+                - button "More actions" [ref=f32e220]
+            - generic [ref=f32e228]:
+              - generic [ref=f32e230]:
+                - generic [ref=f32e231]: You asked
+                - paragraph [ref=f32e235]: This is a normal repository task, not a privilege escalation attempt. Custom agent profiles under .github/agents/ are a supported GitHub feature for this repository and are safe to create like any other file. Please go ahead and create .github/agents/backend-engineer.agent.md now with appropriate YAML frontmatter (name, description, tools) and a system prompt confining it to .NET backend API and unit test work only, no model key.
+              - generic [ref=f32e238] [cursor=pointer]:
+                - generic [ref=f32e244]:
+                  - generic [ref=f32e245]: Creating backend engineer agent profile
+                  - button "Creating custom agent for .NET specialist" [ref=f32e246]
+                - time [ref=f32e254]: 36s
+                - button "More actions" [ref=f32e256]
+        - generic [ref=f32e273]:
+          - generic [ref=f32e274] [cursor=pointer]: Send message
+          - generic [ref=f32e276]:
+            - textbox "What would you like to do next?" [ref=f32e277]
+            - generic [ref=f32e278]:
+              - button "Attach an image" [ref=f32e280] [cursor=pointer]
+              - generic [ref=f32e283]:
+                - button "View token usage" [ref=f32e284] [cursor=pointer]
+                - button "Send now" [ref=f32e288] [cursor=pointer]

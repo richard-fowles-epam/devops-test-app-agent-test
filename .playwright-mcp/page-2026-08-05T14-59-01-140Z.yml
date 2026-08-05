@@ -1,0 +1,84 @@
+- generic [ref=f35e2]:
+  - generic [ref=f35e3]:
+    - link "Skip to content" [ref=f35e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f35e8]:
+      - generic [ref=f35e9]:
+        - generic [ref=f35e10]:
+          - button "Open menu" [ref=f35e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f35e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f35e18]:
+          - navigation "Breadcrumbs" [ref=f35e19]:
+            - list [ref=f35e20]:
+              - listitem [ref=f35e21]:
+                - link "richard-fowles-epam" [ref=f35e22] [cursor=pointer]:
+                  - /url: /richard-fowles-epam
+              - listitem [ref=f35e24]:
+                - link "devops-test-app-agent-test" [ref=f35e25] [cursor=pointer]:
+                  - /url: /richard-fowles-epam/devops-test-app-agent-test
+                - button "Switch repository (option shift r)" [ref=f35e26] [cursor=pointer]
+          - button "Open quick search dialog, type / to search" [ref=f35e31] [cursor=pointer]:
+            - generic [ref=f35e33]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f35e34]:
+          - generic [ref=f35e35]:
+            - generic [ref=f35e37]:
+              - generic [ref=f35e38]:
+                - link "Chat with Copilot" [ref=f35e40] [cursor=pointer]:
+                  - /url: /copilot
+                - button "Open Copilot…" [ref=f35e45] [cursor=pointer]
+              - button "Open agents panel" [ref=f35e46] [cursor=pointer]
+            - button "Create new..." [ref=f35e49] [cursor=pointer]
+            - generic [ref=f35e51]:
+              - link "All issues" [ref=f35e52] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests" [ref=f35e56] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f35e59] [cursor=pointer]:
+                - /url: /repos
+          - link "You have no unread notifications (g then n)" [ref=f35e62] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f35e66] [cursor=pointer]:
+            - img "User avatar" [ref=f35e67]
+      - heading "Repository navigation" [level=2] [ref=f35e68]
+      - navigation "Repository" [ref=f35e69]:
+        - list [ref=f35e70]:
+          - listitem [ref=f35e71]:
+            - link "Code" [ref=f35e72] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test
+          - listitem [ref=f35e74]:
+            - link "Issues (4)" [ref=f35e75] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/issues
+              - generic [ref=f35e76]: Issues
+              - generic [ref=f35e77]:
+                - generic [ref=f35e78]: "4"
+                - generic [ref=f35e79]: (4)
+          - listitem [ref=f35e80]:
+            - link "Pull requests" [ref=f35e81] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulls
+          - listitem [ref=f35e83]:
+            - link "Agents" [ref=f35e84] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/agents?author=richard-fowles-epam
+          - listitem [ref=f35e86]:
+            - link "Actions" [ref=f35e87] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/actions
+          - listitem [ref=f35e89]:
+            - link "Projects" [ref=f35e90] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/projects
+          - listitem [ref=f35e92]:
+            - link "Wiki" [ref=f35e93] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/wiki
+          - listitem [ref=f35e95]:
+            - link "Security and quality" [ref=f35e96] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/security
+          - listitem [ref=f35e98]:
+            - link "Insights" [ref=f35e99] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/pulse
+          - listitem [ref=f35e101]:
+            - link "Settings" [ref=f35e102] [cursor=pointer]:
+              - /url: /richard-fowles-epam/devops-test-app-agent-test/settings
+  - main [ref=f35e106]
