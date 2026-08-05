@@ -37,11 +37,11 @@ builder.Services.AddSwaggerGen(options =>
             - Add a new customer (`POST /customers`)
             - Retrieve a customer by id (`GET /customers/{id}`)
             - Update a customer (`PUT /customers/{id}`)
+            - Delete a customer (`DELETE /customers/{id}`)
 
             **Not included (yet)**
             - Authentication / authorisation
             - Customer search / list
-            - Delete operations
             """,
         Contact = new OpenApiContact
         {
@@ -254,6 +254,30 @@ app.MapPut("/customers/{id:int}", async (int id, UpdateCustomerRequest request, 
 .Produces(StatusCodes.Status404NotFound)
 .ProducesValidationProblem(StatusCodes.Status400BadRequest)
 .Produces(StatusCodes.Status400BadRequest);
+
+// DELETE /customers/{id} — deletes an existing customer.
+app.MapDelete("/customers/{id:int}", async (int id, AppDbContext db) =>
+{
+    var customer = await db.Customers.FindAsync(id);
+    if (customer is null)
+    {
+        return Results.NotFound();
+    }
+
+    db.Customers.Remove(customer);
+    await db.SaveChangesAsync();
+
+    return Results.NoContent();
+})
+.WithName("DeleteCustomer")
+.WithTags("Customers")
+.WithSummary("Delete a customer")
+.WithDescription(
+    "Deletes an existing customer by their unique identifier. " +
+    "Returns `204 No Content` on successful deletion. " +
+    "Returns `404 Not Found` if no customer with the given id exists.")
+.Produces(StatusCodes.Status204NoContent)
+.Produces(StatusCodes.Status404NotFound);
 
 app.Run();
 
