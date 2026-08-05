@@ -1,0 +1,63 @@
+name: Plan Gate
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened, ready_for_review]
+
+jobs:
+  plan-gate:
+    name: Plan Gate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify Plan and Evidence sections have meaningful content
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          python3 - <<'PYEOF'
+          import os
+          import re
+          import sys
+
+          body = os.environ.get("PR_BODY") or ""
+
+          placeholders = [
+              "what this pull request sets out to do. describe the intended change and why it is needed.",
+              "what proves the plan was carried out: tests added/updated and their results, manual verification steps, screenshots, or other signals a reviewer can check.",
+          ]
+
+          def extract_section(name, text):
+              pattern = rf"^#+\s*{name}\s*$(.*?)(?=^#+\s|\Z)"
+              match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE | re.DOTALL)
+              return match.group(1).strip() if match else None
+
+          def is_meaningful(section_text):
+              if section_text is None:
+                  return False, "section not found"
+              # Strip HTML comments (e.g. leftover template placeholder guidance)
+              stripped = re.sub(r"<!--.*?-->", "", section_text, flags=re.DOTALL).strip()
+              if not stripped:
+                  return False, "section is empty"
+              normalized = stripped.lower()
+              for placeholder in placeholders:
+                  if placeholder in normalized:
+                      return False, "section still contains the template placeholder text"
+              if len(stripped) < 10:
+                  return False, "section content is too short to be meaningful"
+              return True, "ok"
+
+          plan_section = extract_section("Plan", body)
+          evidence_section = extract_section("Evidence", body)
+
+          plan_ok, plan_reason = is_meaningful(plan_section)
+          evidence_ok, evidence_reason = is_meaningful(evidence_section)
+
+          print(f"Plan section: {'OK' if plan_ok else 'FAIL - ' + plan_reason}")
+          print(f"Evidence section: {'OK' if evidence_ok else 'FAIL - ' + evidence_reason}")
+
+          if not (plan_ok and evidence_ok):
+              print("\nPull request description must fill in both the Plan and Evidence "
+                    "sections of the template with real content before this check can pass.")
+              sys.exit(1)
+
+          print("\nPlan and Evidence sections both carry meaningful content.")
+          PYEOF
