@@ -81,14 +81,6 @@ This exercise confirms that the platform capabilities and permissions the course
 
 By the end you have a **validated, course-ready repository**: created from the codebase (not a fork), reachable on GitHub.com, covered by a Copilot licence for the cloud agent, code review, and agentic workflows, with issue, branch, and pull-request permissions confirmed and the local clone connected to its remote.
 
-- The learning target is a **clean starting line**, not any application knowledge. Success is every readiness check passing; students should be able to name each capability the course leans on and confirm they have it.
-- **Scope boundary (state it explicitly to students):**
-  - *Before the course* (prerequisites, already done): cloning the codebase, creating their own repository from it, and installing the local tooling.
-  - *This lesson*: validating all of that, capability by capability, and fixing gaps.
-  - *Deferred to the first delegation*: any exploration of the application itself, its endpoints, or its tests. Do not let this exercise drift into a code tour; understanding the codebase is the explicit job of the first delegation exercise, where the agent gives the repository tour.
-- The most common trap is a **fork**. A student who forked rather than created from the codebase will hit confusing permission and Actions behaviour later; catch it here.
-- Step 3 is worth slowing down on: licence coverage for the cloud agent, code review, and agentic workflows is not uniform across plans, so confirm each rather than assuming one implies the others.
-
 # Lesson 1 — Your First Delegation
 
 ## Scenario
@@ -146,11 +138,6 @@ You delegate your first change to the cloud agent rather than writing it yoursel
 
 By the end the API can both create and retrieve a customer, and your repository holds the **GET customer endpoint** and its tests, merged: `GET /customers/{id}`, `GetCustomerTests.cs`, `GetCustomer.feature` with steps, and the corrected Swagger description.
 
-- The learning target is the **control loop plus the agent's pre-code actions**, not the endpoint. Students should be able to name where they stayed in charge: they took the tour, reviewed and refined the plan, steered the session, approved the run, and merged, while the agent only ever *proposed*.
-- Step 1 is the point where the course's deferred codebase exploration lands. Resist doing a manual code walkthrough beforehand; the exercise's design is that the agent gives the tour.
-- **These deliverables are load-bearing for work that builds on this endpoint.** The `GET /customers/{id}` endpoint, `GetCustomerTests.cs`, and `GetCustomer.feature` with its steps are the style exemplars that the seeded backlog's task contracts cite by name. They must exist and be **merged** here, or the backlog those tasks describe will reference files that are not present. Do not let a session finish without all four deliverables, including the Swagger description update.
-- Draw attention to step 6: agent pull requests do not auto-run workflows, so a student expecting instant green checks may think CI is stuck. Approving the run is the deliberate step that starts the `build-and-test` job.
-
 # Lesson 2 — Task Contracts
 
 ## Scenario
@@ -199,12 +186,6 @@ A contract only helps if every delegated task starts from one, so you inspect th
 
 By the end the repository holds a reusable **task-contract template**, a **seeded backlog** of contracted work, and the merged **update-customer endpoint** delivered through the first contract, so future agent work can start from an explicit specification rather than a loose description.
 
-- The learning target is **specification**, not the update endpoint. Students should leave able to name a contract's four parts and say why an under-specified task tends to produce a plausible but wrong change. The clause-by-clause review in step 7 is the point: a contract makes the "is it done?" judgement concrete.
-- This is the **first lesson to inspect the repository's issue template**, so introduce the contract shape here: the template is already authored in `.github/ISSUE_TEMPLATE/agent-task.yml`, and step 2 has students read it closely before they see it used. Reviewing an existing template, rather than authoring one from scratch, keeps the focus on recognising the four parts of a contract rather than on template-writing mechanics.
-- **Sequencing is load-bearing:** `scripts/seed-issues.ps1` must run *after* the GET customer work is merged, because the seeded contract bodies cite `GetCustomer` files as style exemplars. If a student runs it earlier, those references dangle.
-- Draw out that success criteria must reflect real intent. "Tests pass" alone is a weak contract; push students to name the behaviour that must be correct, and reinforce that CI green is necessary but not sufficient.
-- The off-template `List customers` issue is left in place on purpose. It is the low-quality item the scheduled hygiene workflow is built to catch; do not tidy it away.
-
 # Lesson 3 — Specialised Agents
 
 ## Scenario
@@ -251,12 +232,6 @@ The delete-customer work in your backlog splits into two disciplines, backend AP
 7. **Dispatch the acceptance half to `automation-tester`, and leave its pull request open.** Open **`[Agent Task]: Delete customer — acceptance tests`** and assign it to the **`automation-tester`** agent. Its scope is the acceptance tests only; it must not touch the API source. Let it work and **raise its pull request, *then leave that pull request* *open***. You will return to it in the review work that follows; do not merge it here.
 
 By the end the repository holds two reusable specialists, a **backend-engineer** agent and an **automation-tester** agent, each scoped to one discipline. The delete endpoint and its unit tests are merged, and the acceptance-testing pull request is **open and waiting**, the starting point for the review work to come.
-
-- The learning target is **specialisation by configuration**: a custom agent is a scoped profile, and the `tools` restriction plus the system prompt are what make it a specialist rather than a generalist with a longer prompt. Students should leave able to say why a named, scoped profile beats re-prompting a generalist each time.
-- **No `model:` key.** The repository's `agent.template.md` is the structure to follow; point out that omitting `model:` lets the platform default stand, which is the intended configuration here.
-- Splitting the delete work across two agents is the whole point: `backend-engineer` owns the API and its unit tests, `automation-tester` owns the acceptance tests, and their boundaries are enforced by scope rather than by convention. Check that each agent's task assignment respects the other's territory.
-- **Leave the acceptance-tests pull request open (step 5).** It is delivered as the `open-acceptance-pr` artefact and is consumed by the automated code-review work that reviews an open pull request; merging it here would remove the pull request that work opens on. This is deliberate, not an oversight to correct.
-- Skills are acknowledged in one line only; do not expand into authoring a skill here. The focus is agent profiles.
 
 # Lesson 4 — Configuring Code Review
 
@@ -315,12 +290,6 @@ You pick up an open, agent-authored pull request and teach its reviewer one of y
 
 By the end the repository has a committed `.github/copilot-instructions.md` that steers code review with a project convention, and the agent-authored acceptance work has been reviewed, fixed, and merged.
 
-- The learning target is **agentic code review shaped by your standards**: commit repository custom instructions before any review exists, request a single Copilot review that reads them, and watch it flag what violates the rule. Students should read the reviewer as a fast pass that focuses human attention, not a replacement for it.
-- The `__` private-field rule is deliberately chosen. It is legal C# but **anti-idiomatic**, since the C# convention is `_camelCase`. Asking the reviewer to enforce a rule that contradicts the ecosystem default makes it visibly clear that the agent is obeying an explicit project convention rather than a habit. This is intentional; do not "correct" the rule to the idiomatic form.
-- Adding the instructions is done in the **Copilot app, against the pull request's branch**, pulled down via 'Create from' > 'Pull requests' on the open PR (step 2). Pushing the instructions file to that branch is what puts it in front of the reviewer; if it lands anywhere else the requested review will not see it. Custom instructions can be hand-written or agent-drafted, per repository-custom-instructions.
-- Do not block the room waiting on the `@copilot` fix in step 6. It is a small rename and can land during the lesson wrap-up or the break; students merge the pull request once it does. Closing the pull request out here is deliberate: a merge gate binds future work rather than legacy work, so this pull request is settled before any output-contract check exists.
-- Branch protection and required-check gating are **out of scope** here; that is taught with agent-evaluation-signals. Keep this exercise to requesting the review and steering it with custom instructions.
-
 # Lesson 5 — Evaluation Signals
 
 ## Scenario
@@ -368,23 +337,6 @@ You define what every agent pull request must return: a plan and evidence, in a 
 8. **Judge the agent pull request on its plan and evidence.** When the agent raises its pull request, click **Approve and run workflows** in the merge box first. Actions workflows do not run automatically on a pull request the cloud agent opened, so until you approve them the required checks never report and the pull request sits at "Expected — waiting for status" with nothing in the merge box explaining why. Then read the Plan and Evidence sections it filled in, confirm the plan-gate check is green because they carry real content, and satisfy yourself the evidence matches what the task asked. Then **merge** it.
 
 By the end the repository has an **output-contract gate**: a Plan/Evidence template, a plan-gate check, and a `default-branch-gate` ruleset that makes that check required, so a pull request carrying neither a plan nor evidence cannot merge. An agent-authored `POST /products` endpoint has come through the new contract and landed.
-
-- The lesson **leads with** agent-evaluation-signals`#Primer`: a green build is necessary but not sufficient, and "done" is judged from platform evidence against explicit success criteria, not from an agent's confidence. The pull-request-template and plan-gate mechanics are taught **by doing them** in this exercise; the concept supplies the why, the exercise supplies the how.
-- The learning target is the **output contract**: structuring what an agent returns and making the platform enforce it. Students should be able to point at the plan-gate check as the thing that turns "the pull request should explain itself" from a wish into a requirement.
-- Steps 7 and 8 close the loop: the same contract that you defined now binds an agent pull request the students did not write, so the class sees the gate act on work it did not author by hand. If the agent's Plan or Evidence is thin, the gate should catch it, which is the point.
-- Keep the plan-gate modest. A check that confirms both sections exist and are non-trivial is a complete success; engineering a sophisticated content analysis is out of scope.
-- **The order of steps 5 and 6 is load-bearing and must not be moved earlier.** Creating the ruleset before the gate has merged deadlocks the very pull request that introduces it: a required status check that has never reported sits at "Expected — waiting for status" indefinitely, so the pull request can neither pass nor be merged. The picker compounds it, since it only offers check names the repository has been observed to report recently. Merging first supplies the name and clears both problems. `plan-gate.yml` is `on: pull_request`, so it does run on the pull request that adds it; at that point it reports without enforcing, which is exactly what is wanted.
-- Leave the ruleset's bypass list empty, and check that students have not added themselves to it. Students are administrators of their own repository, and an administrator on the bypass list is offered an override in the merge box rather than a block, so a pull request that should be stopped merges anyway.
-- Step 8's approval click is worth teaching rather than working around. Actions workflows are blocked from auto-running on cloud-agent pull requests until someone with write access approves them, which is propose-only autonomy showing its edges. Before the checks were required this was a mild inconvenience; now it is a hard block whose cause is invisible in the merge box, so students who do not know to look for the approval button will read it as the gate malfunctioning.
-- The `gh` CLI cannot create a ruleset. `gh ruleset` exposes only `list`, `view`, and `check`, so creation goes through the REST API. The UI path in step 6 is the one to teach; the API shape below is for reference only, and its fiddly parts (the `~DEFAULT_BRANCH` ref-name token, and an optional `integration_id` per context to bind a check to the Actions app) teach nothing this lesson is about.
-  ```bash
-  gh api -X POST repos/{owner}/{repo}/rulesets \
-    -f name='default-branch-gate' -f target='branch' -f enforcement='active' \
-    -F 'conditions[ref_name][include][]=~DEFAULT_BRANCH' \
-    -F 'rules[][type]=required_status_checks' \
-    -F 'rules[][parameters][required_status_checks][][context]=plan-gate' \
-    -F 'rules[][parameters][strict_required_status_checks_policy]=false'
-  ```
 
 # Lesson 6 — Agentic Workflows
 
@@ -446,13 +398,6 @@ You author a scheduled agent that reviews the repository's open issues on its ow
 5. **Demonstrate it on the backlog.** Trigger the workflow manually rather than waiting for the next scheduled run. Watch it review the open issues and pick up the off-template `List customers` request, the casual unlabelled line in the backlog, and apply the red `NEEDS REVIEW` label to it. That labelled issue shows the workflow does what you wrote. See github-agentic-workflows-cli-commands-reference.
 
 By the end the repository has an **issue-hygiene workflow**: a scheduled automation you wrote as a prompt, compiled to a reviewable lock file, shipped through your own gated path, and watched apply `NEEDS REVIEW` to the off-template issue that had sat unnoticed in the backlog.
-
-- The learning target is **authoring a scheduled agentic workflow**: the markdown body is the prompt, the frontmatter fixes the cadence and the permissions, and the compile / commit-both / ship discipline puts a bespoke automation through the same gate as your code.
-- The `List customers` issue is the target on purpose. It was seeded off-template and unlabelled, so no push-driven or pull-request-driven guard ever caught it; a scheduled workflow that reads the backlog is exactly the guard that does. This is the pay-off the scenario sets up.
-- The permissions are **exactly** four: `contents: read` (to check out and read the repository), `issues: read` (to read the open-issue backlog the workflow reviews), `pull-requests: read` (part of the read surface the run needs for workflow context), and `copilot-requests: write` (the label is applied through the Copilot request, not a broad `issues: write` token). Together the block grants only the read/write surface the schedule needs, no broader write access — keep it exact and do not add permissions to "make labelling work".
-- Commit **both** the `.md` and the `.lock.yml`. The lock file is generated by `gh aw compile` and must never be hand-edited; if the compiled schedule or permissions look wrong, the fix is always in the `.md`, followed by a re-compile.
-- `gh aw init` scaffolds the dispatcher skill and agent named above; these are the tooling's own primitives, distinct from the workflow the student authors.
-- Cost is out of scope: the billing model is unresolved in the wiki (github-agentic-workflows, Open questions), so do not teach cost estimation from this exercise.
 
 # That's the course
 
