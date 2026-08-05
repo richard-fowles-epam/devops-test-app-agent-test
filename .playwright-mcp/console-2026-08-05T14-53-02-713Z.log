@@ -1,2 +1,0 @@
-[   32162ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.enterprise.githubcopilot.com/agents/sessions/pending-session/commands?sort=created_at,asc:0
-[   32195ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.enterprise.githubcopilot.com/agents/sessions/pending-session/logs:0
