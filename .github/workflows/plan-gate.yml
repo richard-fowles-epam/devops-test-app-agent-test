@@ -6,7 +6,6 @@ on:
 
 jobs:
   plan-gate:
-    name: Plan Gate
     runs-on: ubuntu-latest
     steps:
       - name: Verify Plan and Evidence sections have meaningful content
